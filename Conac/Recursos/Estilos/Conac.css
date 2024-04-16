@@ -1,0 +1,1 @@
+@import url(Colores.css);.contenedor-conac h1{text-shadow:.01em .01em .1em var(--Gray-600)}.contenedor-layer{width:100%;height:100%}.contenedor-layer img{width:100%;height:25vh}body.bg-gray{filter:grayscale(1);transition:.4s ease-in-out}body.bg-invert{filter:invert(100%);transition:.4s ease-in-out}
