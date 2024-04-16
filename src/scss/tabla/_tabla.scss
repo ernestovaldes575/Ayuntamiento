@@ -1,0 +1,12 @@
+@use '../custom' as *;
+
+.tabla{
+    @extend .table, .table-hover, .mt-5, .table-light, .table-striped, .shadow;
+}
+.contenedor-tabla{
+    width: 100%;
+    @extend .d-flex, .justify-content-center, .align-items-center;
+    .contenedor-tabla-sec{
+        width: 55%;
+    }
+}

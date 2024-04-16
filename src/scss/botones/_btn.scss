@@ -1,0 +1,102 @@
+@use '../custom' as *;
+.btn-Eliminar{
+    @extend .btn, .btn-danger, .shadow-lg, .p-1;
+}
+.btn-Modificar{
+    @extend .btn, .btn-warning, .shadow-lg, .p-1;
+}
+.btn-Nuevo{
+    @extend .btn, .bg-success, .shadow-lg, .fw-semibold, .text-white, .p-1;
+}
+.btn-Regresar{
+    @extend .btn, .text-decoration-none, .btn-secondary, .shadow, .text-uppercase, .fw-semibold;
+}
+.btn-Submit{
+    @extend .btn, .btn-primary , .shadow, .text-uppercase, .fw-semibold;
+}
+.Alerta{
+    @extend .container, .bg-danger, .shadow, .text-white, .fw-semibold, .p-2, .mt-2, .text-center;
+}
+.btn-Subir{
+    @extend .btn, .btn-primary, .text-white, .p-1, .rounded, .shadow, .fs-5;
+}
+.btn-Visualizar{
+    @extend .btn, .btn-secondary, .p-1, .text-white, .rounded, .fs-5, .shadow;
+}
+.Cont-Cent{
+    @extend .d-flex, .justify-content-between, .align-items-center;
+}
+.btn-NoMostrar{
+    @extend .bg-danger, .p-1, .fs-5, .rounded, .text-white, .shadow;
+}
+
+.btn-1{
+    background-color: $Azul-Profundo;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-1:hover{
+    background-color: $Azul-Profundo-hover;
+}
+.btn-2{
+    background-color: $Ambar-hover;
+    @extend .btn, .p-1, .fw-semibold, .shadow-lg;
+}
+.btn-2:hover{
+    background-color: $Ambar;
+}
+.btn-3{
+    background-color: $Verde;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-3:hover{
+    background-color: $Verde-hover;
+}
+.btn-4{
+    background-color: $Rojo;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-4:hover{
+    background-color: $Rojo-hover;
+}
+.btn-5{
+    background-color: $Morado;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-5:hover{
+    background-color: $Morado-hover;
+}
+.btn-6{
+    background-color: $Gris;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-6:hover{
+    background-color: $Gris-hover;
+}
+.btn-7{
+    background-color: $Naranja;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-7:hover{
+    background-color: $Naranja-hover;
+}
+.btn-8{
+    background-color: $Lima;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-8:hover{
+    background-color: $Lima-hover;
+}
+.btn-9{
+    background-color: $Oscuro;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-9:hover{
+    background-color: $Oscuro-hover;
+}
+.btn-10{
+    background-color: $Azul;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-10:hover{
+    background-color: $Azul-hover;
+}
