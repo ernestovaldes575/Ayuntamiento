@@ -1,0 +1,12 @@
+//Para hacer grandes las
+imagenes
+
+class="ImagGran" 
+
+//Para regresar a la pagina
+id="ActiLiga"
+
+
+SELECT `MConsecutivo`,`MClave`,`MDescripcion`,
+()
+FROM `ctmateria` WHERE 1

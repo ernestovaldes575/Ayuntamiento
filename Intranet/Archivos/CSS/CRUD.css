@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	background-color: rgb(196, 192, 192); 
+}
+/*inicio de encabezado*/
+header{
+	width: 100%;
+	height: 20%;
+	background-color: #7f91b3;
+	position: relative;
+}
+/*logo izquierdo*/
+header .logo_estado{
+	width: 10%;
+	float: left;
+	text-align: center;
+}
+header .logo_estado .estado{
+	width: 80%;
+	height: 90%;
+	margin-top: 9;
+}
+/*logo derecho*/
+header .logo_opd{
+	width: 10%;
+	float: right;
+	text-align: center;
+}
+header .logo_opd .OPD{
+ 	width: 95%;
+	height: 97%;
+	margin-top: 7%;
+	margin-right: 10%;
+}
+header .logo_opd .menu, header .logo_opd .salir{
+	background-color: #6688bb;
+	color: #fff;
+	text-decoration: none;
+}
+/*informacion de la entidad+*/
+header .info{
+	width: 80%;
+	display: inline-block;
+ 	margin: 0 auto;
+  	color: #fff;
+  	text-align: center;
+}
+header .info h1{
+	margin-top: 2%;
+	font-size: 2em;
+}
+header .info h2{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 1.3em;
+}
+/*fin del encabezao*/
+
+/*formulario de registro*/
+.principal{
+	width: 40%;
+	margin: auto;
+	background-color: #fff;
+	color: #111;
+  box-shadow: 0 5px 10px #7f91b3;/*sobra del formulario*/
+}
+.principal h1{
+	text-align: center;
+	margin-top: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #7f91b3;
+	color: #fff;
+}
+.principal form{
+  background-color: none;
+  padding: 1em;
+  margin: auto;
+}
+.principal form table{
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: 90%;
+}
+.principal form table tr th{
+	font-size: .9em;
+	padding: 1%;
+	text-align: left;
+	font-weight: normal;
+	width: 30%;
+}
+.principal form table tr td{
+	padding: 1%;
+	width: 70%;
+	padding-left: 5%;
+	margin: 0;
+	padding-right: 0;
+}
+/*entradas de informacion*/
+input[type=text], input[type=date], select{
+	border: none;
+  font-size: .8em;
+  width: 100%;
+  border-bottom: 1px solid #7f91b3;
+  outline: none;
+  margin-bottom: 0.3em;
+  padding: .3em 0.3em;
+  text-align: center;
+}
+/*mensajes de validacion*/
+.principal .errores{
+  color: red;
+  padding: 5px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  width: 100%;
+  background: rgba(255, 0, 0, 0.3);
+  border-radius: 5px;
+  display: none;
+  text-align: center;
+}
+/*botones*/
+.principal form .botones{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;/*dejar espaciado hacia los extremos*/
+  margin-top: 1em; 
+}
+.principal form .botones .registrar, .principal form .botones .cancelar{
+  border: none;
+  border-radius: 3px;
+  display: block;
+  font-size: 1.2em;
+  padding: 0.5em 1.2em;
+  outline: none;
+  cursor: pointer;/*manita del cursor*/
+  background-color: #7f91b3;
+  text-decoration: none;
+  color: #FFF;
+}
+.principal form .botones .cancelar:hover, .principal form .botones .registrar:hover{
+	background-color: #D4C19C;
+	color: #111;
+}

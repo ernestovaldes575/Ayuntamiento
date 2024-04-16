@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	background-color: #c4c0c0; 
+}
+/*inicio de encabezado*/
+header{
+	width: 100%;
+	height: 20%;
+	background-color: #7f91b3;
+	position: relative;
+}
+/*logo izquierdo*/
+header .logo_estado{
+	width: 10%;
+	float: left;
+	text-align: center;
+
+}
+header .logo_estado .estado{
+	width: 80%;
+	height: 90%;
+	margin-top: 9;
+}
+/*logo derecho*/
+header .logo_opd{
+	width: 10%;
+	float: right;
+	text-align: center;
+}
+header .logo_opd .OPD{
+ 	width: 95%;
+	height: 97%;
+	margin-top: 7%;
+	margin-right: 10%;
+}
+/*informacion de la entidad+*/
+header .info{
+	width: 80%;
+	display: inline-block;
+ 	margin: 0 auto;
+  	color: #fff;
+  	text-align: center;
+}
+header .info h1{
+	margin-top: 2%;
+	font-size: 2em;
+}
+header .info h2{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 1.3em;
+}
+/*fin del encabezao*/
+/*fecha*/
+.apartado_fecha{
+	width: 100%;
+	height: 10%;
+	background: #7f91b3;
+	padding: .3%;
+	color: #fff;
+	text-align: right;
+}
+.apartado_fecha .fecha{
+	margin-right: 3%;
+}
+
+/*formulario de registro*/
+.principal{
+	width: 30%;
+	margin: auto;
+	background-color: none;
+	color: #fff;
+	box-shadow: 0 5px 10px #7f91b3;
+}
+.principal h1{
+	text-align: center;
+	margin-top: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #7f91b3;
+	color: #fff;
+}
+.principal form{
+  background-color: none;
+  padding: 1em;
+  margin: auto;
+}
+.principal form table{
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: 90%;
+}
+.principal form table tr th{
+	font-size: .9em;
+	padding: 1%;
+	text-align: left;
+	font-weight: normal;
+	width: 30%;
+}
+.principal form table tr td{
+	padding: 1%;
+	width: 70%;
+	padding-left: 5%;
+	margin: 0;
+	padding-right: 0;
+}
+/*entradas de informacion*/
+input[type=text], input[type=password]{
+	font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+	border: none;
+  font-size: .8em;
+  width: 100%;
+  border-bottom: 1px solid #7f91b3;
+  outline: none;
+  margin-bottom: 0.3em;
+  padding: .3em 0.3em;
+  text-align: center;
+  background-color: transparent;
+  color: #111;
+}
+/*mensajes de validacion*/
+.principal .errores{
+  color: red;
+  padding: 5px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  width: 100%;
+  background: #7f91b3;
+  border-radius: 5px;
+  display: none;
+  text-align: center;
+}
+/*botones*/
+.principal form .botones{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 1em; 
+}
+.principal form .botones .Ingresar{
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  margin: auto;
+  border: none;
+  border-radius: 18px;
+  font-size: 1em;
+  padding: 0.5em 1.2em;
+  outline: none;
+  cursor: pointer;
+  background-color: #7f91b3;
+  color: #FFF;
+  width: 60%;
+}
+.principal form .botones .Ingresar:hover{
+	background-color: #bf9cd4;
+	color: rgb(30, 103, 159);
+}

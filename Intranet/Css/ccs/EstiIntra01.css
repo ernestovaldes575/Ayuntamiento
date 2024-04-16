@@ -1,0 +1,151 @@
+/* CSS Document */
+body {
+	/*background-color: #EBEBEB; */
+	top:2px;	
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    z-index: 100;
+	border-bottom-style:groove; 
+	border-bottom-color:#333333;
+}
+
+.RedoImag {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 300px;
+    width:  300px;
+	border-radius: 15%;				/*150px para hacer un circulo*/
+	-webkiy-border-radius: 20%;
+	-moz-border-radius: 20%;		/*Para Mozila*/
+	-o-border-radius: 20%;			/*Opera */
+	-ms-border-radius: 20%;
+}
+
+.ImagSIMGA {
+	border-top-left-radius: 20px;				/*150px para hacer un circulo*/
+	border-top-right-radius: 40px;				/*150px para hacer un circulo*/
+	border-bottom-left-radius: 60px;				/*150px para hacer un circulo*/
+
+	-webkiy-border-top-left-radius: 20px;
+	-webkiy-border-top-right-radius: 40px;
+	-webkiy-border-bottom-left-radius: 60px;
+
+	-moz-border-top-left-radius: 20px;		/*Para Mozila*/
+	-moz-border-top-right-radius: 40px;		/*Para Mozila*/
+	-moz-border-bottom-left-radius: 60px;		/*Para Mozila*/
+
+	-o-border-top-left-radius: 20px;			/*Opera */
+	-o-border-top-right-radius: 40px;			/*Opera */
+	-o-border-bottom-left-radius: 60px;			/*Opera */
+
+	-ms-border-top-left-radius: 20px;
+	-ms-border-top-right-radius: 40px;
+	-ms-border-bottom-left-radius: 60px;
+}
+
+.ImagSIMGA1 {
+	border-radius: 15%;				/*150px para hacer un circulo*/
+	-webkiy-border-radius: 20%;
+	-moz-border-radius: 20%;		/*Para Mozila*/
+	-o-border-radius: 20%;			/*Opera */
+	-ms-border-radius: 20%;
+
+}
+
+.Contenido
+{ min-height: calc(100vh - 70px);
+}
+
+.Contenido01
+{ text-align:center; 
+  margin: 0 auto;
+}
+
+.Contenido02
+{ text-align:center; 
+  margin: 0 auto;
+  height:80 px;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+	left:0px;
+	background: #333333;
+	color: #fff;
+	font-size:15px;
+	position:fixed;
+	border-bottom-style:groove; 
+	border-bottom-color:#333333;
+}
+
+.PieColumna
+{ width: calc(100% / 2);
+  text-align: justify;
+}
+
+.flex{
+	display: flex;
+	flex-wrap:center; /*para ajustar las columnas*/
+}
+
+@media(max-width:480px){
+    .ImagSIMGA{
+	border-top-right-radius: 20px;				/*150px para hacer un circulo*/
+	border-bottom-left-radius: 20px;				/*150px para hacer un circulo*/
+
+	-webkiy-border-top-right-radius: 20px;
+	-webkiy-border-bottom-left-radius: 20px;
+
+	-moz-border-top-right-radius: 20px;		/*Para Mozila*/
+	-moz-border-bottom-left-radius: 20px;		/*Para Mozila*/
+
+	-o-border-top-right-radius: 20px;			/*Opera */
+	-o-border-bottom-left-radius: 20px;			/*Opera */
+
+	-ms-border-top-right-radius: 20px;
+	-ms-border-bottom-left-radius: 20px;
+    }
+	
+	footer{
+	 font-size:8px;
+	}
+
+	.ImagAyto{
+	 width:50%
+	}
+}
+
+@media(max-width:768px){
+    .ImagSIMGA{
+	border-top-right-radius: 40px;				/*150px para hacer un circulo*/
+	border-bottom-left-radius: 40px;				/*150px para hacer un circulo*/
+
+	-webkiy-border-top-right-radius: 40px;
+	-webkiy-border-bottom-left-radius: 40px;
+
+	-moz-border-top-right-radius: 40px;		/*Para Mozila*/
+	-moz-border-bottom-left-radius: 40px;		/*Para Mozila*/
+
+	-o-border-top-right-radius: 40px;			/*Opera */
+	-o-border-bottom-left-radius: 40px;			/*Opera */
+
+	-ms-border-top-right-radius: 40px;
+	-ms-border-bottom-left-radius: 20px;
+    }
+	
+   footer{
+	 font-size:10px;
+	}
+
+	.ImagAyto{
+	 width:50%
+	}
+}

@@ -1,0 +1,501 @@
+body {
+/*	background-color: #EBEBEB; */
+	top:2px;	
+}
+
+A:link { 
+         text-decoration: none;
+         color: #336699
+       }
+A:visited { text-decoration: none; 
+            color: #336699
+          }
+A:active { text-decoration: none;
+		 }
+A:hover { 
+          font-weight:bold;
+          font-style: bold;					   
+          TEXT-DECORATION : underline
+           //color:#426F42;	
+}
+
+.comp {	 width:238px; 
+	 height:60px; 
+	 font:corbel 14px ##231F20; 
+	 overflow:auto;
+}
+
+.LetraGeneral {font-family:corbel; font-size:9px; }
+
+.EstiEven01 { font-size: 5px}
+.EstiEven02 { color: #990000;
+			  font-size: 24px;
+			  font-weight: bold; }
+.EstiEven03 { color: #990000;
+			  font-size: 16px;
+			  font-weight: bold; }
+			  
+.contenidos {font-family:corbel; font-size:12px; color:#999;}
+.subtitulos {font-family:corbel; font-size:14px; color:#000;}
+.titulos {font-family:corbel; font-size:16px; color:#000;}
+#wrapper {width:236px; margin:0 auto}
+.text {font-family:corbel;
+color:#808285;
+font-size:12px;
+text-align:justify;
+margin-left:15px;
+}
+
+.texto {font-family:Corbel;
+	color:#58595B;
+	font-size:18px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	text-align:left;
+}
+
+.textorojo {font-family:Corbel;
+	color:#ff0000;
+	font-size:16px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	font-weight:bold
+}
+
+.titulo2 {font-family:Corbel;
+	color:#231F20;
+	font-size:25px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	font-weight:bold
+}
+
+#TopUnidadMedica 
+{
+ color: #FFF;
+ font-size: 10px;
+ font-weight: bold;
+ padding: 4 4 4 0;
+ text-align: right;
+ background: #388960 url('img/pleca_intranet_issemym.jpg') 100% 0 no-repeat;
+ width: 777px;
+ 
+}
+
+#TopDescOpcion 
+{
+ color: #E37043;
+ font-size: 14px;
+ font-weight: bold;
+ padding: 4 4 4 8;
+ 
+}
+
+#TopFechaSistema 
+{
+ color: #006600;
+ font-size: 10px;
+ font-weight: bold;
+ padding: 4 4 4 4;
+ text-align: center;
+}
+
+/* Table de resultados uno */
+table.busqueda
+{
+ font-size: 9px;
+ margin: 2px;
+ border-collapse: collapse;
+ background: #FFF;
+ cellpadding:0;
+ cellspacing:0;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+table.busqueda th 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ font:bold;
+ background-image:  url('img/th_degradado.jpg'); background-repeat: repeat
+}
+
+/* Table de resultados uno */
+table.resultados
+{
+ font-family:Corbel;
+ width: 970px;
+ font-size: 13px;
+ margin: 2px;
+ border-collapse: collapse;
+ background: #FFF;
+ cellpadding:0;
+ cellspacing:0;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+table.resultados th 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_red07.jpg'); background-repeat: repeat
+}
+
+table.resultados THEAD TH 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_red05.jpg'); background-repeat: repeat
+}
+
+table.resultados tfoot TH 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_red05.jpg'); background-repeat: repeat
+}
+
+/* Table de resultados dos */
+table.resultados01
+{
+	font-family: Corbel;
+	color: #231F20;
+	font-size: 12px;
+	margin: 2px;
+	border-collapse: collapse;
+	/* [disabled]background: #FFF; */
+	cellpadding: 0;
+	cellspacing: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.resultados01 th 
+{
+  font-family:Corbel;
+ color:#231F20;
+ padding: 4 4 4 4px;
+ text-align: left;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_02.jpg'); background-repeat: repeat
+}
+
+table.resultados01 THEAD TH 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_01.jpg'); background-repeat: repeat
+}
+
+table.resultados01 tfoot TH 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_red05.jpg'); background-repeat: repeat
+}
+
+
+/* Table de resultados dos */
+table.resultados02
+{
+ font-family:Corbel;
+ font-size: 13px;
+ margin: 2px;
+ border-collapse: collapse;
+ background: #FFF;
+ cellpadding:0;
+ cellspacing:0;
+ margin-left:0;
+ margin-right:0;
+}
+
+table.resultados02 th 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ alignment-adjust:central;
+ /*border: 1px solid #999;*/
+ /*border-bottom-style:groove;*/
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ height:25px;
+ background-image:  url('img/Pleca_12.jpg'); background-repeat: repeat
+}
+
+table.resultados02 THEAD TH 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ /*border: 1px solid #999;*/
+ border-bottom-color:#000;
+ background: #FFFFFF;
+ color:#000000;
+ font:bold;
+ border-bottom-style:groove;
+ border-color:#1E4528
+ /*background-image:  url('img/background_red05.jpg'); background-repeat: repeat */
+}
+
+table.resultados02 tfoot TH 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_red05.jpg'); background-repeat: repeat
+}
+
+table.resultados02 tr a:onMouseOver
+{ background:#A3A3A3;
+ font-weight:none;
+}
+
+table.resultados02 tr a:onMouseOut
+{ background:#000000;
+ font-weight:bold;
+}
+
+/* Table de Ventana  */
+table.Ventana
+{
+ font-family:Corbel;
+ font-size: 13px;
+ margin: 2px;
+ border-collapse: collapse;
+ background: #F5F5F5;
+ cellpadding:0;
+ cellspacing:0;
+ margin-left:0;
+ margin-right:0;
+}
+
+table.Ventana th 
+{ /*border: 1px solid #999;*/
+ border-bottom-style:groove; }
+
+ 
+table.Ventana theader th 
+{ /*border: 1px solid #999;*/
+ border-bottom-style:groove; }
+
+
+table.Ventana tfoot TH 
+{border-bottom-style:groove;
+ border-color:#1E4528
+}
+
+/* Table de resultados dos */
+table.ListaCScroll
+{
+ font-size: 13px;
+ margin: 2px;
+ border-collapse: collapse;
+ background: #FFF;
+ cellpadding:0;
+ cellspacing:0;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+table.ListaCScroll th 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_02.jpg'); background-repeat: repeat
+}
+
+table.ListaCScroll THEAD TH 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_01.jpg'); background-repeat: repeat
+}
+
+table.ListaCScroll tfoot TH 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_red05.jpg'); background-repeat: repeat
+}
+
+table.ListaCScroll tr a:onMouseOver
+{ background-color:#8E0001;
+ color:#FFFFFF;
+ font-size: 10px;
+ font-weight:bold;
+ text-align:center;
+ padding:4px;
+ text-decoration:none;
+ text-transform:uppercase;
+}
+
+table.ListaCScroll tr a:onMouseOut 
+{ background-color:#7A991A;
+  font-size: 11px; }
+
+/* Table sin scroll */
+table.ListaSScroll
+{
+ font-size: 13px;
+ margin: 2px;
+ border-collapse: collapse;
+ background: #FFF;
+ cellpadding:0;
+ cellspacing:0;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+table.ListaSScroll th 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_02.jpg'); background-repeat: repeat
+}
+
+table.ListaSScroll THEAD TH 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_01.jpg'); background-repeat: repeat
+}
+
+table.ListaSScroll tfoot TH 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 13px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ color:#FFFFFF;
+ font:bold;
+ background-image:  url('img/background_red05.jpg'); background-repeat: repeat
+}
+
+table.ListaSScroll tr a:onMouseOver
+{ background-color:#8E0001;
+ color:#FFFFFF;
+ font-size: 10px;
+ font-weight:bold;
+ text-align:center;
+ padding:4px;
+ text-decoration:none;
+ text-transform:uppercase;
+}
+
+table.ListaSScroll tr a:onMouseOut 
+{ background-color:#7A991A;
+  font-size: 11px; }
+
+
+
+/*Tipo de tablas para menu*/
+table.menu
+{
+
+ font-size: 10px;
+ margin: 2px;
+ /*border-collapse: collapse;
+ background-color:#8E0001;
+ color:#FFFFFF;*/
+ cellpadding:0;
+ cellspacing:0;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+table.menu th 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ /*font-size: 12px;
+ border: 1px solid #999;
+ background: #E8F7F1;*/
+ background-image:  url('img/Pleca_12c.jpg'); background-repeat: repeat
+}
+
+
+table.menu tr a:link, table.menu tr a:visited
+{ /*background-color:#8E0001;
+ color:#FFFFFF;*/
+ font-size: 10px;
+ font-weight:bold;
+ text-align:center;
+ padding:4px;
+ text-decoration:none;
+ text-transform:uppercase;
+}
+
+table.menu tr a:hover,table.menu tr a:active
+{ /**/
+  background-color: #CCC;
+  font-size: 11px; }
+
+
+.OpciMenu 
+{font-size: 9px}

@@ -1,0 +1,121 @@
+.tabla{
+    width: 90%;
+    margin: auto;
+	margin-top: 4em;
+	border-radius: .5em;
+    padding-bottom: 2em;
+	border: 1px solid #0c5379;
+	box-shadow: .2em .2em .4em #2c2e2f;
+}
+.tabla .titulo h2{
+	padding-bottom: 1%;
+	padding-top: 1%;
+	background-color: #3b9895;
+	width: 100%;
+	text-align: center;
+    font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 700;
+    color: #0c5379;
+	border-radius: .2em .2em 0 0;
+}
+.botones{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 1em; 
+}
+.botones .regresar, .botones .nuevo{
+  border: none;
+  border-radius: 3px;
+  display: block;
+  font-size: 1.2em;
+  padding: 0.5em 1.2em;
+  outline: none;
+  cursor: pointer;/*manita del cursor*/
+}
+.botones .regresar, .botones .nuevo{
+  background-color: #3b9895;
+  text-decoration: none;
+  color: #0c5379;
+  margin-bottom: 1%;
+  margin-right: 2%;
+  margin-left: 2%;
+  transition: all .2s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/*lista de años desplegables*/
+.botones .lista .AAreaResp{
+	border: none;
+  	font-size: 1.2em;
+  	padding: 0.5em 1.2em;
+  	cursor: pointer;
+	background-color: #3b9895;
+	color: #0c5379;
+  	margin-bottom: 1%;
+  	margin-right: 2%;
+  	margin-left: 2%;transition: all .3s ease-in-out;
+	font-weight: 600;
+}
+.botones .regresar:hover, .botones .nuevo:hover, .botones .lista .AAreaResp:hover{
+	background-color: #39a6a2;
+	color: #164e63;
+}
+/*estilos de tabla*/
+table{
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+}
+thead {
+	width: 100%;
+    color: #111;
+    font-size: 0.9em;
+    background-color: #3b9895;
+    text-align: center;
+}
+
+thead tr td {
+    padding: 1em 0;
+	color: #164e63;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+
+tbody tr td {
+    padding: 0.8em;
+    font-size: 1em;
+    text-align: center;
+    color: #164e63;
+	font-weight: 600;
+}
+
+thead tr, tbody tr {
+	border: solid 1px #164e63;
+    justify-content: center;
+}
+tbody{
+	width: 95%;
+	color: #fff;
+}
+tbody tr .btn_delete {
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: rgb(220 38 38);
+    padding: .5em;
+	font-size: 1.2em;
+	color: #fff;
+}
+tbody tr .btn_update {
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: rgb(43, 94, 232);
+    padding: .5em;
+	font-size: 1.2em;
+	color: #fff;
+}
+tbody tr .btn_delete .fa-close, tbody tr .btn_update .fa-pencil-square-o {
+	color: #fff;
+}

@@ -1,0 +1,18 @@
+SELECT MPConsecutivo FROM cdmateprof
+INNER JOIN CTMateria ON MConsecutivo = MPMateria AND MPProfesor = 1 
+WHERE MClave = 'COM-0421'
+
+SELECT MPAConsMaPr FROM cdmatprofalu
+inner join ctalumno ON MPAConsAlum = AConsecutivo
+WHERE MPAConsMaPr in (SELECT MPConsecutivo FROM cdmateprof
+INNER JOIN CTMateria ON MConsecutivo = MPMateria AND MPProfesor = 1 
+WHERE MClave = 'COM-0421') AND 
+AMatricula = '11220319';
+
+
+SELECT MPAConsMaPr,MConsecutivo,MDescripcion,PConsecutivo,PNombre,AConsecutivo,ANombre 
+FROM cdmatprofalu
+inner Join CDMateProf ON MPAConsMaPr = MPConsecutivo ANd MPProfesor = 1
+Inner JOIN CTMateria ON MConsecutivo = MPMateria AND Mclave = 'COM-0421'
+Inner Join ctalumno ON MPAConsAlum = AConsecutivo AND AMatricula = '11220319'
+Inner Join ctprofesor ON PConsecutivo = MPProfesor  AND PConsecutivo = 1;

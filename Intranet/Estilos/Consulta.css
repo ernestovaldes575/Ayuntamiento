@@ -1,0 +1,262 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	background-color: rgb(196, 192, 192);
+}
+/*inicio de encabezado*/
+header{
+	width: 100%;
+	height: 25%;
+	background-color: #7f91b3;
+	position: relative;
+}
+/*logo izquierdo*/
+header .logo_estado{
+	width: 9%;
+	float: left;
+	text-align: center;
+}
+header .logo_estado .estado{
+	width: 80%;
+	height: 90%;
+	margin-top: 9;
+}
+/*logo derecho*/
+header .logo_opd{
+	width: 10%;
+	float: right;
+	text-align: center;
+}
+header .logo_opd .OPD{
+	width: 95%;
+	height: 97%;
+	margin-top: 7%;
+	margin-right: 10%;
+}
+/*informacion de la entidad+*/
+header .info{
+	width: 80%;
+	display: inline-block;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+header .info h1{
+	margin-top: 2%;
+	font-size: 2em;
+}
+header .info h2{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 1.3em;
+}
+/*fin del encabezao*/
+/*fecha*/
+.apartado_fecha{
+	width: 100%;
+	height: 10%;
+	background: rgba(199, 21, 133, 1);
+	padding: .3%;
+	color: #fff;
+	text-align: right;
+}
+.apartado_fecha .fecha{
+	margin-right: 3%;
+}
+.tabla{
+	background-color: #fff;
+    width: 99%;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0 0 0 / 50%);
+    padding-bottom: 1.5em;
+    border-radius: 4px;
+}
+.tabla .titulo h2{
+	padding-bottom: 1%;
+	padding-top: 1%;
+	background-color:  #7f91b3;
+	width: 100%	;
+	text-align: center;
+    font-size: 2em;
+    font-weight: normal;
+    color: #fff;
+}
+.botones {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;/*dejar espaciado hacia los extremos*/
+	margin-top: 1em;
+}
+.botones .regresar, .botones .nuevo{
+    border: none;
+    border-radius: 3px;
+    display: block;
+    font-size: 1.2em;
+    padding: 0.5em 1.2em;
+    outline: none;
+    cursor: pointer;/*manita del cursor*/
+}
+.botones .regresar, .botones .nuevo{
+    background-color: #7f91b3;
+    text-decoration: none;
+    color: #FFF;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+/* Estilos Nav ejercicio*/
+.botones .lista{
+    border: none;
+    border-radius: 3px;
+    display: block;
+    font-size: 1.2em;
+    padding: 0.5em 1.2em;
+    outline: none;
+    cursor: pointer;
+    background-color: #7f91b3;
+    text-decoration: none;
+    color: #FFF;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.botones .lista ul {
+    list-style: none;
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li a{
+	text-align: center;
+    background-color: #7f91b3;
+    color: #FFF;
+	text-decoration: none;
+	padding: 4px 6px;
+	display: block;
+	margin-bottom: 1%;
+	margin-right: 2%;
+	margin-left: 2%;
+	border: none;
+	border-bottom: 1px solid white;
+}
+
+.nav li a:hover{
+    background: #9c1f51;
+	color:#111;
+}
+
+.nav li ul{
+    display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover >ul{
+	display: block;
+}
+
+.nav li ul li{
+	position: relative;
+}
+
+/*estilos de tabla*/
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+}
+thead {
+	width: 100%;
+    color: #fff;
+    font-size: 0.9em;
+    background-color: #7f91b3;
+    text-align: center;
+}
+
+thead tr td {
+    padding: 0.5em;
+}
+
+tbody tr td {
+    padding: 0.8em;
+    font-size: 0.8em;
+    text-align: center;
+    color: #111;
+}
+
+thead tr, tbody tr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 12);
+    justify-content: center;
+}
+tr:nth-child(even) {
+    background-color: rgba(0, 115, 144, 0.158);
+}/*--------*/
+
+tbody{
+	width: 95%;
+	color: #fff;
+}
+tbody tr .btn_delete {
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: red;
+    padding: 5%;
+}
+tbody tr .btn_update {
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: green;
+    padding: 5%;
+}
+tbody tr .btn_delete .fa-close, tbody tr .btn_update .fa-pencil-square-o {
+	color: #fff;
+}
+
+@media ( max-width: 30em ) { /* el tamaño promedio de los dispositivos en pixeles (30 * 16 = 480 px)*/
+	table{
+		text-align: center;
+		width: 90%;
+	}
+	table tr{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		border: 1px solid;
+		margin-bottom: 1em;
+	}
+	table thead{
+		display: none;
+	}
+	table td[data-titulo]{
+		text-align: center;
+		display: flex;
+	}
+	table td[data-titulo]::before{
+		content: attr(data-titulo);
+	}
+
+	tbody tr .btn_delete {
+	    text-decoration: none;
+	    padding: 1px;
+	    margin: 0;
+	}
+	tbody tr .btn_update {
+	    text-decoration: none;
+	    padding: 1px;
+	    margin: 0;
+	}
+	tbody tr .btn_delete .fa-close, tbody tr .btn_update .fa-pencil-square-o {
+		color: #fff;
+	}
+}

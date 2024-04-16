@@ -1,0 +1,381 @@
+<!--#include virtual="/Connections/ConeTesoreria.asp" -->
+<!--#include virtual="/Encabezado/EncabezadoI.asp" -->
+<!--#include virtual="/Encabezado/htmlImgaAyto.asp" -->
+
+<!--#include virtual="/Encabezado/htmlEncabeza.asp" --> 
+<!--#include virtual="/Encabezado/htmlPie.asp" --> 
+95,555.00 
+
+ DescImag = "Para activar el boton, \nSeleccione los artículos para el \nProceso Adquisitivo"  %>
+<img src="/Intranet/Tesoreria/Imagen/BtnRequ10P.png" width="100" height="50"  border="0" title="<%=DescImag%>" />		  
+
+//Para colocar el campo texto
+placeholder="Digitar el No. de inventario"
+
+//Encabezado
+AAcceso = new Array();
+AAcceso =  String(Request.Cookies("CAcceso")).split("|")
+ConsAcce = AAcceso[0] 
+ConsUnid = AAcceso[1] 
+ClavUnid = AAcceso[2] 
+DescUnid = AAcceso[3] 
+ClavAyto = AAcceso[4] 
+DescAyto = AAcceso[5] 
+TipoADOI = AAcceso[6] 
+DescADOI = AAcceso[7] 
+ClavEjer = AAcceso[8] 
+DescEjer = AAcceso[9] 
+GoMaZina = AAcceso[10] 
+
+//Permisos
+AModulo = String(Request.Cookies("CModulo")).split("|")
+DescServ = AModulo[1]
+DescOpci = AModulo[3]
+Cons = String(AModulo[4])
+Alta = String(AModulo[5])
+Modi = String(AModulo[6])
+Baja = String(AModulo[7])
+
+FechSist = FecDia+"/"+FecMes+"/"+FecAño    
+FecSisLe = FecDia+" de "+MesEjer[Number(FecMes)]+" del "+FecAño    
+
+-----------------------------------------------------------
+-----------------------  FUNCIONES-------------------------
+
+Quitar la coma a los numeros
+valcamp = String(valcamp).replace(/,/gi,'')
+
+-----------------------------------------------------------
+Pasara money a caracter
+LTRIM(CONVERT(CHAR,CCASueldoQn,108)) as CCASueldoQn
+
+
+-----------------------------------------------------------
+//Fecha del Sistema  
+FecDia = (new Date().getDate()<10) ? "0"+new Date().getDate():new Date().getDate() 
+FecMes = MesEjer[Number(new Date().getMonth())+1]
+FecAño = new Date().getYear()
+FechSist = FecDia+" de "+FecMes+" del "+FecAño 
+
+
+-----------------------------------------------------------
+Sincronizar dos pantallas
+ Response.Write("<script> location.href='ConsultaLista.asp'; parent.frames.TablaMovi.location.reload(); </script>") 
+
+
+-----------------------------------------------------------
+Para imprimir o Excel
+if (String(Request.QueryString("Param1")) != "undefined" && 
+	String(Request.QueryString("Param1")) != "") 
+  { Salida =  String(Request.QueryString("Param1"))
+	switch (Salida) 
+	 { case "I": //Imptresora
+			Response.Write("<script language='javascript'> window.print(); </script>"); break;
+	   case "E": //Excel
+			Response.ContentType = "application/x-msexcel"; break;		
+	 }	    
+  }
+	
+
+
+-----------------------------------------------------------
+---------------------  INSTRUCCIONES SQL ------------------
+
+//Codigo para Traer el ultimo consecutivo
+//Trae la Secuencia
+   if ( TipoMovi == "A")
+   { EjecInst  = "Select @@IDENTITY as Cons "
+	 EjecComa.CommandText =  EjecInst
+	 Dummy = EjecComa.Execute();
+	 ConsJust = Dummy.Fields.Item("Cons").Value }
+
+
+-----------------------------------------------------------
+//para rellenar de 0 una clave
+SELECT REPLICATE('0', 4 - LEN(CONVERT(char, MAX(RFolio) + 1))) + CONVERT(char, MAX(RFolio) + 1) AS Expr1, 4 - LEN(CONVERT(char, MAX(RFolio) + 1)) AS Expr2
+FROM         PTTransferencia
+
+
+-----------------------------------------------------------
+Pasara money a caracter
+LTRIM(CONVERT(CHAR,CCASueldoQn,108)) as CCASueldoQn
+
+Para la Fecha
+CONVERT(smalldatetime,'"+FechAcep+"',103)
+
+Para convertir de caracter a numero con decimales
+LTRIM(CONVERT(char, CAST('"+TechPart+"' AS MONEY), 103))
+
+Para convertir de caracter a numero
+CAST('"+TechPart+"' AS MONEY)
+
+
+Para el catalogo de localidades
+EjecInst  = "SELECT CLOClave, CLODescripcion "
+EjecInst += "FROM   Acceso.dbo.ACLocalidad "+
+EjecInst += "WHERE  CLOINEGI IN (SELECT CMUInegi "+
+				"FROM   Acceso.dbo.ACMunicipio "+
+				"WHERE  CMUIgecem = '"+ClavAyun+"' )"
+EjecInst += "ORDER BY CLOClave"
+
+
+//Crear un orden 
+
+SELECT SAFolioCotAdq,ROW_NUMBER() OVER(
+       ORDER BY SAConsecutivo) 
+FROM            PTSuficienciaAdq
+WHERE        (SAAyuntamiento = '103') AND (SAEjercicio = 2021) AND (SAComprador = 97)
+
+
+//crea tablas temporales
+SELECT Secun=SConsecutivo, 
+       Renglon=ROW_NUMBER() OVER(ORDER BY SConsecutivo)
+INTO AA_Dummy 
+FROM            PTSuficienciaSeg
+WHERE        (SAreaUsaEnviCoti = 'S') AND (SCotizaReceEdo = 'S')
+
+// Modificas
+UPDATE PTSuficienciaAdq
+SET    SAFolioCotAdq = AA_Dummy.Renglon
+FROM   AA_Dummy INNER JOIN
+                         PTSuficienciaAdq ON AA_Dummy.Secun = PTSuficienciaAdq.SAConsecutivo
+WHERE        (PTSuficienciaAdq.SAAyuntamiento = '103') AND (PTSuficienciaAdq.SAEjercicio = 2021) AND (PTSuficienciaAdq.SAComprador = 97)
+
+UPDATE PTSuficienciaAdq
+SET    SAFolioCotAdq =  REPLICATE('0', 6 - LEN(CONVERT(char, AA_Dummy.Renglon))) + RTRIM(CONVERT(char, AA_Dummy.Renglon))
+FROM   AA_Dummy 
+WHERE  AA_Dummy.Secun = PTSuficienciaAdq.SAConsecutivo 
+
+UPDATE       PTSuficienciaSeg
+SET                SPFolioCotAdq = PTSuficienciaAdq.SAFolioCotAdq
+FROM            PTSuficienciaSeg INNER JOIN
+                         PTSuficienciaAdq ON PTSuficienciaSeg.SConsecutivo = PTSuficienciaAdq.SAConsecutivo
+
+-----------------------------------------------------------
+---------------------  Funciones de HTML ------------------
+
+<table class="ListInfo" width="90%">
+  <th class="Oculta" colspan="5">&nbsp;</th>
+ <td width="8%" data-label="Folio:"  ><%=FoliSufi%><%=FoliAdic%></td>  
+
+//Para habilitar un texto con url
+<span onclick="abrir('<%=ExpeSegu%>')" style="cursor: pointer" >abrir una imagen</span>
+
+//Regresra a la pagina anterior
+<a href="#" onclick="javascript:window.history.back(); ">Regresar</a>
+
+//Para activar un mesnaje
+DescVent = "Para activar el boton hay que subir el archivo autorizado con presupuesto" %>
+<a href="#" onclick="javascript:alert('<%=DescVent%>'); ">
+<img src="/Intranet/Tesoreria/Imagen/BtnRequ05O.png" width="70" height="40"  border="0" title="<%=DescBoto%>" />
+</a>
+
+
+
+//Texto parpadeante
+<marquee width="300" scrollamount="300" scrolldelay="500"><%=vc15%></marquee>
+-----------------------------------------------------------
+//Para llamar en una ventana nueva
+<a href="javascript:window.open('http://norfipc.com/','','width=600,height=400,left=50,top=50,resizable=yes,scrollbars=yes');void 0">Nueva nueva ventana</a><br />
+
+
+
+//Para activar el scroll
+mas claro
+<tr onMouseOver="this.style.background='#D6D6D6';" onMouseOut="this.style.background = '';"> 
+
+mas oscuro
+<tr onmouseover="this.style.background ='#A3A3A3';" onMouseOut="this.style.background = '';" align="right" valign="top">
+
+-----------------------------------------------------------
+---------------------  Funciones de  Javascript -----------
+
+Para cargar la foto dependendiendo donde se abre
+function CargaArchivo()
+{ Ruta  = "RegistroSubeArch.asp"			//Archivo donde se guarda los parametros
+  Dime = "width=450 height=350 top=10 left=10 scrollbars"
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
+   location.href = Ruta
+  else
+   Cata = window.open(Ruta,"Carga_Imagen",Dime)
+}
+
+-----------------------------------------------------------
+//Para ventana de ayuda
+Anexar el archivo electrónico de la Factura firmada y sellada por el titular del Área, 
+al expediente digital del Pedido Contrato, 
+seleccionando el icono de adjuntar archivo electrónico 
+
+
+function VentaAyud(ArchVent,TituVent,Anch,Larg)
+{ var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : window.screenX;
+  var dualScreenTop = window.screenTop != undefined ? window.screenTop : window.screenY;
+  var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+  var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+  var left = ((width / 2) - (Anch / 2)) + dualScreenLeft;
+  var top = ((height / 2) - (Larg / 2)) + dualScreenTop;
+  
+  VentAyud = window.open(ArchVent, TituVent, 'scrollbars=yes, width=' + Anch + ', height=' + Larg + ', top=' + top + ', left=' + left);
+}
+
+<a href="#" onClick="VentaAyud('VentAyud01.asp','Información',400,400)">	
+
+---------------------------------------------------------------
+
+Para quitar el enter 
+
+document.onkeydown = function()
+ { //Retorno
+   if (window.event && window.event.keyCode == 13)
+	 window.event.keyCode = 9;   //Tabulador return false;     
+	
+   if(window.event && window.event.keyCode == 27)
+	 window.close(); //return false;     
+} 
+
+
+
+-----------------------------------------------------------
+//Para validar una ventana
+
+<script language="javascript">
+function GeneCale(Param1)
+{ 
+if (confirm("Cuenta con el Sistema de Nomina")) 
+  { Ruta  = "EjercicioCalen.asp?Param1=" + Param1
+    Dime = "width=450 height=350 top=10 left=10 scrollbars"
+    Cata = window.open(Ruta,"Genera Calendario",Dime)
+  }
+  else 
+    alert("Gracias")
+} 
+</script>
+
+
+<script language="javascript">
+function BorraSePu(Param)
+{ //
+opcion = prompt("Clave de acceso:","");
+if (opcion == "zin421" || opcion == "dif421") 
+ location.href = "CoreccionDatos.asp?Param1="+Param; 
+else
+ alert("No tiene permisos") 
+} 
+</script>
+
+
+<script language="javascript">
+function BorraSePu(Param)
+{ //
+if (confirm("Realizar")) 
+ location.href = "CoreccionDatos.asp?Param1="+Param; 
+else
+ alert("No tiene permisos") 
+} 
+</script>
+
+-----------------------------------------------------------
+//Para cerrar una ventana y sincronizar la raiz
+
+function Reporte(Param)
+{ Ruta  = "RepTransfer.asp?Param1="+Param			//Archivo donde se guarda los parametros
+  Dime = "width=950 height=350 top=10 left=10 scrollbars"
+  Cata = window.open(Ruta,"Carga_Imagen",Dime)
+}
+
+
+-----------------------------------------------------------
+//Sincronizar un Iframe
+<script language="javascript">
+window.close();
+opener.top.ListaCaja.location.reload();
+</script>
+
+//de un Iframe a la pagina principal
+Pagina = "xxx.asp"
+top.location.href= Pagina
+
+
+-----------------------------------------------------------
+//Sincroniza un iframe dentro de otro iframe
+<script language="javascript">
+window.close();
+opener.top.DetaBene.ListRequ.location.reload();
+</script>
+
+
+-----------------------------------------------------------					   
+function  CargaValor(NumeRegi)
+{ 
+  var keyCode=0 ;
+  keyCode=window.event.keyCode
+  //alert(keyCode)
+  switch  ( keyCode )
+  { 
+	  case 8: break; 
+	  default: //Tamaño
+			   //alert(keyCode)
+	           if ( (keyCode >= 48 && keyCode <= 57) || (keyCode >= 96 && keyCode <= 105)) 
+	             { ImprDeci(NumeRegi);  }
+			   else	 	
+	 			{ EjecInst = "document.PideDato.T"+NumeRegi+".value=0; "  
+				  eval (EjecInst);
+				  EjecInst = "document.PideDato.T"+NumeRegi+".focus(); "  
+				  eval (EjecInst);
+				  EjecInst = "document.PideDato.T"+NumeRegi+".select(); "  
+				  eval (EjecInst);
+				  
+				   }
+			  break;	  
+   }
+}
+
+
+-----------------------------------------------------------
+function ImprDeci(NumeRegi)
+{  
+  EjecInst = "Numero=document.PideDato.T"+NumeRegi+".value "  
+  eval (EjecInst);
+  Monto = String(Numero).split(".")
+
+  //Parte Entera
+  PartEnte = String(Monto[0]).split("")
+  LongCamp = PartEnte.length;
+   
+  //Verifica que no sea negativo
+  Tope = 0
+  if (PartEnte[0] == '-')
+   Tope = 1
+  
+  ValoNuev = "";
+  j = 1;
+  for (i=LongCamp,j=1; i != Tope; i--,j++ )
+	{ if (j == 4 || j == 7 || j == 10 || j == 13)
+	     ValoNuev = ","+ValoNuev;
+	  ValoNuev = PartEnte[i-1] + ValoNuev;
+	}
+  
+  if (Tope == 1)
+  	ValoNuev = '-' + ValoNuev;
+
+  //Unir la entera con la fraccion
+  ValoFrac=".00"
+  if ( String(Monto[1]) != "undefined" )
+   {   PartFrac = String(Monto[1]).split("")
+       LongCamp = PartFrac.length;
+       ValoFrac = ".";
+	   switch (LongCamp)
+	    { case 0:  ValoFrac = ".00"; break;
+		  case 1:  ValoFrac = "."+PartFrac[0]+"0"; break;
+		  default: ValoFrac = "."+PartFrac[0]+PartFrac[1]; break;
+		 }
+	    //for (i=0; i<Deci && Deci<=LongCamp; i++)
+	    // ValoFrac += PartFrac[i];
+      }  
+	  
+  ValoNuev = ValoNuev + ValoFrac
+  //alert(ValoNuev)
+  EjecInst = "document.PideDato.T"+NumeRegi+".value= '" +String(ValoNuev)+"'"
+  eval (EjecInst);
+}
+

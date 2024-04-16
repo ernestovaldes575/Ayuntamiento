@@ -1,0 +1,155 @@
+/* CSS Document */
+body {
+	/*background-color: #EBEBEB; */
+	top:2px;	
+}
+
+/*------------------------------------------------------
+					 Encabezado							*/
+header{
+	grid-area: EncaPagi;   
+    top: 0;					/*Posiciona en la parte superior*/
+    left: 0px;				/*Posicion en el lado izquierdo*/
+    position: fixed;		/*El encabezado lo deja fijo*/
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    color: #fff;
+    z-index: 100;
+	border-bottom-style:groove; 
+	border-bottom-color:#333333;
+}
+
+/*------------------------------------------------------
+					 Conetenido							*/
+section{
+   left: 0px;				/*Posicion en el lado izquierdo*/
+   margin-top:70px;
+}
+					 
+.ImagSIMGA {
+   border-radius: 5%;				/*150px para hacer un circulo*/
+  -webkiy-border-radius: 5%;
+  -moz-border-radius: 5%;		/*Para Mozila*/
+  -o-border-radius: 5%;			/*Opera */
+  -ms-border-radius: 5%;
+}
+
+
+.Contenido{ 
+	min-height: calc(100vh - 170px);
+}
+
+.Contenido01
+{ display:block;
+  text-align:center; 
+  margin: 0 auto;
+  padding-top:30px;;
+}
+
+.Contenido02
+{ display:block;
+  height:10 px;
+  text-align:center;
+  margin: 0 auto;
+  transform: translateY(-50%);	/*Posiciona abajo*/
+}
+
+/*------------------------------------------------------
+					 Pie de Pagina						*/
+footer{
+	grid-area: PiePagi;
+	bottom:0;			/*Pocisionarse en la parte inferior */
+	left:0px;			/*Pocisionarse del lado izquierdo   */
+	position:fixed;		/*El Pie de paguina lo deja fijo    */
+    width: 100%;
+    height: 50px;
+	background: #333333;
+	color: #fff;
+	font-size:15px;
+	border-bottom-style:groove; 
+	border-bottom-color:#333333;
+}
+
+.PieColumna
+{ width: calc(100% / 2);
+}
+
+.flex{
+	display: flex;
+	flex-wrap:center; /*para ajustar las columnas*/
+}
+
+@media only screen and (min-width : 300px) and (max-width : 480px) {
+	.ImagSIMGA {
+	 width:80%;
+	}
+
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+	footer{
+	 font-size:8px;
+	}
+
+	.ImagCert{
+	width:70%
+	}
+	
+	.ImagAyto{
+	 width:70%
+	}
+
+}
+
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+	
+	.ImagSIMGA {
+	 width:50%;
+	}
+	
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+	footer{
+	 font-size:10px;
+	}
+
+	.ImagCert{
+	width:50%
+	}
+	
+	.ImagAyto{
+	 width:50%
+	}
+	
+	
+}
+
+@media only screen and (min-width : 769px) and (max-width : 1024px){
+	.ImagSIMGA{ 
+	width:40%; }
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1280px){
+	.ImagSIMGA {
+	 width:35%;
+	}
+
+	/*------------------------------------------------------
+					 Pie de pagina							*/	
+	footer{
+	 font-size:8px;
+	}	
+
+}
+
+@media only screen and (min-width : 1281px) and (max-width : 1366px){
+	.ImagSIMGA {
+	 width:30%;
+	}
+	
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+   footer{
+	 font-size:8px;
+	}	
+}

@@ -1,0 +1,162 @@
+/*estilos de tabla*/
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+}
+thead {
+	width: 100%;
+    color: #fff;
+    font-size: 0.9em;
+    background-color: #7f91b3;
+    text-align: center;
+}
+
+thead tr td {
+    padding: 0.5em;
+}
+
+tbody tr td {
+    padding: 0.8em;
+    font-size: 0.8em;
+    text-align: center;
+    color: #111;
+}
+
+thead tr, tbody tr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 12);
+    justify-content: center;
+}
+tr:nth-child(even) {
+    background-color: rgba(0, 115, 144, 0.158);
+}/*--------*/
+
+/*tbody{
+	width: 95%;
+	color: #fff;
+}*/
+
+.tabla {
+	display: flex;
+	width: 90%;
+	justify-content: space-between;/*dejar espaciado hacia los extremos*/
+	margin-top: 0.5em;
+}
+.tabla .nuevo{
+    border: none;
+    border-radius: 6px;
+    display: block;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    outline: none;
+    cursor: pointer;/*manita del cursor*/
+}
+.tabla .nuevo{
+    background-color: #7f91b3;
+    text-decoration: none;
+    color: #FFF;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: 65%;
+}
+
+.principal{
+	width: 40%;
+	margin: auto;
+	background-color: #fff;
+	color: #111;
+    box-shadow: 0 5px 10px rgba(0 0 0 /50%);
+}
+
+.principal form{
+	background-color: none;
+	width: 92%;
+	padding: 1em;
+	margin: auto;
+  }
+/* Formulario Alt*/
+.princ{
+	width: 70%;
+	margin: auto;
+	background-color: #fff;
+	color: #111;
+    box-shadow: 0 5px 10px rgba(0 0 0 /50%)
+}
+
+.princ form .botones{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;/*dejar espaciado hacia los extremos*/
+	margin-top: 1em; 
+  }
+  .princ form .botones .registrar, .princ form .botones .cancelar{
+	border: none;
+	border-radius: 3px;
+	display: block;
+	font-size: 1.2em;
+	padding: 0.5em 1.2em;
+	outline: none;
+	cursor: pointer;/*manita del cursor*/
+}
+.princ form .botones .cancelar, .princ form .botones .registrar{
+	background-color: #7f91b3;
+	text-decoration: none;
+	color: #FFF;
+}
+/* Formulario Alt*/
+
+tbody tr .btn_delete {
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: red;
+    padding: 5%;
+}
+tbody tr .btn_update {
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: green;
+    padding: 3%;
+}
+tbody tr .btn_delete .fa-close, tbody tr .btn_update .fa-pencil-square-o {
+	color: #fff;
+}
+
+@media ( max-width: 30em ) { /* el tamaño promedio de los dispositivos en pixeles (30 * 16 = 480 px)*/
+	table{
+		text-align: center;
+		width: 90%;
+	}
+	table tr{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		border: 1px solid;
+		margin-bottom: 1em;
+	}
+	table thead{
+		display: none;
+	}
+	table td[data-titulo]{
+		text-align: center;
+		display: flex;
+	}
+	table td[data-titulo]::before{
+		content: attr(data-titulo);
+	}
+
+	tbody tr .btn_delete {
+	    text-decoration: none;
+	    padding: 1px;
+	    margin: 0;
+	}
+	tbody tr .btn_update {
+	    text-decoration: none;
+	    padding: 1px;
+	    margin: 0;
+	}
+	tbody tr .btn_delete .fa-close, tbody tr .btn_update .fa-pencil-square-o {
+		color: #fff;
+	}
+}

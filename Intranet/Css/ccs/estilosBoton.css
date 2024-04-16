@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+body {
+ height:100vh;
+ background:#CCCCCC;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+
+.contenedor{
+  witch: 250px;
+  height: 250px;
+  padding: 1rem;
+}
+
+.img-content {
+	position:relative;
+	overflow:hidden;
+}
+
+.img-content img {
+  width:100%;
+}
+
+/*cambie la propiedada del contenedor a
+lo del texto*/
+.contenedor:hover .texto {
+	left:0;
+}
+
+.texto {
+  position:absolute;
+  top:0;
+  left:-100%;
+  width:250px;
+  height:250px;
+  background: #333333;
+  display:flex;
+  justify-content:center;
+  all.items:center; 
+}
+
+h1 {
+  padding:1rem 3rem;
+  background:transparent;
+  border-radius: 5px;
+  border: 1px solid #2ecc71;
+  color:#2ecc71;
+  cursor: pointer;
+}
+
+.h1:hover {
+	background:#2ecc71;
+	color:#fff;
+	transition:all 300ms;
+}
+
+
+/*
+body {
+}
+*/
+

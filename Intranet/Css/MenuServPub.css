@@ -1,0 +1,464 @@
+/* CSS Document */
+body {
+	top:2px;	
+}
+
+A:link { 
+         text-decoration: none;
+         color: #FFFFFF;
+       }
+	   
+A:visited { text-decoration: none; 
+            color: #FFFFFF;
+          }
+		  
+A:active { text-decoration: none;
+		 }
+		 
+A:hover { 
+          font-weight:bold;
+          font-style: bold;					   
+          TEXT-DECORATION : underline
+           //color:#426F42;	
+}
+
+#ActiLiga {
+  color: #333333;
+  font-style: bold;
+}
+/*------------------------------------------------------
+					 Encabezado							*/
+header{
+	grid-area: EncaPagi;   
+    top: 0;					/*Posiciona en la parte superior*/
+    left: 0px;				/*Posicion en el lado izquierdo*/
+    position: fixed;		/*El encabezado lo deja fijo*/
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    color: #333333;
+}
+
+.EncaAyun{
+	width:20%;
+	background:url(/img/SIMGA_intra03.png);  /*/Intranet/Encabezados/Aytos/105/105T.jpg*/
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:12px;
+	padding-left:10px; 
+	padding-top:10px;
+ }
+ 
+.EncaCuer{
+	width:80%;
+	text-align:left;
+	font-size:12px;
+	padding-top:10px;
+	padding-left:10px; 
+	background:#DDDDDD;
+	border-bottom-style:solid;
+	border-bottom-left-radius: 20px;
+	-webkiy-border-bottom-left-radius: 20px;
+	-moz-border-bottom-left-radius: 20px;
+	-o-border-bottom-left-radius: 20px;
+	-ms-border-bottom-left-radius: 20px;
+}
+
+/*------------------------------------------------------
+					 Menu								*/
+nav {
+	font-size:13px;
+    left:0px;
+	top:0px;
+	background:#999999;
+	padding: 5px;
+	padding-left:15px;
+	margin-top:3px;
+	margin-bottom:3px;
+	display: flex;
+	justify-content: space-around; /*Para ajustar el menu */
+} 
+
+/*Boton del menu*/
+.nav-boton {
+	width:100%;
+	/*background: #CCCCCC;
+	color:#999999;*/
+	padding:4px 0;
+	border: 2px solid #fff;
+	display:none;
+}
+
+.nav-enlace{
+	diaplay: inline-block;
+	color:##00CC66;
+	padding:5px; 20px;
+	text-decoration:none;
+} 
+
+.nav-enlace:hover{
+	background:  #CCCCCC;
+	color: #000000;
+}
+
+nav, section footer {
+  display: block;
+}
+
+/*------------------------------------------------------
+					 Conetenido							*/
+
+section{
+   left: 0px;				/*Posicion en el lado izquierdo*/
+   top:45px;
+   margin-top:95px;
+   padding-top:15px;
+   background: #CCCCCC;
+}
+					 
+.Contenido{ 
+	top:20px;
+	left:10px;
+	/*min-height: calc(100vh - 150px);*/
+	font-size:10px;
+}
+
+/* Encabezado del contenido */ 
+.ConteCabe { 
+  padding-top:5px;
+  background: #FFECEC; }
+
+/* Pie del contenido */ 
+.Contepie {
+ padding-bottom:63px; /*75px*/ 
+}
+ 
+/*--- Contenido Iframe ----*/
+.ContIfra{
+	min-height: calc(100vh - 30px);
+	min-width: 100%; 
+	font-size:6px;
+}
+
+/*--- Tabla de Listado ---*/
+table.ListInfo{
+ font-size: 12px;
+ font-family:Corbel;
+ background: #FFF;
+ margin: 2px;
+ margin-left:0;
+ margin-right:0;
+ cellpadding:0;
+ cellspacing:0;
+ border-collapse: collapse;
+}
+
+table.ListInfo THEAD TH {
+ font:bold;
+ font-size: 13px;
+ text-align: center;
+ background:#FFFFFF;
+ color:#000000;
+ padding: 4 4 4 4px;
+ border-bottom-style:groove;
+ border-color: #666666;
+}
+
+table.ListInfo th {
+ font:bold; 
+ font-size: 13px;
+ text-align: center;
+ background: #95C79B;
+ color:#FFFFFF;
+ padding: 4 4 4 4px;
+ alignment-adjust:central;
+ height:25px;
+}
+
+table.ListInfo tr:hover {
+ background: #D6D6D6;
+}
+
+/*--- Tabla de Listado ---*/
+table.CaptSePu{
+ font-size: 13px;
+ font-family:Corbel;
+ margin: 2px;
+ margin-left:0;
+ margin-right:0;
+ cellpadding:0;
+ cellspacing:0;
+ border-collapse: collapse;
+}
+
+.PercDedu {
+	 display: flex;
+	 /*flex-wrap:center; /*para ajustar las columnas*/
+}
+/*------------------------------------------------------
+					 Pie de Pagina						*/
+footer{
+	/*bottom:0;			/*Pocisionarse en la parte inferior */
+	/*left:0px;			/*Pocisionarse del lado izquierdo   */
+	/*position:fixed;		/*El Pie de paguina lo deja fijo    */
+    width: 100%;
+    height: 60px;
+	font-size:8px;
+	background: #333333;
+	color: #fff;
+	font-size:15px;
+	border-bottom-style:groove; 
+	border-bottom-color:#333333;
+}
+
+.PieColumna
+{ width: calc(100% / 2);
+}
+
+.flex{
+	display: flex;
+	flex-wrap:center; /*para ajustar las columnas*/
+}
+
+/* CSS Document */
+@media only screen and (min-width : 200px) and (max-width : 480px) {
+	/*------------------------------------------------------
+						 Encabezado							*/
+	table.DatoServ{
+		font-size:8px;
+	}	
+	
+	table.DatoServ .OculEnca{ 
+		display:none;
+	}					 
+	/*------------------------------------------------------
+					 Menu								*/
+	.nav-boton {
+		/*display:inline-block;		/*Activa boton de menu*/
+		display:block;
+	}
+
+	.nav-enlace{ 
+		display: block;
+		height: 10px;
+		padding: 5px;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(255,255,255,0.3);
+	}
+	
+	.desaparece {
+		display: none;				/*Desaparece el menu*/
+	}
+	
+	/*------------------------------------------------------
+							Contenido						*/
+	/*--- Tabla de Listado ---*/	
+	/*Cambia las columnas a renglones */						
+	table.ListInfo{
+		border:0; 
+	}
+	
+	table.ListInfo tr{
+		margin-bottom:10px;
+		display: block;
+		border-bottom:2px solid #ddd;
+	}
+
+	table.ListInfo td{
+		display:block;
+		width:calc(100vw - 40px);
+		text-align:right;
+		font-size:12px;
+		border-bottom:1px dotted: #ccc;
+	}
+
+	table.ListInfo td:last:child{
+		border-bottom:0;
+	}
+	
+	table.ListInfo td:before {
+	content:attr(data-label);
+	float:left;
+	text-transform:uppercase;
+	font-weight:600;
+	}
+	
+	table.ListInfo thead{
+		display:none;}
+
+	table.ListInfo .Oculta {
+		display:none;}
+	
+		table.CaptDato .TamaCamp {
+		font-size:10px;
+		max-width:20px;
+	}	
+							
+	/*--- Tabla de Captura de datos ---*/						
+	table.CaptDato {
+	 font-size: 9px;
+	} 
+	
+	table.CaptDato .TamaCamp {
+		font-size:10px;
+		max-width:20px;
+	}	
+
+	table.CaptDato .TamaCamp1 {
+		font-size:10px;
+		max-width:40px;
+	}	
+
+	table.CaptDato .TamaCamp2 {
+		font-size:10px;
+		max-width:80px;
+	}	
+
+	table.CaptDato .TamaCamp3 {
+		font-size:10px;
+		max-width:160px;
+	}	
+
+	.PercDedu {
+	 display: block;
+	 /*flex-wrap:center; /*para ajustar las columnas*/
+	}
+
+	/*imagenes del botones*/
+	.BotoAlta {
+	 width:30px;
+	 height:30px;}
+	
+	.BotoModi {
+	 width:30px;
+	 height:30px;}
+
+	.BotoElim {
+	 width:30px;
+	 height:30px;}
+
+	.BotoSubi {
+	 width:30px;
+	 height:30px;}
+
+	.BotoVisu {
+	 width:30px;
+	 height:30px;}
+
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+	footer{
+	 font-size:8px;
+	}
+
+	.ImagAyto{
+	 width:70%
+	}
+
+}
+
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+	/*------------------------------------------------------
+						 Encabezado							*/
+	table.DatoServ{
+		font-size:9px;
+	}		
+
+	/*------------------------------------------------------
+							Contenido						*/		
+							
+	table.CaptDato {
+	 font-size: 11px;
+	} 		
+	table.CaptDato .TamaCamp {
+		font-size:10px;
+		max-width:40px;
+	}	
+
+	table.CaptDato .TamaCamp1 {
+		font-size:10px;
+		max-width:60px;
+	}	
+
+	table.CaptDato .TamaCamp2 {
+		font-size:10px;
+		max-width:100px;
+	}	
+
+	table.CaptDato .TamaCamp3 {
+		font-size:10px;
+		max-width:180px;
+	}	
+					 
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+	footer{
+	 font-size:8px;
+	}
+}
+
+@media only screen and (min-width : 769px) and (max-width : 1024px){
+	/*------------------------------------------------------
+						 Encabezado							*/
+	table.DatoServ{
+		font-size:9px;
+	}
+	/*------------------------------------------------------
+							Contenido						*/		
+							
+	table.CaptDato {
+	 font-size: 11px;
+	} 		
+	table.CaptDato .TamaCamp {
+		font-size:10px;
+		max-width:60px;
+	}	
+
+	table.CaptDato .TamaCamp1 {
+		font-size:10px;
+		max-width:80px;
+	}	
+
+	table.CaptDato .TamaCamp2 {
+		font-size:10px;
+		max-width:120px;
+	}	
+
+	table.CaptDato .TamaCamp3 {
+		font-size:10px;
+		max-width:200px;
+	}	
+							 
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+	footer{
+	 font-size:8px;
+	}
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1280px){
+	/*------------------------------------------------------
+						 Encabezado							*/
+	table.DatoServ{
+		font-size:9px;
+	}						 
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+	footer{
+	 font-size:8px;
+	}
+}
+
+@media only screen and (min-width : 1281px) and (max-width : 2500px){
+	/*------------------------------------------------------
+						 Encabezado							*/
+	table.DatoServ{
+		font-size:9px;
+	}						 
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+	footer{
+	 font-size:8px;
+	}
+}
+

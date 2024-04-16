@@ -1,0 +1,367 @@
+/* CSS Document */
+body {
+	top:2px;	
+}
+
+#foldheader {
+  cursor:hand ; 
+  font-weight:bold ;
+  list-style-image:url('/img/open.jpg')}
+  
+#foldinglist{
+  list-style-image:url('/img/fold.jpg')}
+
+/*------------------------------------------------------
+					 Encabezado							*/
+header{
+	grid-area: EncaPagi;   
+    top: 0;					/*Posiciona en la parte superior*/
+    left: 0px;				/*Posicion en el lado izquierdo*/
+    position: fixed;		/*El encabezado lo deja fijo*/
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    color: #333333;
+}
+
+.EncaAyun{
+	width:20%;
+	background:url(/img/SIMGA_intra03.png);
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:12px;
+	padding-left:10px; 
+	padding-top:10px;
+ }
+ 
+.EncaCuer{
+	width:60%;
+	text-align:left;
+	font-size:12px;
+	padding-top:10px;
+	padding-left:10px; 
+	background:#DDDDDD;
+	border-bottom-style:solid;
+	border-bottom-left-radius: 20px;
+	-webkiy-border-bottom-left-radius: 20px;
+	-moz-border-bottom-left-radius: 20px;
+	-o-border-bottom-left-radius: 20px;
+	-ms-border-bottom-left-radius: 20px;
+}
+
+.EncaOpci{
+	width:20%;
+	padding-right:10px;
+	background:#DDDDDD;
+	border-bottom-style:solid;
+}
+
+.OpciEnca{
+	width: 60%;
+	height:20px;
+}
+
+.OpciEnca {
+	transition: transform .5s;
+}
+
+.OpciEnca:hover{
+	transform: scale(1.5);
+}
+
+/*------------------------------------------------------
+					 Conetenido							*/
+section{
+   left: 0px;				/*Posicion en el lado izquierdo*/
+   top:45px;
+   margin-top:45px;
+   background:#CCCCCC;
+}
+					 
+.Contenido { 
+  min-height: calc(100vh - 130px);
+  /*padding-top:45px;*/
+   }
+  
+.ContMenu{
+  width:50%;
+  display:block;
+  background:#DDDDDD;				/*#DDDDDD*/
+  margin: 0 auto;
+  padding-left:5px; 
+  border-radius:5px;				/*para redonderar las esquinas*/
+}
+
+.PlecaTexto{
+  width:96%;
+  background: #333333;
+  color:#fff;
+  display: block;
+  padding: 2px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-radius: 3px;
+  -webkiy-border-radius: 3px;
+  -moz-border-radius: 3px;		/*Para Mozila*/
+  -o-border-radius: 3px;			/*Opera */
+  -ms-border-radius: 3px;
+}
+
+.ContImag{
+  width:50%;
+  position: relative;
+  display:block;
+  padding-left:10px; 
+  background:url(/img/SIMGA_intra05.png);
+}
+
+.ImagAyun { 
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px; 
+  display:block;
+  border-radius: 2%;			/*150px para hacer un circulo*/
+  -webkiy-border-radius: 2%;
+  -moz-border-radius: 2%;		/*Para Mozila*/
+  -o-border-radius: 2%;			/*Opera */
+  -ms-border-radius: 2%;
+}
+
+/*------------------------------------------------------
+					 Pie de Pagina						*/
+footer{
+	grid-area: PiePagi;
+	bottom:0;			/*Pocisionarse en la parte inferior */
+	left:0px;			/*Pocisionarse del lado izquierdo   */
+	position:fixed;		/*El Pie de paguina lo deja fijo    */
+    width: 100%;
+    height: 60px;
+	font-size:8px;
+	background: #333333;
+	color: #fff;
+	font-size:15px;
+	border-bottom-style:groove; 
+	border-bottom-color:#333333;
+}
+
+.PieColumna
+{ width: calc(100% / 2);
+}
+
+.flex{
+	display: flex;
+	flex-wrap:center; /*para ajustar las columnas*/
+}
+
+@media only screen and (min-width : 300px) and (max-width : 480px) {
+	/*------------------------------------------------------
+					 Encabezado							*/
+	.EncaAyun{
+		font-size:8px;
+		width:20%;
+	 }
+	 
+	.EncaCuer{
+		font-size:8px;
+		width:50%
+	}
+
+	.OpciEnca{
+		width: 40%;
+	}
+	
+	/*------------------------------------------------------
+					 Contenido							*/
+	.ContMenu{
+  	  font-size:12px; 
+	  width:100%; 
+	}	
+	
+	.ContImag{
+	display:none;
+	}
+	
+		
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+	footer{
+	 font-size:8px;
+	}
+
+	.ImagAyto{
+	 width:70%
+	}
+	
+
+}
+
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+	/*------------------------------------------------------
+					 Encabezado							*/	
+	.EncaAyun{
+		font-size:10px;
+		width:20%;
+	 }
+	 
+	.EncaCuer{
+		font-size:10px;
+		width:65%;
+	}
+	
+	.EncaOpci{
+		width:15%;
+	}	
+
+	.OpciEnca{
+	width: 47%;
+	}	
+	
+	/*------------------------------------------------------
+					 Contenido							*/
+	.ContMenu{
+  	  font-size:13px; 
+	  width:40%;
+	}	
+	
+	.ContImag{
+	  width:60%;
+	}  
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+	footer{
+	 font-size:8px;
+	}
+
+	.ImagAyto{
+	 width:50%;
+	}
+	
+}
+
+@media only screen and (min-width : 769px) and (max-width : 1024px){
+	/*------------------------------------------------------
+					 Encabezado							*/	
+	.EncaAyun{
+		width:18%;
+	 }
+	 
+	.EncaCuer{
+		width:67%;
+	}
+	
+	.EncaOpci{
+		width:15%;
+	}
+	
+	.OpciEnca{
+	width: 47%;
+	}
+		
+	/*------------------------------------------------------
+					 Contenido							*/
+	.ContMenu{
+  	  font-size:13px; 
+	  width:30%;
+	}	
+	
+	.ContImag{
+	  width:70%;
+	} 
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+	footer{
+	 font-size:8px;
+	}	
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1280px){
+	/*------------------------------------------------------
+					 Encabezado							*/	
+	.EncaAyun{
+		width:18%;
+	 }
+	 
+	.EncaCuer{
+		width:67%;
+	}
+
+	.EncaOpci{
+		width:15%;
+	}
+	
+	.OpciEnca{
+	width: 47%;
+	}
+	/*------------------------------------------------------
+					 Contenido							*/	
+	.ContMenu{
+  	  font-size:13px; 
+	  width:25%; 
+	  height: calc(100vh - 130px);
+	}	
+
+	.ImagAyun {
+		height:65%;
+	}
+	
+	.ContImag{
+	  width:75%;
+	}					 
+					 
+	.EncaOpci{
+		width:10%;
+	}
+
+
+	/*------------------------------------------------------
+					 Pie de pagina							*/	
+	footer{
+	 font-size:8px;
+	}	
+
+}
+
+@media only screen and (min-width : 1281px) and (max-width : 2500px){
+	/*------------------------------------------------------
+					 Encabezado							*/	
+	.EncaAyun{
+		width:18%;
+	 }
+	 
+	.EncaCuer{
+		width:67%;
+	}
+
+	.EncaOpci{
+		width:15%;
+	}
+	
+	.OpciEnca{
+	width: 47%;
+	}
+	/*------------------------------------------------------
+					 Contenido							*/	
+	.ContMenu{
+  	  font-size:13px; 
+	  width:25%; 
+	  height: calc(100vh - 130px);
+	}	
+
+	.ImagAyun {
+		height:75%;
+	}
+	
+	.ContImag{
+	  width:75%;
+	}					 
+					 
+	.EncaOpci{
+		width:10%;
+	}
+	
+	/*------------------------------------------------------
+					 Pie de pagina							*/
+   footer{
+	 font-size:8px;
+	}	
+}

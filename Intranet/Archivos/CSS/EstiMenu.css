@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #899487;
+	border: none; 
+}
+header{
+	width: 100%;
+	background-color: #813232;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+}
+header .logo_estado{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .logo_estado2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .info{
+	width:50%;
+	font-size: 1vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+	font-weight: 600;
+}
+
+.lista{
+	width: 50%;
+	height: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items:flex-start;
+	/* background-color: greenyellow; */
+}
+.lista a{
+	min-width: 20%;
+	height: 0.80em;
+	text-decoration: none;
+	color: #000000;
+	background-color: #a9a9a9;
+	/* margin: 1.5em 0;
+	margin-top: 0; */
+	display: flex;
+	justify-content:left;
+	align-items: center;
+	border: .1em solid #000000;
+	transition: all .3s ease-in-out;
+}
+.lista .enlace_primero{
+	background-color: rgb(83, 83, 83);
+}
+.lista .enlace_segundo{
+	background-color: rgb(154, 154, 154);
+}
+.lista .enlace_tercero{
+	background-color: rgb(237, 237, 237);
+}
+
+.lista .exit:hover{
+	background-color: #e62828;
+	transform: scale(1.01);
+	color: #fff;
+	box-shadow: .2em .2em .1em rgba(0, 0, 0, .8);
+}
+
+.barra-col{
+	/* background-color: #ff6600; */
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+.barra-col img{
+	height: 3vmin;
+    width: 100%;
+    /* position: relative;
+	padding: 0; */
+}
+
+.enlace1{
+	background: darkorchid;
+}

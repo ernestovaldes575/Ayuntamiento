@@ -1,0 +1,47 @@
+body {
+	background-color: #EBEBEB; 
+	top:2px;	
+}
+
+.RedoImag {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 300px;
+    width:  300px;
+	border-radius: 20%;				/*150px para hacer un circulo*/
+	-webkiy-border-radius: 20%;
+	-moz-border-radius: 20%;		/*Para Mozila*/
+	-o-border-radius: 20%;			/*Opera */
+	-ms-border-radius: 20%;
+    /* los siguientes valores son independientes del tamaño del círculo 
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+    background-size: 100% auto;*/
+}
+
+.ImagSIMGA {
+	border-radius: 20%;				/*150px para hacer un circulo*/
+	-webkiy-border-radius: 20%;
+	-moz-border-radius: 20%;		/*Para Mozila*/
+	-o-border-radius: 20%;			/*Opera */
+	-ms-border-radius: 20%;
+
+}
+
+@media(min-width:480px){
+    .ImagSIMGA{
+        width: 80%;
+    }
+}
+@media(min-width:768px){
+    .ImagSIMGA{
+        width: 50%;
+    }
+}
+
+@media(min-width:1024px){
+    .ImagSIMGA{
+        width: 40%;
+    }
+}
+

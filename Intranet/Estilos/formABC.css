@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	background-color: #D4C19C;
+}
+/*inicio de encabezado*/
+header{
+	width: 100%;
+	height: 25%;
+	background-color: #621132;
+	position: relative;
+}
+/*logo izquierdo*/
+header .logo_estado{
+	width: 9%;
+	float: left;
+	text-align: center;
+}
+header .logo_estado .estado{
+	width: 80%;
+	height: 90%;
+	margin-top: 9;
+}
+/*logo derecho*/
+header .logo_opd{
+	width: 10%;
+	float: right;
+	text-align: center;
+}
+header .logo_opd .OPD{
+ 	width: 95%;
+	height: 97%;
+	margin-top: 7%;
+	margin-right: 10%;
+}
+/*informacion de la entidad+*/
+header .info{
+	width: 80%;
+	display: inline-block;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+header .info h1{
+	margin-top: 2%;
+	font-size: 2em;
+}
+header .info h2{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 1.3em;
+}
+/*fin del encabezao*/
+/*fecha*/
+.apartado_fecha{
+	width: 100%;
+	height: 10%;
+	background: rgba(199, 21, 133, 1);
+	padding: .3%;
+	color: #fff;
+	text-align: right;
+}
+.apartado_fecha .fecha{
+	margin-right: 3%;
+}
+/*formulario de registro*/
+.principal{
+	width: 60%;
+	margin: auto;
+	background-color: #fff;
+	color: #111;
+    box-shadow: 0 5px 10px rgba(0 0 0 /50%)/*sobra del formulario*/
+}
+.principal h1{
+	text-align: center;
+	margin-top: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #621132;
+	color: #fff;
+}
+.principal form{
+  background-color: none;
+  width: 92%;
+  padding: 1em;
+  margin: auto;
+}
+.principal form table{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.principal form table tr .etiqueta{
+	padding: 1%;
+	width: 30%;
+	text-align: left;
+}
+.principal form table tr .contenido{
+	width: 70%;
+	padding: 1%;
+}
+input[type=text], input[type=date]{
+	border: none;
+  font-size: 1em;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  outline: none;
+  margin-bottom: 0.3em;
+  padding: .3em 0.3em;
+  text-align: center;
+}
+.principal form .botones{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;/*dejar espaciado hacia los extremos*/
+  margin-top: 1em; 
+}
+.principal form .botones .registrar, .principal form .botones .cancelar{
+  border: none;
+  border-radius: 3px;
+  display: block;
+  font-size: 1.2em;
+  padding: 0.4em 1.0em;
+  outline: none;
+  cursor: pointer;/*manita del cursor*/
+}
+.principal form .botones .cancelar, .principal form .botones .registrar{
+  background-color: #621132;
+  text-decoration: none;
+  color: #FFF;
+}

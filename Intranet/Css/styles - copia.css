@@ -1,0 +1,501 @@
+body 
+{
+ font-family: Arial;
+ text-align: left;
+ padding: 0px;
+ margin: 0;
+ /*background: #FFF url('plecafondo.jpg') repeat-x;*/
+ background: #FFF;
+ font: 70%/1.3 Arial,Helvetica,Verdana,sans-serif
+}
+
+
+#ssoFront 
+{
+ margin: 0px auto; /* centers ssoFront in modern browsers (i.e, not IE) */
+ margin-top: 30px;
+ width: 600px;
+ border: 1px solid #999999;
+ background: #FFFFFF url("images/ssoBackground.gif");
+ height: 500px;
+}
+
+#ssoContent 
+{
+ text-align: left; /* fix for centering hacks */
+ background: #FFFFFF;
+ float: left;
+ max-width: 340px;
+ margin: 1px;
+ padding: 30px 20px 20px 30px;
+}
+
+#intro 
+{
+ margin-top: 15px;
+}
+
+#intro h2, #intro a 
+{
+ color: #D4100A;
+ font-weight: bold;
+}
+
+#PopUp
+{
+  display: none;
+  position: absolute;
+  left: 532px;
+  top: 89px;
+  border: solid #999 1px;
+  padding: 10px;
+  background-color: #E8F7F1;
+  text-align: justify;
+  font-size: 12px;
+  width: 250px;
+}
+
+#ClosePopUp
+{
+  width: 100%;
+  background-color: #006633;
+  text-align: right;
+  margin-left: 2px;
+  margin-top: 0px;
+}
+
+#InicioEtiqueta
+{
+ width: 95%;
+ font-size: 14px;
+ font-weight: bold;
+ background-image:  url('th_degradado.jpg'); background-repeat: repeat;
+ border: 1px solid #999;
+ color: #388960;
+ padding: 9 9 9 9;
+}
+
+#InicioTituloSistema
+{
+ width: 100%;
+ font-size: 12px;
+ font-weight: bold;
+ color: #006600;
+ padding: 4 4 4 4;
+ margin-top: 15px;
+ margin-left: 10px;
+}
+
+table.InicioSistema
+{
+ width: 90%;
+ font-size: 10px;
+ margin-left: 10px;
+ margin-bottom: 10px;
+ border-collapse: collapse;
+ background: #FFF;
+}
+
+table.InicioSistema td 
+{
+ padding: 4 4 4 4px;
+ text-align: left;
+ font-size: 13px;
+ font-weight: bold;
+ /*border: 1px solid #999;*/
+background: #FFECB0;
+ 
+}
+
+#noticias
+{
+ padding: 4 4 4 4px;
+ text-align: left;
+ font-size: 13px;
+ font-weight: bold;
+ border: 1px solid #999;
+ background: #F2F2F2;
+}
+
+.destacado
+{
+ padding: 4 4 4 15px;
+ font-size: 13px;
+ font-weight: bold;
+ color: #388960;
+}
+
+.listaNoticias
+{
+ font-size: 12px;
+ list-style-position: outside;
+ list-style-image: url(minibullet.gif);
+}
+
+
+#Top
+{
+ width: 777px;
+ margin-top: 2px;
+ margin-left: 2px;
+ margin-bottom: 20px;
+ border-collapse: collapse;
+ border: 1px solid #999;
+ background: #E8F7F1;
+}
+
+#TopServicio 
+{
+ color: #006600;
+ font-size: 13px;
+ font-weight: bold;
+ padding-left: 10px;
+ padding-top: 10px;
+ background: #FFF url('logo_issemym_intranet.gif') 99% 0 no-repeat;
+ width: 777px;
+ height: 35px;
+ 
+}
+
+#TopUnidadMedica 
+{
+ color: #FFF;
+ font-size: 10px;
+ font-weight: bold;
+ padding: 4 4 4 0;
+ text-align: right;
+ background: #388960 url('pleca_intranet_issemym.jpg') 100% 0 no-repeat;
+ width: 777px;
+ 
+}
+
+#TopDescOpcion 
+{
+ color: #E37043;
+ font-size: 14px;
+ font-weight: bold;
+ padding: 4 4 4 8;
+ 
+}
+
+#TopFechaSistema 
+{
+ color: #006600;
+ font-size: 10px;
+ font-weight: bold;
+ padding: 4 4 4 4;
+ text-align: center;
+}
+
+#TopPopUp
+{
+  display: none;
+  position: absolute;
+  left: 532px;
+  top: 89px;
+  border: solid #999 1px;
+  padding: 10px;
+  background-color: #E8F7F1;
+  text-align: justify;
+  font-size: 12px;
+  width: 250px;
+}
+
+#TopClosePopUp
+{
+  width: 100%;
+  background-color: #006633;
+  text-align: right;
+  margin-left: 2px;
+  margin-top: 0px;
+}
+
+#opcionesDeMenu
+{
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+
+table.TopSubmenu
+{
+ width: 100%;
+ font-size: 12px;
+}
+
+table.TopSubmenu th
+{
+ font-size: 12px;
+ font-weight: bold;
+ background-color: #E16C4A;
+ color: #FFF;
+}
+
+table.TopSubmenu td
+{
+ font-size: 12px;
+ font-weight: bold;
+ margin: 0 0 0 0px;
+ padding: 0 0 0 0px;
+}
+
+
+a.opcionSubmenu, a.opcionSubmenu:visited, a.opcionSubmenu:link
+{
+ color: #006600;
+ width: 100%;
+ background-color: #FFF;
+ font-size: 12px;
+ text-decoration: none;
+ padding: 4 4 4 7;
+ font-weight: bold;
+}
+
+a.opcionSubmenu:hover
+{
+ background-color: #FFECB0;
+ color: #E16C4A;
+}
+
+p 
+{
+ margin: 0 0 2px 0;
+}
+
+#inputs 
+{
+ float: left;
+ width: 165px;
+ margin-bottom: 25px;
+}
+
+#inputs label 
+{
+ font-weight: bold;
+ color: #D4100A;
+ float: left;
+}
+
+#inputs p 
+{
+ text-align: right;
+ margin: 10px 10px 3px 0;
+}
+
+#options label 
+{
+ color: #000000;
+}
+
+#options p 
+{
+ margin-left: 23px;
+ margin-bottom: 8px;
+}
+
+#options 
+{
+ margin: 20px 0 30px 0;
+ clear: left;
+}
+
+strong 
+{
+ font-weight: bold;
+}
+
+#inputs, #inputs p,#error, #error p 
+{
+ color: #D4100A;
+}
+
+form 
+{
+ margin: 0;
+ padding: 0;
+}
+
+a, a:link, a:active 
+{ 
+ color: #CA4E1E; 
+ font-family: Arial,Helvetica,Verdana,sans-serif;
+}
+
+a:visited 
+{
+ color: #717171;
+}
+
+a:hover 
+{
+ color: #E16C4A;
+}
+
+table.consolita
+{
+ width: 777px;
+ margin-left: 2px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ /*border-collapse: collapse;
+ border: 1px solid #999;
+ background: #F7F7F7;*/
+}
+
+table.consolita td 
+{
+ padding: 8 4 4 8px;
+}
+
+table.resultados1
+{
+ font-size: 10px;
+ margin: 2px;
+ border-collapse: collapse;
+ background: #FFF;
+}
+
+table.resultados1 th 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 11px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ background-image:  url('th_degradado.jpg'); background-repeat: repeat
+}
+
+table.resultados
+{
+ width: 777px;
+ font-size: 10px;
+ margin: 2px;
+ border-collapse: collapse;
+ background: #FFF;
+}
+
+table.resultados th 
+{
+ padding: 4 4 4 4px;
+ text-align: center;
+ font-size: 11px;
+ border: 1px solid #999;
+ background: #E8F7F1;
+ background-image:  url('th_degradado.jpg'); background-repeat: repeat
+}
+
+table.resultados tr.nones
+{
+ background: #F4FBF8;
+}
+
+table.resultados tr.pares
+{
+ background: #fff;
+}
+
+table.resultados td.nones
+{
+ background: #F4FBF8;
+}
+
+table.resultados td.pares
+{
+ background: #fff;
+}
+
+table.resultados td.nonesverde
+{
+ background: #CCFFCC;
+}
+
+table.resultados td.paresverde
+{
+ background: #EAFFEA;
+}
+
+table.resultados td.nonesamarillo
+{
+ background: #FFFFB0;
+}
+
+table.resultados td.paresamarillo
+{
+ background: #FFFFDD;
+}
+
+table.resultados td.nonesrojo
+{
+ background: #FFDFDF;
+}
+
+table.resultados td.paresrojo
+{
+ background: #FFF0F0;
+}
+
+table.resultados td.nonesnegro
+{
+ background: #D1D1D1;
+}
+
+table.resultados td.paresnegro
+{
+ background: #E1E1E1;
+}
+
+table.resultados td.nonesgris
+{
+ background: #EFEFEF;
+}
+
+table.resultados td.paresgris
+{
+ background: #F5F5F5;
+}
+
+table.resultados tr.separador
+{
+ background: #ccc;
+ background-image:  url('separador.gif'); background-repeat: repeat
+}
+
+table.resultados tr.totalfinal
+{
+ background: #ccc;
+ font-weight: bold;
+ background-image:  url('resultadofinal_degradado.jpg'); background-repeat: repeat
+}
+
+
+table.resultados td 
+{
+ border-left: 1px solid #CCC;
+ border-right: 1px solid #CCC;
+ border-bottom: 1px solid #B9E6D2;
+ padding: 4 4 4 4px;
+}
+
+
+
+table.resultados td+td 
+{
+ border-left: 1px solid #CCC;
+ text-align: center;
+}
+
+.etiqueta
+{
+ font-size: 12px;
+ font-weight: bold;
+ margin-left: 2px;
+ margin-right: 5px;
+}
+
+.contenido
+{
+ font-size: 12px;
+ font-weight: normal;
+ margin-left: 2px;
+ margin-right: 5px;
+}
