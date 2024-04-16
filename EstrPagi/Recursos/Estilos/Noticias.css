@@ -1,0 +1,8 @@
+@import url(Colores.css);
+/* .contenedor-conac{width: 100; display: grid; place-items: center;} */
+/* .contenedor-conac-centrar{width: 85%;} */
+.contenedor-conac h1{text-shadow:.01em .01em .1em var(--Gray-600);}
+
+.contenedor-layer{width: 100%; height: 100%;}
+.contenedor-layer img{width: 100%;height: 25vh;}
+/* @media (max-width: 1028px){.contenedor-conac h1{font-size: 1.5em;}} */
