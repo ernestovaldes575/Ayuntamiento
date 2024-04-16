@@ -1,0 +1,26 @@
+@import url(Colores.css);
+.contenedor--titulo {
+    width:100%;
+    display:grid;
+    place-items:center;
+    margin:2em 0
+}
+.contenedor--titulo--posicion {
+    width:85%;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+.contenedor--titulo--posicion--contenido {
+    font-size:3.5em;
+    text-transform:uppercase;
+    text-shadow:1px 1px 1px var(--Neutral-700),2px 2px 1px var(--Neutral-500);
+    font-weight:600;
+    color:var(--Slate-800);
+    overflow:hidden
+}
+@media (max-width:540px) {
+    .contenedor--titulo--posicion--contenido{
+        font-size:2em;
+    }
+}

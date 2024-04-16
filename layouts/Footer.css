@@ -1,0 +1,75 @@
+.footer{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 2em;
+    background-image: url(https://img.freepik.com/vector-gratis/minimo-fondo-blanco-gris-lineas-onduladas_1017-25099.jpg?w=2000);
+    background-position: bottom;
+    background-size: cover;
+}
+.footer .contenedor__principal{
+    display: grid;
+    place-content: center;
+    padding: 2em;
+}
+.footer .contenedor__principal{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 2em;
+}
+.footer .contenedor__principal img{
+    width: 60%;
+    margin-bottom: .5em;
+}
+.footer .logo div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #abaaaa;
+    text-align: center;
+}
+.footer .enlaces{
+    display: grid;
+    grid-column: 2/4;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    /*font-size: 1em;*/
+    color: #70635A;
+    font-weight: 600;
+}
+.footer .enlaces ul li{
+    text-transform: uppercase;   
+}
+.footer-2{
+    width: 100%;
+    text-align: center;
+    background: rgb(135,135,135);
+    background: linear-gradient(45deg, rgba(135,135,135,1) 25%, 
+                                        rgba(217,217,217,1) 85%);
+    font-weight: 600;
+    padding: 1em;
+    font-size: 1.1em;
+}
+@media screen and (max-width:1400px){
+    .footer .enlaces{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width:1400px){
+    .footer .contenedor__principal{ 
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 0;
+    }
+    .footer .logo{
+        /* background-color: goldenrod; */
+        grid-column: 1/4;
+        grid-row: 1/2;
+        margin-bottom: 2em;
+    }
+    .footer .enlaces{
+        grid-column: 2/2;
+    }
+}

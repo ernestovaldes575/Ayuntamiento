@@ -1,0 +1,218 @@
+@charset "UTF-8";
+:root {
+    --negro:#393939;
+    --tipo-principal:Helvetica,Arial,sans-serif;
+    --tipo-secundaria:Verdana;
+    --font-size:1
+}
+@media (prefers-color-scheme:dark) {
+    :root {
+        --negro:#000000
+    }
+}
+@media (prefers-reduced-motion:reduce) {
+    * {
+        -webkit-animation:none!important;
+        animation:none!important;
+        -webkit-transition:none!important;
+        transition:none!important
+    }
+}
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    vertical-align:baseline
+}
+figure,iframe,img,picture,video {
+    max-width:100%;
+    width:100%;
+    display:block;
+    -o-object-fit:cover;
+    object-fit:cover;
+    -o-object-position:center center;
+    object-position:center center
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+p a {
+    display:inline
+}
+li {
+    list-style-type:none
+}
+html {
+    scroll-behavior:smooth
+}
+a,b,blockquote,em,h1,h2,h3,h4,h5,h6,i,p,span,strong,u {
+    font-size:1em;
+    font-weight:inherit;
+    font-style:inherit;
+    text-decoration:none;
+    color:inherit
+}
+blockquote:after,blockquote:before,q:after,q:before {
+    content:"";
+    content:none
+}
+::-moz-selection {
+    background-color:#1acae1;
+    color:var(--blanco)
+}
+::selection {
+    background-color:#1acae1;
+    color:var(--blanco)
+}
+button,form,input,label,select,textarea {
+    font-family:inherit;
+    font-size:inherit;
+    -webkit-hyphens:auto;
+    -ms-hyphens:auto;
+    hyphens:auto;
+    background-color:transparent;
+    color:inherit;
+    display:block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none
+}
+table,td,tr {
+    border-collapse:collapse;
+    border-spacing:0
+}
+svg {
+    width:100%;
+    display:block;
+    fill:currentColor
+}
+body {
+    min-height:100vh;
+    font-family:var(--tipo-principal);
+    -webkit-hyphens:auto;
+    -ms-hyphens:auto;
+    hyphens:auto;
+    -font-smooth:always;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+body::-webkit-scrollbar {
+    width:.5em
+}
+body::-webkit-scrollbar-thumb {
+    background:#717171;
+    border-radius:10em
+}
+body.bg-gray {
+    filter:grayscale(1);
+    transition:.4s ease-in-out
+}
+body.bg-invert {
+    filter:invert(100%);
+    transition:.4s ease-in-out
+}
+
+/* @charset "UTF-8";
+
+@media (prefers-reduced-motion: reduce) {
+*{
+    -webkit-animation: none !important;
+            animation: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+img, picture, video, iframe, figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+p a {
+    display: inline;
+}
+li {
+    list-style-type: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+    content: none;
+}
+::-moz-selection {
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+::selection {
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+form, input, textarea, select, button, label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    background-color: transparent;
+    color: inherit;
+    display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+table, tr, td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    font-family: var(--tipo-principal);
+    color: var(--negro);
+    line-height: 1.4em;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
