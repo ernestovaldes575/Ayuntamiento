@@ -15,7 +15,7 @@
     </div>
     <div class="container gap-3 d-flex justify-content-center gap-3">
         <p class="btn-1">
-            btn-1
+            btn-
         </p>
         <p class="btn-2">
             btn-2
