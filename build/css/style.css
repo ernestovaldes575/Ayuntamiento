@@ -2435,7 +2435,7 @@ textarea.form-control-lg {
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
 }
-.btn-check[disabled] + .btn, .btn-check[disabled] + .btn-Eliminar, .btn-check[disabled] + .btn-Modificar, .btn-check[disabled] + .btn-Nuevo, .btn-check[disabled] + .btn-Regresar, .btn-check[disabled] + .btn-Submit, .btn-check[disabled] + .btn-Subir, .btn-check[disabled] + .btn-Visualizar, .btn-check[disabled] + .btn-1, .btn-check[disabled] + .btn-2, .btn-check[disabled] + .btn-3, .btn-check[disabled] + .btn-Elim, .btn-check[disabled] + .btn-5, .btn-check[disabled] + .btn-6, .btn-check[disabled] + .btn-Modi, .btn-check[disabled] + .btn-Alta, .btn-check[disabled] + .btn-9, .btn-check[disabled] + .btn-10, .btn-check:disabled + .btn, .btn-check:disabled + .btn-Eliminar, .btn-check:disabled + .btn-Modificar, .btn-check:disabled + .btn-Nuevo, .btn-check:disabled + .btn-Regresar, .btn-check:disabled + .btn-Submit, .btn-check:disabled + .btn-Subir, .btn-check:disabled + .btn-Visualizar, .btn-check:disabled + .btn-1, .btn-check:disabled + .btn-2, .btn-check:disabled + .btn-3, .btn-check:disabled + .btn-Elim, .btn-check:disabled + .btn-5, .btn-check:disabled + .btn-6, .btn-check:disabled + .btn-Modi, .btn-check:disabled + .btn-Alta, .btn-check:disabled + .btn-9, .btn-check:disabled + .btn-10 {
+.btn-check[disabled] + .btn, .btn-check[disabled] + .btn-Eliminar, .btn-check[disabled] + .btn-Modificar, .btn-check[disabled] + .btn-Nuevo, .btn-check[disabled] + .btn-Regresar, .btn-check[disabled] + .btn-Submit, .btn-check[disabled] + .btn-Subir, .btn-check[disabled] + .btn-Visualizar, .btn-check[disabled] + .btn-01, .btn-check[disabled] + .btn-02, .btn-check[disabled] + .btn-03, .btn-check[disabled] + .btn-04, .btn-check[disabled] + .btn-05, .btn-check[disabled] + .btn-06, .btn-check[disabled] + .btn-07, .btn-check[disabled] + .btn-08, .btn-check[disabled] + .btn-09, .btn-check[disabled] + .btn-10, .btn-check[disabled] + .btn-11, .btn-check[disabled] + .btn-12, .btn-check[disabled] + .btn-13, .btn-check[disabled] + .btn-14, .btn-check[disabled] + .btn-15, .btn-check[disabled] + .btn-16, .btn-check[disabled] + .btn-17, .btn-check[disabled] + .btn-18, .btn-check[disabled] + .btn-19, .btn-check[disabled] + .btn-20, .btn-check[disabled] + .btn-Alta, .btn-check[disabled] + .btn-Modi, .btn-check[disabled] + .btn-Elim, .btn-check[disabled] + .btn-Regr, .btn-check:disabled + .btn, .btn-check:disabled + .btn-Eliminar, .btn-check:disabled + .btn-Modificar, .btn-check:disabled + .btn-Nuevo, .btn-check:disabled + .btn-Regresar, .btn-check:disabled + .btn-Submit, .btn-check:disabled + .btn-Subir, .btn-check:disabled + .btn-Visualizar, .btn-check:disabled + .btn-01, .btn-check:disabled + .btn-02, .btn-check:disabled + .btn-03, .btn-check:disabled + .btn-04, .btn-check:disabled + .btn-05, .btn-check:disabled + .btn-06, .btn-check:disabled + .btn-07, .btn-check:disabled + .btn-08, .btn-check:disabled + .btn-09, .btn-check:disabled + .btn-10, .btn-check:disabled + .btn-11, .btn-check:disabled + .btn-12, .btn-check:disabled + .btn-13, .btn-check:disabled + .btn-14, .btn-check:disabled + .btn-15, .btn-check:disabled + .btn-16, .btn-check:disabled + .btn-17, .btn-check:disabled + .btn-18, .btn-check:disabled + .btn-19, .btn-check:disabled + .btn-20, .btn-check:disabled + .btn-Alta, .btn-check:disabled + .btn-Modi, .btn-check:disabled + .btn-Elim, .btn-check:disabled + .btn-Regr {
   pointer-events: none;
   filter: none;
   opacity: 0.65;
@@ -2636,11 +2636,11 @@ textarea.form-control-lg {
 .input-group > .form-floating:focus-within {
   z-index: 5;
 }
-.input-group .btn, .input-group .btn-Eliminar, .input-group .btn-Modificar, .input-group .btn-Nuevo, .input-group .btn-Regresar, .input-group .btn-Submit, .input-group .btn-Subir, .input-group .btn-Visualizar, .input-group .btn-1, .input-group .btn-2, .input-group .btn-3, .input-group .btn-Elim, .input-group .btn-5, .input-group .btn-6, .input-group .btn-Modi, .input-group .btn-Alta, .input-group .btn-9, .input-group .btn-10 {
+.input-group .btn, .input-group .btn-Eliminar, .input-group .btn-Modificar, .input-group .btn-Nuevo, .input-group .btn-Regresar, .input-group .btn-Submit, .input-group .btn-Subir, .input-group .btn-Visualizar, .input-group .btn-01, .input-group .btn-02, .input-group .btn-03, .input-group .btn-04, .input-group .btn-05, .input-group .btn-06, .input-group .btn-07, .input-group .btn-08, .input-group .btn-09, .input-group .btn-10, .input-group .btn-11, .input-group .btn-12, .input-group .btn-13, .input-group .btn-14, .input-group .btn-15, .input-group .btn-16, .input-group .btn-17, .input-group .btn-18, .input-group .btn-19, .input-group .btn-20, .input-group .btn-Alta, .input-group .btn-Modi, .input-group .btn-Elim, .input-group .btn-Regr {
   position: relative;
   z-index: 2;
 }
-.input-group .btn:focus, .input-group .btn-Eliminar:focus, .input-group .btn-Modificar:focus, .input-group .btn-Nuevo:focus, .input-group .btn-Regresar:focus, .input-group .btn-Submit:focus, .input-group .btn-Subir:focus, .input-group .btn-Visualizar:focus, .input-group .btn-1:focus, .input-group .btn-2:focus, .input-group .btn-3:focus, .input-group .btn-Elim:focus, .input-group .btn-5:focus, .input-group .btn-6:focus, .input-group .btn-Modi:focus, .input-group .btn-Alta:focus, .input-group .btn-9:focus, .input-group .btn-10:focus {
+.input-group .btn:focus, .input-group .btn-Eliminar:focus, .input-group .btn-Modificar:focus, .input-group .btn-Nuevo:focus, .input-group .btn-Regresar:focus, .input-group .btn-Submit:focus, .input-group .btn-Subir:focus, .input-group .btn-Visualizar:focus, .input-group .btn-01:focus, .input-group .btn-02:focus, .input-group .btn-03:focus, .input-group .btn-04:focus, .input-group .btn-05:focus, .input-group .btn-06:focus, .input-group .btn-07:focus, .input-group .btn-08:focus, .input-group .btn-09:focus, .input-group .btn-10:focus, .input-group .btn-11:focus, .input-group .btn-12:focus, .input-group .btn-13:focus, .input-group .btn-14:focus, .input-group .btn-15:focus, .input-group .btn-16:focus, .input-group .btn-17:focus, .input-group .btn-18:focus, .input-group .btn-19:focus, .input-group .btn-20:focus, .input-group .btn-Alta:focus, .input-group .btn-Modi:focus, .input-group .btn-Elim:focus, .input-group .btn-Regr:focus {
   z-index: 5;
 }
 
@@ -2670,16 +2670,30 @@ textarea.form-control-lg {
 .input-group-lg > .btn-Submit,
 .input-group-lg > .btn-Subir,
 .input-group-lg > .btn-Visualizar,
-.input-group-lg > .btn-1,
-.input-group-lg > .btn-2,
-.input-group-lg > .btn-3,
-.input-group-lg > .btn-Elim,
-.input-group-lg > .btn-5,
-.input-group-lg > .btn-6,
-.input-group-lg > .btn-Modi,
+.input-group-lg > .btn-01,
+.input-group-lg > .btn-02,
+.input-group-lg > .btn-03,
+.input-group-lg > .btn-04,
+.input-group-lg > .btn-05,
+.input-group-lg > .btn-06,
+.input-group-lg > .btn-07,
+.input-group-lg > .btn-08,
+.input-group-lg > .btn-09,
+.input-group-lg > .btn-10,
+.input-group-lg > .btn-11,
+.input-group-lg > .btn-12,
+.input-group-lg > .btn-13,
+.input-group-lg > .btn-14,
+.input-group-lg > .btn-15,
+.input-group-lg > .btn-16,
+.input-group-lg > .btn-17,
+.input-group-lg > .btn-18,
+.input-group-lg > .btn-19,
+.input-group-lg > .btn-20,
 .input-group-lg > .btn-Alta,
-.input-group-lg > .btn-9,
-.input-group-lg > .btn-10 {
+.input-group-lg > .btn-Modi,
+.input-group-lg > .btn-Elim,
+.input-group-lg > .btn-Regr {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: var(--bs-border-radius-lg);
@@ -2696,16 +2710,30 @@ textarea.form-control-lg {
 .input-group-sm > .btn-Submit,
 .input-group-sm > .btn-Subir,
 .input-group-sm > .btn-Visualizar,
-.input-group-sm > .btn-1,
-.input-group-sm > .btn-2,
-.input-group-sm > .btn-3,
-.input-group-sm > .btn-Elim,
-.input-group-sm > .btn-5,
-.input-group-sm > .btn-6,
-.input-group-sm > .btn-Modi,
+.input-group-sm > .btn-01,
+.input-group-sm > .btn-02,
+.input-group-sm > .btn-03,
+.input-group-sm > .btn-04,
+.input-group-sm > .btn-05,
+.input-group-sm > .btn-06,
+.input-group-sm > .btn-07,
+.input-group-sm > .btn-08,
+.input-group-sm > .btn-09,
+.input-group-sm > .btn-10,
+.input-group-sm > .btn-11,
+.input-group-sm > .btn-12,
+.input-group-sm > .btn-13,
+.input-group-sm > .btn-14,
+.input-group-sm > .btn-15,
+.input-group-sm > .btn-16,
+.input-group-sm > .btn-17,
+.input-group-sm > .btn-18,
+.input-group-sm > .btn-19,
+.input-group-sm > .btn-20,
 .input-group-sm > .btn-Alta,
-.input-group-sm > .btn-9,
-.input-group-sm > .btn-10 {
+.input-group-sm > .btn-Modi,
+.input-group-sm > .btn-Elim,
+.input-group-sm > .btn-Regr {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   border-radius: var(--bs-border-radius-sm);
@@ -2921,7 +2949,7 @@ textarea.form-control-lg {
   z-index: 4;
 }
 
-.btn, .btn-Eliminar, .btn-Modificar, .btn-Nuevo, .btn-Regresar, .btn-Submit, .btn-Subir, .btn-Visualizar, .btn-1, .btn-2, .btn-3, .btn-Elim, .btn-5, .btn-6, .btn-Modi, .btn-Alta, .btn-9, .btn-10 {
+.btn, .btn-Eliminar, .btn-Modificar, .btn-Nuevo, .btn-Regresar, .btn-Submit, .btn-Subir, .btn-Visualizar, .btn-01, .btn-02, .btn-03, .btn-04, .btn-05, .btn-06, .btn-07, .btn-08, .btn-09, .btn-10, .btn-11, .btn-12, .btn-13, .btn-14, .btn-15, .btn-16, .btn-17, .btn-18, .btn-19, .btn-20, .btn-Alta, .btn-Modi, .btn-Elim, .btn-Regr {
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
   --bs-btn-font-family: ;
@@ -2955,44 +2983,44 @@ textarea.form-control-lg {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  .btn, .btn-Eliminar, .btn-Modificar, .btn-Nuevo, .btn-Regresar, .btn-Submit, .btn-Subir, .btn-Visualizar, .btn-1, .btn-2, .btn-3, .btn-Elim, .btn-5, .btn-6, .btn-Modi, .btn-Alta, .btn-9, .btn-10 {
+  .btn, .btn-Eliminar, .btn-Modificar, .btn-Nuevo, .btn-Regresar, .btn-Submit, .btn-Subir, .btn-Visualizar, .btn-01, .btn-02, .btn-03, .btn-04, .btn-05, .btn-06, .btn-07, .btn-08, .btn-09, .btn-10, .btn-11, .btn-12, .btn-13, .btn-14, .btn-15, .btn-16, .btn-17, .btn-18, .btn-19, .btn-20, .btn-Alta, .btn-Modi, .btn-Elim, .btn-Regr {
     transition: none;
   }
 }
-.btn:hover, .btn-Eliminar:hover, .btn-Modificar:hover, .btn-Nuevo:hover, .btn-Regresar:hover, .btn-Submit:hover, .btn-Subir:hover, .btn-Visualizar:hover, .btn-1:hover, .btn-2:hover, .btn-3:hover, .btn-Elim:hover, .btn-5:hover, .btn-6:hover, .btn-Modi:hover, .btn-Alta:hover, .btn-9:hover, .btn-10:hover {
+.btn:hover, .btn-Eliminar:hover, .btn-Modificar:hover, .btn-Nuevo:hover, .btn-Regresar:hover, .btn-Submit:hover, .btn-Subir:hover, .btn-Visualizar:hover, .btn-01:hover, .btn-02:hover, .btn-03:hover, .btn-04:hover, .btn-05:hover, .btn-06:hover, .btn-07:hover, .btn-08:hover, .btn-09:hover, .btn-10:hover, .btn-11:hover, .btn-12:hover, .btn-13:hover, .btn-14:hover, .btn-15:hover, .btn-16:hover, .btn-17:hover, .btn-18:hover, .btn-19:hover, .btn-20:hover, .btn-Alta:hover, .btn-Modi:hover, .btn-Elim:hover, .btn-Regr:hover {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
   border-color: var(--bs-btn-hover-border-color);
 }
-.btn-check + .btn:hover, .btn-check + .btn-Eliminar:hover, .btn-check + .btn-Modificar:hover, .btn-check + .btn-Nuevo:hover, .btn-check + .btn-Regresar:hover, .btn-check + .btn-Submit:hover, .btn-check + .btn-Subir:hover, .btn-check + .btn-Visualizar:hover, .btn-check + .btn-1:hover, .btn-check + .btn-2:hover, .btn-check + .btn-3:hover, .btn-check + .btn-Elim:hover, .btn-check + .btn-5:hover, .btn-check + .btn-6:hover, .btn-check + .btn-Modi:hover, .btn-check + .btn-Alta:hover, .btn-check + .btn-9:hover, .btn-check + .btn-10:hover {
+.btn-check + .btn:hover, .btn-check + .btn-Eliminar:hover, .btn-check + .btn-Modificar:hover, .btn-check + .btn-Nuevo:hover, .btn-check + .btn-Regresar:hover, .btn-check + .btn-Submit:hover, .btn-check + .btn-Subir:hover, .btn-check + .btn-Visualizar:hover, .btn-check + .btn-01:hover, .btn-check + .btn-02:hover, .btn-check + .btn-03:hover, .btn-check + .btn-04:hover, .btn-check + .btn-05:hover, .btn-check + .btn-06:hover, .btn-check + .btn-07:hover, .btn-check + .btn-08:hover, .btn-check + .btn-09:hover, .btn-check + .btn-10:hover, .btn-check + .btn-11:hover, .btn-check + .btn-12:hover, .btn-check + .btn-13:hover, .btn-check + .btn-14:hover, .btn-check + .btn-15:hover, .btn-check + .btn-16:hover, .btn-check + .btn-17:hover, .btn-check + .btn-18:hover, .btn-check + .btn-19:hover, .btn-check + .btn-20:hover, .btn-check + .btn-Alta:hover, .btn-check + .btn-Modi:hover, .btn-check + .btn-Elim:hover, .btn-check + .btn-Regr:hover {
   color: var(--bs-btn-color);
   background-color: var(--bs-btn-bg);
   border-color: var(--bs-btn-border-color);
 }
-.btn:focus-visible, .btn-Eliminar:focus-visible, .btn-Modificar:focus-visible, .btn-Nuevo:focus-visible, .btn-Regresar:focus-visible, .btn-Submit:focus-visible, .btn-Subir:focus-visible, .btn-Visualizar:focus-visible, .btn-1:focus-visible, .btn-2:focus-visible, .btn-3:focus-visible, .btn-Elim:focus-visible, .btn-5:focus-visible, .btn-6:focus-visible, .btn-Modi:focus-visible, .btn-Alta:focus-visible, .btn-9:focus-visible, .btn-10:focus-visible {
+.btn:focus-visible, .btn-Eliminar:focus-visible, .btn-Modificar:focus-visible, .btn-Nuevo:focus-visible, .btn-Regresar:focus-visible, .btn-Submit:focus-visible, .btn-Subir:focus-visible, .btn-Visualizar:focus-visible, .btn-01:focus-visible, .btn-02:focus-visible, .btn-03:focus-visible, .btn-04:focus-visible, .btn-05:focus-visible, .btn-06:focus-visible, .btn-07:focus-visible, .btn-08:focus-visible, .btn-09:focus-visible, .btn-10:focus-visible, .btn-11:focus-visible, .btn-12:focus-visible, .btn-13:focus-visible, .btn-14:focus-visible, .btn-15:focus-visible, .btn-16:focus-visible, .btn-17:focus-visible, .btn-18:focus-visible, .btn-19:focus-visible, .btn-20:focus-visible, .btn-Alta:focus-visible, .btn-Modi:focus-visible, .btn-Elim:focus-visible, .btn-Regr:focus-visible {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
   border-color: var(--bs-btn-hover-border-color);
   outline: 0;
   box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.btn-check:focus-visible + .btn, .btn-check:focus-visible + .btn-Eliminar, .btn-check:focus-visible + .btn-Modificar, .btn-check:focus-visible + .btn-Nuevo, .btn-check:focus-visible + .btn-Regresar, .btn-check:focus-visible + .btn-Submit, .btn-check:focus-visible + .btn-Subir, .btn-check:focus-visible + .btn-Visualizar, .btn-check:focus-visible + .btn-1, .btn-check:focus-visible + .btn-2, .btn-check:focus-visible + .btn-3, .btn-check:focus-visible + .btn-Elim, .btn-check:focus-visible + .btn-5, .btn-check:focus-visible + .btn-6, .btn-check:focus-visible + .btn-Modi, .btn-check:focus-visible + .btn-Alta, .btn-check:focus-visible + .btn-9, .btn-check:focus-visible + .btn-10 {
+.btn-check:focus-visible + .btn, .btn-check:focus-visible + .btn-Eliminar, .btn-check:focus-visible + .btn-Modificar, .btn-check:focus-visible + .btn-Nuevo, .btn-check:focus-visible + .btn-Regresar, .btn-check:focus-visible + .btn-Submit, .btn-check:focus-visible + .btn-Subir, .btn-check:focus-visible + .btn-Visualizar, .btn-check:focus-visible + .btn-01, .btn-check:focus-visible + .btn-02, .btn-check:focus-visible + .btn-03, .btn-check:focus-visible + .btn-04, .btn-check:focus-visible + .btn-05, .btn-check:focus-visible + .btn-06, .btn-check:focus-visible + .btn-07, .btn-check:focus-visible + .btn-08, .btn-check:focus-visible + .btn-09, .btn-check:focus-visible + .btn-10, .btn-check:focus-visible + .btn-11, .btn-check:focus-visible + .btn-12, .btn-check:focus-visible + .btn-13, .btn-check:focus-visible + .btn-14, .btn-check:focus-visible + .btn-15, .btn-check:focus-visible + .btn-16, .btn-check:focus-visible + .btn-17, .btn-check:focus-visible + .btn-18, .btn-check:focus-visible + .btn-19, .btn-check:focus-visible + .btn-20, .btn-check:focus-visible + .btn-Alta, .btn-check:focus-visible + .btn-Modi, .btn-check:focus-visible + .btn-Elim, .btn-check:focus-visible + .btn-Regr {
   border-color: var(--bs-btn-hover-border-color);
   outline: 0;
   box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.btn-check:checked + .btn, .btn-check:checked + .btn-Eliminar, .btn-check:checked + .btn-Modificar, .btn-check:checked + .btn-Nuevo, .btn-check:checked + .btn-Regresar, .btn-check:checked + .btn-Submit, .btn-check:checked + .btn-Subir, .btn-check:checked + .btn-Visualizar, .btn-check:checked + .btn-1, .btn-check:checked + .btn-2, .btn-check:checked + .btn-3, .btn-check:checked + .btn-Elim, .btn-check:checked + .btn-5, .btn-check:checked + .btn-6, .btn-check:checked + .btn-Modi, .btn-check:checked + .btn-Alta, .btn-check:checked + .btn-9, .btn-check:checked + .btn-10, :not(.btn-check) + .btn:active, :not(.btn-check) + .btn-Eliminar:active, :not(.btn-check) + .btn-Modificar:active, :not(.btn-check) + .btn-Nuevo:active, :not(.btn-check) + .btn-Regresar:active, :not(.btn-check) + .btn-Submit:active, :not(.btn-check) + .btn-Subir:active, :not(.btn-check) + .btn-Visualizar:active, :not(.btn-check) + .btn-1:active, :not(.btn-check) + .btn-2:active, :not(.btn-check) + .btn-3:active, :not(.btn-check) + .btn-Elim:active, :not(.btn-check) + .btn-5:active, :not(.btn-check) + .btn-6:active, :not(.btn-check) + .btn-Modi:active, :not(.btn-check) + .btn-Alta:active, :not(.btn-check) + .btn-9:active, :not(.btn-check) + .btn-10:active, .btn:first-child:active, .btn-Eliminar:first-child:active, .btn-Modificar:first-child:active, .btn-Nuevo:first-child:active, .btn-Regresar:first-child:active, .btn-Submit:first-child:active, .btn-Subir:first-child:active, .btn-Visualizar:first-child:active, .btn-1:first-child:active, .btn-2:first-child:active, .btn-3:first-child:active, .btn-Elim:first-child:active, .btn-5:first-child:active, .btn-6:first-child:active, .btn-Modi:first-child:active, .btn-Alta:first-child:active, .btn-9:first-child:active, .btn-10:first-child:active, .btn.active, .active.btn-Eliminar, .active.btn-Modificar, .active.btn-Nuevo, .active.btn-Regresar, .active.btn-Submit, .active.btn-Subir, .active.btn-Visualizar, .active.btn-1, .active.btn-2, .active.btn-3, .active.btn-Elim, .active.btn-5, .active.btn-6, .active.btn-Modi, .active.btn-Alta, .active.btn-9, .active.btn-10, .btn.show, .show.btn-Eliminar, .show.btn-Modificar, .show.btn-Nuevo, .show.btn-Regresar, .show.btn-Submit, .show.btn-Subir, .show.btn-Visualizar, .show.btn-1, .show.btn-2, .show.btn-3, .show.btn-Elim, .show.btn-5, .show.btn-6, .show.btn-Modi, .show.btn-Alta, .show.btn-9, .show.btn-10 {
+.btn-check:checked + .btn, .btn-check:checked + .btn-Eliminar, .btn-check:checked + .btn-Modificar, .btn-check:checked + .btn-Nuevo, .btn-check:checked + .btn-Regresar, .btn-check:checked + .btn-Submit, .btn-check:checked + .btn-Subir, .btn-check:checked + .btn-Visualizar, .btn-check:checked + .btn-01, .btn-check:checked + .btn-02, .btn-check:checked + .btn-03, .btn-check:checked + .btn-04, .btn-check:checked + .btn-05, .btn-check:checked + .btn-06, .btn-check:checked + .btn-07, .btn-check:checked + .btn-08, .btn-check:checked + .btn-09, .btn-check:checked + .btn-10, .btn-check:checked + .btn-11, .btn-check:checked + .btn-12, .btn-check:checked + .btn-13, .btn-check:checked + .btn-14, .btn-check:checked + .btn-15, .btn-check:checked + .btn-16, .btn-check:checked + .btn-17, .btn-check:checked + .btn-18, .btn-check:checked + .btn-19, .btn-check:checked + .btn-20, .btn-check:checked + .btn-Alta, .btn-check:checked + .btn-Modi, .btn-check:checked + .btn-Elim, .btn-check:checked + .btn-Regr, :not(.btn-check) + .btn:active, :not(.btn-check) + .btn-Eliminar:active, :not(.btn-check) + .btn-Modificar:active, :not(.btn-check) + .btn-Nuevo:active, :not(.btn-check) + .btn-Regresar:active, :not(.btn-check) + .btn-Submit:active, :not(.btn-check) + .btn-Subir:active, :not(.btn-check) + .btn-Visualizar:active, :not(.btn-check) + .btn-01:active, :not(.btn-check) + .btn-02:active, :not(.btn-check) + .btn-03:active, :not(.btn-check) + .btn-04:active, :not(.btn-check) + .btn-05:active, :not(.btn-check) + .btn-06:active, :not(.btn-check) + .btn-07:active, :not(.btn-check) + .btn-08:active, :not(.btn-check) + .btn-09:active, :not(.btn-check) + .btn-10:active, :not(.btn-check) + .btn-11:active, :not(.btn-check) + .btn-12:active, :not(.btn-check) + .btn-13:active, :not(.btn-check) + .btn-14:active, :not(.btn-check) + .btn-15:active, :not(.btn-check) + .btn-16:active, :not(.btn-check) + .btn-17:active, :not(.btn-check) + .btn-18:active, :not(.btn-check) + .btn-19:active, :not(.btn-check) + .btn-20:active, :not(.btn-check) + .btn-Alta:active, :not(.btn-check) + .btn-Modi:active, :not(.btn-check) + .btn-Elim:active, :not(.btn-check) + .btn-Regr:active, .btn:first-child:active, .btn-Eliminar:first-child:active, .btn-Modificar:first-child:active, .btn-Nuevo:first-child:active, .btn-Regresar:first-child:active, .btn-Submit:first-child:active, .btn-Subir:first-child:active, .btn-Visualizar:first-child:active, .btn-01:first-child:active, .btn-02:first-child:active, .btn-03:first-child:active, .btn-04:first-child:active, .btn-05:first-child:active, .btn-06:first-child:active, .btn-07:first-child:active, .btn-08:first-child:active, .btn-09:first-child:active, .btn-10:first-child:active, .btn-11:first-child:active, .btn-12:first-child:active, .btn-13:first-child:active, .btn-14:first-child:active, .btn-15:first-child:active, .btn-16:first-child:active, .btn-17:first-child:active, .btn-18:first-child:active, .btn-19:first-child:active, .btn-20:first-child:active, .btn-Alta:first-child:active, .btn-Modi:first-child:active, .btn-Elim:first-child:active, .btn-Regr:first-child:active, .btn.active, .active.btn-Eliminar, .active.btn-Modificar, .active.btn-Nuevo, .active.btn-Regresar, .active.btn-Submit, .active.btn-Subir, .active.btn-Visualizar, .active.btn-01, .active.btn-02, .active.btn-03, .active.btn-04, .active.btn-05, .active.btn-06, .active.btn-07, .active.btn-08, .active.btn-09, .active.btn-10, .active.btn-11, .active.btn-12, .active.btn-13, .active.btn-14, .active.btn-15, .active.btn-16, .active.btn-17, .active.btn-18, .active.btn-19, .active.btn-20, .active.btn-Alta, .active.btn-Modi, .active.btn-Elim, .active.btn-Regr, .btn.show, .show.btn-Eliminar, .show.btn-Modificar, .show.btn-Nuevo, .show.btn-Regresar, .show.btn-Submit, .show.btn-Subir, .show.btn-Visualizar, .show.btn-01, .show.btn-02, .show.btn-03, .show.btn-04, .show.btn-05, .show.btn-06, .show.btn-07, .show.btn-08, .show.btn-09, .show.btn-10, .show.btn-11, .show.btn-12, .show.btn-13, .show.btn-14, .show.btn-15, .show.btn-16, .show.btn-17, .show.btn-18, .show.btn-19, .show.btn-20, .show.btn-Alta, .show.btn-Modi, .show.btn-Elim, .show.btn-Regr {
   color: var(--bs-btn-active-color);
   background-color: var(--bs-btn-active-bg);
   border-color: var(--bs-btn-active-border-color);
 }
-.btn-check:checked + .btn:focus-visible, .btn-check:checked + .btn-Eliminar:focus-visible, .btn-check:checked + .btn-Modificar:focus-visible, .btn-check:checked + .btn-Nuevo:focus-visible, .btn-check:checked + .btn-Regresar:focus-visible, .btn-check:checked + .btn-Submit:focus-visible, .btn-check:checked + .btn-Subir:focus-visible, .btn-check:checked + .btn-Visualizar:focus-visible, .btn-check:checked + .btn-1:focus-visible, .btn-check:checked + .btn-2:focus-visible, .btn-check:checked + .btn-3:focus-visible, .btn-check:checked + .btn-Elim:focus-visible, .btn-check:checked + .btn-5:focus-visible, .btn-check:checked + .btn-6:focus-visible, .btn-check:checked + .btn-Modi:focus-visible, .btn-check:checked + .btn-Alta:focus-visible, .btn-check:checked + .btn-9:focus-visible, .btn-check:checked + .btn-10:focus-visible, :not(.btn-check) + .btn:active:focus-visible, :not(.btn-check) + .btn-Eliminar:active:focus-visible, :not(.btn-check) + .btn-Modificar:active:focus-visible, :not(.btn-check) + .btn-Nuevo:active:focus-visible, :not(.btn-check) + .btn-Regresar:active:focus-visible, :not(.btn-check) + .btn-Submit:active:focus-visible, :not(.btn-check) + .btn-Subir:active:focus-visible, :not(.btn-check) + .btn-Visualizar:active:focus-visible, :not(.btn-check) + .btn-1:active:focus-visible, :not(.btn-check) + .btn-2:active:focus-visible, :not(.btn-check) + .btn-3:active:focus-visible, :not(.btn-check) + .btn-Elim:active:focus-visible, :not(.btn-check) + .btn-5:active:focus-visible, :not(.btn-check) + .btn-6:active:focus-visible, :not(.btn-check) + .btn-Modi:active:focus-visible, :not(.btn-check) + .btn-Alta:active:focus-visible, :not(.btn-check) + .btn-9:active:focus-visible, :not(.btn-check) + .btn-10:active:focus-visible, .btn:first-child:active:focus-visible, .btn-Eliminar:first-child:active:focus-visible, .btn-Modificar:first-child:active:focus-visible, .btn-Nuevo:first-child:active:focus-visible, .btn-Regresar:first-child:active:focus-visible, .btn-Submit:first-child:active:focus-visible, .btn-Subir:first-child:active:focus-visible, .btn-Visualizar:first-child:active:focus-visible, .btn-1:first-child:active:focus-visible, .btn-2:first-child:active:focus-visible, .btn-3:first-child:active:focus-visible, .btn-Elim:first-child:active:focus-visible, .btn-5:first-child:active:focus-visible, .btn-6:first-child:active:focus-visible, .btn-Modi:first-child:active:focus-visible, .btn-Alta:first-child:active:focus-visible, .btn-9:first-child:active:focus-visible, .btn-10:first-child:active:focus-visible, .btn.active:focus-visible, .active.btn-Eliminar:focus-visible, .active.btn-Modificar:focus-visible, .active.btn-Nuevo:focus-visible, .active.btn-Regresar:focus-visible, .active.btn-Submit:focus-visible, .active.btn-Subir:focus-visible, .active.btn-Visualizar:focus-visible, .active.btn-1:focus-visible, .active.btn-2:focus-visible, .active.btn-3:focus-visible, .active.btn-Elim:focus-visible, .active.btn-5:focus-visible, .active.btn-6:focus-visible, .active.btn-Modi:focus-visible, .active.btn-Alta:focus-visible, .active.btn-9:focus-visible, .active.btn-10:focus-visible, .btn.show:focus-visible, .show.btn-Eliminar:focus-visible, .show.btn-Modificar:focus-visible, .show.btn-Nuevo:focus-visible, .show.btn-Regresar:focus-visible, .show.btn-Submit:focus-visible, .show.btn-Subir:focus-visible, .show.btn-Visualizar:focus-visible, .show.btn-1:focus-visible, .show.btn-2:focus-visible, .show.btn-3:focus-visible, .show.btn-Elim:focus-visible, .show.btn-5:focus-visible, .show.btn-6:focus-visible, .show.btn-Modi:focus-visible, .show.btn-Alta:focus-visible, .show.btn-9:focus-visible, .show.btn-10:focus-visible {
+.btn-check:checked + .btn:focus-visible, .btn-check:checked + .btn-Eliminar:focus-visible, .btn-check:checked + .btn-Modificar:focus-visible, .btn-check:checked + .btn-Nuevo:focus-visible, .btn-check:checked + .btn-Regresar:focus-visible, .btn-check:checked + .btn-Submit:focus-visible, .btn-check:checked + .btn-Subir:focus-visible, .btn-check:checked + .btn-Visualizar:focus-visible, .btn-check:checked + .btn-01:focus-visible, .btn-check:checked + .btn-02:focus-visible, .btn-check:checked + .btn-03:focus-visible, .btn-check:checked + .btn-04:focus-visible, .btn-check:checked + .btn-05:focus-visible, .btn-check:checked + .btn-06:focus-visible, .btn-check:checked + .btn-07:focus-visible, .btn-check:checked + .btn-08:focus-visible, .btn-check:checked + .btn-09:focus-visible, .btn-check:checked + .btn-10:focus-visible, .btn-check:checked + .btn-11:focus-visible, .btn-check:checked + .btn-12:focus-visible, .btn-check:checked + .btn-13:focus-visible, .btn-check:checked + .btn-14:focus-visible, .btn-check:checked + .btn-15:focus-visible, .btn-check:checked + .btn-16:focus-visible, .btn-check:checked + .btn-17:focus-visible, .btn-check:checked + .btn-18:focus-visible, .btn-check:checked + .btn-19:focus-visible, .btn-check:checked + .btn-20:focus-visible, .btn-check:checked + .btn-Alta:focus-visible, .btn-check:checked + .btn-Modi:focus-visible, .btn-check:checked + .btn-Elim:focus-visible, .btn-check:checked + .btn-Regr:focus-visible, :not(.btn-check) + .btn:active:focus-visible, :not(.btn-check) + .btn-Eliminar:active:focus-visible, :not(.btn-check) + .btn-Modificar:active:focus-visible, :not(.btn-check) + .btn-Nuevo:active:focus-visible, :not(.btn-check) + .btn-Regresar:active:focus-visible, :not(.btn-check) + .btn-Submit:active:focus-visible, :not(.btn-check) + .btn-Subir:active:focus-visible, :not(.btn-check) + .btn-Visualizar:active:focus-visible, :not(.btn-check) + .btn-01:active:focus-visible, :not(.btn-check) + .btn-02:active:focus-visible, :not(.btn-check) + .btn-03:active:focus-visible, :not(.btn-check) + .btn-04:active:focus-visible, :not(.btn-check) + .btn-05:active:focus-visible, :not(.btn-check) + .btn-06:active:focus-visible, :not(.btn-check) + .btn-07:active:focus-visible, :not(.btn-check) + .btn-08:active:focus-visible, :not(.btn-check) + .btn-09:active:focus-visible, :not(.btn-check) + .btn-10:active:focus-visible, :not(.btn-check) + .btn-11:active:focus-visible, :not(.btn-check) + .btn-12:active:focus-visible, :not(.btn-check) + .btn-13:active:focus-visible, :not(.btn-check) + .btn-14:active:focus-visible, :not(.btn-check) + .btn-15:active:focus-visible, :not(.btn-check) + .btn-16:active:focus-visible, :not(.btn-check) + .btn-17:active:focus-visible, :not(.btn-check) + .btn-18:active:focus-visible, :not(.btn-check) + .btn-19:active:focus-visible, :not(.btn-check) + .btn-20:active:focus-visible, :not(.btn-check) + .btn-Alta:active:focus-visible, :not(.btn-check) + .btn-Modi:active:focus-visible, :not(.btn-check) + .btn-Elim:active:focus-visible, :not(.btn-check) + .btn-Regr:active:focus-visible, .btn:first-child:active:focus-visible, .btn-Eliminar:first-child:active:focus-visible, .btn-Modificar:first-child:active:focus-visible, .btn-Nuevo:first-child:active:focus-visible, .btn-Regresar:first-child:active:focus-visible, .btn-Submit:first-child:active:focus-visible, .btn-Subir:first-child:active:focus-visible, .btn-Visualizar:first-child:active:focus-visible, .btn-01:first-child:active:focus-visible, .btn-02:first-child:active:focus-visible, .btn-03:first-child:active:focus-visible, .btn-04:first-child:active:focus-visible, .btn-05:first-child:active:focus-visible, .btn-06:first-child:active:focus-visible, .btn-07:first-child:active:focus-visible, .btn-08:first-child:active:focus-visible, .btn-09:first-child:active:focus-visible, .btn-10:first-child:active:focus-visible, .btn-11:first-child:active:focus-visible, .btn-12:first-child:active:focus-visible, .btn-13:first-child:active:focus-visible, .btn-14:first-child:active:focus-visible, .btn-15:first-child:active:focus-visible, .btn-16:first-child:active:focus-visible, .btn-17:first-child:active:focus-visible, .btn-18:first-child:active:focus-visible, .btn-19:first-child:active:focus-visible, .btn-20:first-child:active:focus-visible, .btn-Alta:first-child:active:focus-visible, .btn-Modi:first-child:active:focus-visible, .btn-Elim:first-child:active:focus-visible, .btn-Regr:first-child:active:focus-visible, .btn.active:focus-visible, .active.btn-Eliminar:focus-visible, .active.btn-Modificar:focus-visible, .active.btn-Nuevo:focus-visible, .active.btn-Regresar:focus-visible, .active.btn-Submit:focus-visible, .active.btn-Subir:focus-visible, .active.btn-Visualizar:focus-visible, .active.btn-01:focus-visible, .active.btn-02:focus-visible, .active.btn-03:focus-visible, .active.btn-04:focus-visible, .active.btn-05:focus-visible, .active.btn-06:focus-visible, .active.btn-07:focus-visible, .active.btn-08:focus-visible, .active.btn-09:focus-visible, .active.btn-10:focus-visible, .active.btn-11:focus-visible, .active.btn-12:focus-visible, .active.btn-13:focus-visible, .active.btn-14:focus-visible, .active.btn-15:focus-visible, .active.btn-16:focus-visible, .active.btn-17:focus-visible, .active.btn-18:focus-visible, .active.btn-19:focus-visible, .active.btn-20:focus-visible, .active.btn-Alta:focus-visible, .active.btn-Modi:focus-visible, .active.btn-Elim:focus-visible, .active.btn-Regr:focus-visible, .btn.show:focus-visible, .show.btn-Eliminar:focus-visible, .show.btn-Modificar:focus-visible, .show.btn-Nuevo:focus-visible, .show.btn-Regresar:focus-visible, .show.btn-Submit:focus-visible, .show.btn-Subir:focus-visible, .show.btn-Visualizar:focus-visible, .show.btn-01:focus-visible, .show.btn-02:focus-visible, .show.btn-03:focus-visible, .show.btn-04:focus-visible, .show.btn-05:focus-visible, .show.btn-06:focus-visible, .show.btn-07:focus-visible, .show.btn-08:focus-visible, .show.btn-09:focus-visible, .show.btn-10:focus-visible, .show.btn-11:focus-visible, .show.btn-12:focus-visible, .show.btn-13:focus-visible, .show.btn-14:focus-visible, .show.btn-15:focus-visible, .show.btn-16:focus-visible, .show.btn-17:focus-visible, .show.btn-18:focus-visible, .show.btn-19:focus-visible, .show.btn-20:focus-visible, .show.btn-Alta:focus-visible, .show.btn-Modi:focus-visible, .show.btn-Elim:focus-visible, .show.btn-Regr:focus-visible {
   box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.btn-check:checked:focus-visible + .btn, .btn-check:checked:focus-visible + .btn-Eliminar, .btn-check:checked:focus-visible + .btn-Modificar, .btn-check:checked:focus-visible + .btn-Nuevo, .btn-check:checked:focus-visible + .btn-Regresar, .btn-check:checked:focus-visible + .btn-Submit, .btn-check:checked:focus-visible + .btn-Subir, .btn-check:checked:focus-visible + .btn-Visualizar, .btn-check:checked:focus-visible + .btn-1, .btn-check:checked:focus-visible + .btn-2, .btn-check:checked:focus-visible + .btn-3, .btn-check:checked:focus-visible + .btn-Elim, .btn-check:checked:focus-visible + .btn-5, .btn-check:checked:focus-visible + .btn-6, .btn-check:checked:focus-visible + .btn-Modi, .btn-check:checked:focus-visible + .btn-Alta, .btn-check:checked:focus-visible + .btn-9, .btn-check:checked:focus-visible + .btn-10 {
+.btn-check:checked:focus-visible + .btn, .btn-check:checked:focus-visible + .btn-Eliminar, .btn-check:checked:focus-visible + .btn-Modificar, .btn-check:checked:focus-visible + .btn-Nuevo, .btn-check:checked:focus-visible + .btn-Regresar, .btn-check:checked:focus-visible + .btn-Submit, .btn-check:checked:focus-visible + .btn-Subir, .btn-check:checked:focus-visible + .btn-Visualizar, .btn-check:checked:focus-visible + .btn-01, .btn-check:checked:focus-visible + .btn-02, .btn-check:checked:focus-visible + .btn-03, .btn-check:checked:focus-visible + .btn-04, .btn-check:checked:focus-visible + .btn-05, .btn-check:checked:focus-visible + .btn-06, .btn-check:checked:focus-visible + .btn-07, .btn-check:checked:focus-visible + .btn-08, .btn-check:checked:focus-visible + .btn-09, .btn-check:checked:focus-visible + .btn-10, .btn-check:checked:focus-visible + .btn-11, .btn-check:checked:focus-visible + .btn-12, .btn-check:checked:focus-visible + .btn-13, .btn-check:checked:focus-visible + .btn-14, .btn-check:checked:focus-visible + .btn-15, .btn-check:checked:focus-visible + .btn-16, .btn-check:checked:focus-visible + .btn-17, .btn-check:checked:focus-visible + .btn-18, .btn-check:checked:focus-visible + .btn-19, .btn-check:checked:focus-visible + .btn-20, .btn-check:checked:focus-visible + .btn-Alta, .btn-check:checked:focus-visible + .btn-Modi, .btn-check:checked:focus-visible + .btn-Elim, .btn-check:checked:focus-visible + .btn-Regr {
   box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.btn:disabled, .btn-Eliminar:disabled, .btn-Modificar:disabled, .btn-Nuevo:disabled, .btn-Regresar:disabled, .btn-Submit:disabled, .btn-Subir:disabled, .btn-Visualizar:disabled, .btn-1:disabled, .btn-2:disabled, .btn-3:disabled, .btn-Elim:disabled, .btn-5:disabled, .btn-6:disabled, .btn-Modi:disabled, .btn-Alta:disabled, .btn-9:disabled, .btn-10:disabled, .btn.disabled, .disabled.btn-Eliminar, .disabled.btn-Modificar, .disabled.btn-Nuevo, .disabled.btn-Regresar, .disabled.btn-Submit, .disabled.btn-Subir, .disabled.btn-Visualizar, .disabled.btn-1, .disabled.btn-2, .disabled.btn-3, .disabled.btn-Elim, .disabled.btn-5, .disabled.btn-6, .disabled.btn-Modi, .disabled.btn-Alta, .disabled.btn-9, .disabled.btn-10, fieldset:disabled .btn, fieldset:disabled .btn-Eliminar, fieldset:disabled .btn-Modificar, fieldset:disabled .btn-Nuevo, fieldset:disabled .btn-Regresar, fieldset:disabled .btn-Submit, fieldset:disabled .btn-Subir, fieldset:disabled .btn-Visualizar, fieldset:disabled .btn-1, fieldset:disabled .btn-2, fieldset:disabled .btn-3, fieldset:disabled .btn-Elim, fieldset:disabled .btn-5, fieldset:disabled .btn-6, fieldset:disabled .btn-Modi, fieldset:disabled .btn-Alta, fieldset:disabled .btn-9, fieldset:disabled .btn-10 {
+.btn:disabled, .btn-Eliminar:disabled, .btn-Modificar:disabled, .btn-Nuevo:disabled, .btn-Regresar:disabled, .btn-Submit:disabled, .btn-Subir:disabled, .btn-Visualizar:disabled, .btn-01:disabled, .btn-02:disabled, .btn-03:disabled, .btn-04:disabled, .btn-05:disabled, .btn-06:disabled, .btn-07:disabled, .btn-08:disabled, .btn-09:disabled, .btn-10:disabled, .btn-11:disabled, .btn-12:disabled, .btn-13:disabled, .btn-14:disabled, .btn-15:disabled, .btn-16:disabled, .btn-17:disabled, .btn-18:disabled, .btn-19:disabled, .btn-20:disabled, .btn-Alta:disabled, .btn-Modi:disabled, .btn-Elim:disabled, .btn-Regr:disabled, .btn.disabled, .disabled.btn-Eliminar, .disabled.btn-Modificar, .disabled.btn-Nuevo, .disabled.btn-Regresar, .disabled.btn-Submit, .disabled.btn-Subir, .disabled.btn-Visualizar, .disabled.btn-01, .disabled.btn-02, .disabled.btn-03, .disabled.btn-04, .disabled.btn-05, .disabled.btn-06, .disabled.btn-07, .disabled.btn-08, .disabled.btn-09, .disabled.btn-10, .disabled.btn-11, .disabled.btn-12, .disabled.btn-13, .disabled.btn-14, .disabled.btn-15, .disabled.btn-16, .disabled.btn-17, .disabled.btn-18, .disabled.btn-19, .disabled.btn-20, .disabled.btn-Alta, .disabled.btn-Modi, .disabled.btn-Elim, .disabled.btn-Regr, fieldset:disabled .btn, fieldset:disabled .btn-Eliminar, fieldset:disabled .btn-Modificar, fieldset:disabled .btn-Nuevo, fieldset:disabled .btn-Regresar, fieldset:disabled .btn-Submit, fieldset:disabled .btn-Subir, fieldset:disabled .btn-Visualizar, fieldset:disabled .btn-01, fieldset:disabled .btn-02, fieldset:disabled .btn-03, fieldset:disabled .btn-04, fieldset:disabled .btn-05, fieldset:disabled .btn-06, fieldset:disabled .btn-07, fieldset:disabled .btn-08, fieldset:disabled .btn-09, fieldset:disabled .btn-10, fieldset:disabled .btn-11, fieldset:disabled .btn-12, fieldset:disabled .btn-13, fieldset:disabled .btn-14, fieldset:disabled .btn-15, fieldset:disabled .btn-16, fieldset:disabled .btn-17, fieldset:disabled .btn-18, fieldset:disabled .btn-19, fieldset:disabled .btn-20, fieldset:disabled .btn-Alta, fieldset:disabled .btn-Modi, fieldset:disabled .btn-Elim, fieldset:disabled .btn-Regr {
   color: var(--bs-btn-disabled-color);
   pointer-events: none;
   background-color: var(--bs-btn-disabled-bg);
@@ -3294,14 +3322,14 @@ textarea.form-control-lg {
   color: var(--bs-btn-hover-color);
 }
 
-.btn-lg, .btn-group-lg > .btn, .btn-group-lg > .btn-Eliminar, .btn-group-lg > .btn-Modificar, .btn-group-lg > .btn-Nuevo, .btn-group-lg > .btn-Regresar, .btn-group-lg > .btn-Submit, .btn-group-lg > .btn-Subir, .btn-group-lg > .btn-Visualizar, .btn-group-lg > .btn-1, .btn-group-lg > .btn-2, .btn-group-lg > .btn-3, .btn-group-lg > .btn-Elim, .btn-group-lg > .btn-5, .btn-group-lg > .btn-6, .btn-group-lg > .btn-Modi, .btn-group-lg > .btn-Alta, .btn-group-lg > .btn-9, .btn-group-lg > .btn-10 {
+.btn-lg, .btn-group-lg > .btn, .btn-group-lg > .btn-Eliminar, .btn-group-lg > .btn-Modificar, .btn-group-lg > .btn-Nuevo, .btn-group-lg > .btn-Regresar, .btn-group-lg > .btn-Submit, .btn-group-lg > .btn-Subir, .btn-group-lg > .btn-Visualizar, .btn-group-lg > .btn-01, .btn-group-lg > .btn-02, .btn-group-lg > .btn-03, .btn-group-lg > .btn-04, .btn-group-lg > .btn-05, .btn-group-lg > .btn-06, .btn-group-lg > .btn-07, .btn-group-lg > .btn-08, .btn-group-lg > .btn-09, .btn-group-lg > .btn-10, .btn-group-lg > .btn-11, .btn-group-lg > .btn-12, .btn-group-lg > .btn-13, .btn-group-lg > .btn-14, .btn-group-lg > .btn-15, .btn-group-lg > .btn-16, .btn-group-lg > .btn-17, .btn-group-lg > .btn-18, .btn-group-lg > .btn-19, .btn-group-lg > .btn-20, .btn-group-lg > .btn-Alta, .btn-group-lg > .btn-Modi, .btn-group-lg > .btn-Elim, .btn-group-lg > .btn-Regr {
   --bs-btn-padding-y: 0.5rem;
   --bs-btn-padding-x: 1rem;
   --bs-btn-font-size: 1.25rem;
   --bs-btn-border-radius: var(--bs-border-radius-lg);
 }
 
-.btn-sm, .btn-group-sm > .btn, .btn-group-sm > .btn-Eliminar, .btn-group-sm > .btn-Modificar, .btn-group-sm > .btn-Nuevo, .btn-group-sm > .btn-Regresar, .btn-group-sm > .btn-Submit, .btn-group-sm > .btn-Subir, .btn-group-sm > .btn-Visualizar, .btn-group-sm > .btn-1, .btn-group-sm > .btn-2, .btn-group-sm > .btn-3, .btn-group-sm > .btn-Elim, .btn-group-sm > .btn-5, .btn-group-sm > .btn-6, .btn-group-sm > .btn-Modi, .btn-group-sm > .btn-Alta, .btn-group-sm > .btn-9, .btn-group-sm > .btn-10 {
+.btn-sm, .btn-group-sm > .btn, .btn-group-sm > .btn-Eliminar, .btn-group-sm > .btn-Modificar, .btn-group-sm > .btn-Nuevo, .btn-group-sm > .btn-Regresar, .btn-group-sm > .btn-Submit, .btn-group-sm > .btn-Subir, .btn-group-sm > .btn-Visualizar, .btn-group-sm > .btn-01, .btn-group-sm > .btn-02, .btn-group-sm > .btn-03, .btn-group-sm > .btn-04, .btn-group-sm > .btn-05, .btn-group-sm > .btn-06, .btn-group-sm > .btn-07, .btn-group-sm > .btn-08, .btn-group-sm > .btn-09, .btn-group-sm > .btn-10, .btn-group-sm > .btn-11, .btn-group-sm > .btn-12, .btn-group-sm > .btn-13, .btn-group-sm > .btn-14, .btn-group-sm > .btn-15, .btn-group-sm > .btn-16, .btn-group-sm > .btn-17, .btn-group-sm > .btn-18, .btn-group-sm > .btn-19, .btn-group-sm > .btn-20, .btn-group-sm > .btn-Alta, .btn-group-sm > .btn-Modi, .btn-group-sm > .btn-Elim, .btn-group-sm > .btn-Regr {
   --bs-btn-padding-y: 0.25rem;
   --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
@@ -3668,7 +3696,7 @@ textarea.form-control-lg {
   display: inline-flex;
   vertical-align: middle;
 }
-.btn-group > .btn, .btn-group > .btn-Eliminar, .btn-group > .btn-Modificar, .btn-group > .btn-Nuevo, .btn-group > .btn-Regresar, .btn-group > .btn-Submit, .btn-group > .btn-Subir, .btn-group > .btn-Visualizar, .btn-group > .btn-1, .btn-group > .btn-2, .btn-group > .btn-3, .btn-group > .btn-Elim, .btn-group > .btn-5, .btn-group > .btn-6, .btn-group > .btn-Modi, .btn-group > .btn-Alta, .btn-group > .btn-9, .btn-group > .btn-10,
+.btn-group > .btn, .btn-group > .btn-Eliminar, .btn-group > .btn-Modificar, .btn-group > .btn-Nuevo, .btn-group > .btn-Regresar, .btn-group > .btn-Submit, .btn-group > .btn-Subir, .btn-group > .btn-Visualizar, .btn-group > .btn-01, .btn-group > .btn-02, .btn-group > .btn-03, .btn-group > .btn-04, .btn-group > .btn-05, .btn-group > .btn-06, .btn-group > .btn-07, .btn-group > .btn-08, .btn-group > .btn-09, .btn-group > .btn-10, .btn-group > .btn-11, .btn-group > .btn-12, .btn-group > .btn-13, .btn-group > .btn-14, .btn-group > .btn-15, .btn-group > .btn-16, .btn-group > .btn-17, .btn-group > .btn-18, .btn-group > .btn-19, .btn-group > .btn-20, .btn-group > .btn-Alta, .btn-group > .btn-Modi, .btn-group > .btn-Elim, .btn-group > .btn-Regr,
 .btn-group-vertical > .btn,
 .btn-group-vertical > .btn-Eliminar,
 .btn-group-vertical > .btn-Modificar,
@@ -3677,20 +3705,34 @@ textarea.form-control-lg {
 .btn-group-vertical > .btn-Submit,
 .btn-group-vertical > .btn-Subir,
 .btn-group-vertical > .btn-Visualizar,
-.btn-group-vertical > .btn-1,
-.btn-group-vertical > .btn-2,
-.btn-group-vertical > .btn-3,
-.btn-group-vertical > .btn-Elim,
-.btn-group-vertical > .btn-5,
-.btn-group-vertical > .btn-6,
-.btn-group-vertical > .btn-Modi,
+.btn-group-vertical > .btn-01,
+.btn-group-vertical > .btn-02,
+.btn-group-vertical > .btn-03,
+.btn-group-vertical > .btn-04,
+.btn-group-vertical > .btn-05,
+.btn-group-vertical > .btn-06,
+.btn-group-vertical > .btn-07,
+.btn-group-vertical > .btn-08,
+.btn-group-vertical > .btn-09,
+.btn-group-vertical > .btn-10,
+.btn-group-vertical > .btn-11,
+.btn-group-vertical > .btn-12,
+.btn-group-vertical > .btn-13,
+.btn-group-vertical > .btn-14,
+.btn-group-vertical > .btn-15,
+.btn-group-vertical > .btn-16,
+.btn-group-vertical > .btn-17,
+.btn-group-vertical > .btn-18,
+.btn-group-vertical > .btn-19,
+.btn-group-vertical > .btn-20,
 .btn-group-vertical > .btn-Alta,
-.btn-group-vertical > .btn-9,
-.btn-group-vertical > .btn-10 {
+.btn-group-vertical > .btn-Modi,
+.btn-group-vertical > .btn-Elim,
+.btn-group-vertical > .btn-Regr {
   position: relative;
   flex: 1 1 auto;
 }
-.btn-group > .btn-check:checked + .btn, .btn-group > .btn-check:checked + .btn-Eliminar, .btn-group > .btn-check:checked + .btn-Modificar, .btn-group > .btn-check:checked + .btn-Nuevo, .btn-group > .btn-check:checked + .btn-Regresar, .btn-group > .btn-check:checked + .btn-Submit, .btn-group > .btn-check:checked + .btn-Subir, .btn-group > .btn-check:checked + .btn-Visualizar, .btn-group > .btn-check:checked + .btn-1, .btn-group > .btn-check:checked + .btn-2, .btn-group > .btn-check:checked + .btn-3, .btn-group > .btn-check:checked + .btn-Elim, .btn-group > .btn-check:checked + .btn-5, .btn-group > .btn-check:checked + .btn-6, .btn-group > .btn-check:checked + .btn-Modi, .btn-group > .btn-check:checked + .btn-Alta, .btn-group > .btn-check:checked + .btn-9, .btn-group > .btn-check:checked + .btn-10,
+.btn-group > .btn-check:checked + .btn, .btn-group > .btn-check:checked + .btn-Eliminar, .btn-group > .btn-check:checked + .btn-Modificar, .btn-group > .btn-check:checked + .btn-Nuevo, .btn-group > .btn-check:checked + .btn-Regresar, .btn-group > .btn-check:checked + .btn-Submit, .btn-group > .btn-check:checked + .btn-Subir, .btn-group > .btn-check:checked + .btn-Visualizar, .btn-group > .btn-check:checked + .btn-01, .btn-group > .btn-check:checked + .btn-02, .btn-group > .btn-check:checked + .btn-03, .btn-group > .btn-check:checked + .btn-04, .btn-group > .btn-check:checked + .btn-05, .btn-group > .btn-check:checked + .btn-06, .btn-group > .btn-check:checked + .btn-07, .btn-group > .btn-check:checked + .btn-08, .btn-group > .btn-check:checked + .btn-09, .btn-group > .btn-check:checked + .btn-10, .btn-group > .btn-check:checked + .btn-11, .btn-group > .btn-check:checked + .btn-12, .btn-group > .btn-check:checked + .btn-13, .btn-group > .btn-check:checked + .btn-14, .btn-group > .btn-check:checked + .btn-15, .btn-group > .btn-check:checked + .btn-16, .btn-group > .btn-check:checked + .btn-17, .btn-group > .btn-check:checked + .btn-18, .btn-group > .btn-check:checked + .btn-19, .btn-group > .btn-check:checked + .btn-20, .btn-group > .btn-check:checked + .btn-Alta, .btn-group > .btn-check:checked + .btn-Modi, .btn-group > .btn-check:checked + .btn-Elim, .btn-group > .btn-check:checked + .btn-Regr,
 .btn-group > .btn-check:focus + .btn,
 .btn-group > .btn-check:focus + .btn-Eliminar,
 .btn-group > .btn-check:focus + .btn-Modificar,
@@ -3699,16 +3741,30 @@ textarea.form-control-lg {
 .btn-group > .btn-check:focus + .btn-Submit,
 .btn-group > .btn-check:focus + .btn-Subir,
 .btn-group > .btn-check:focus + .btn-Visualizar,
-.btn-group > .btn-check:focus + .btn-1,
-.btn-group > .btn-check:focus + .btn-2,
-.btn-group > .btn-check:focus + .btn-3,
-.btn-group > .btn-check:focus + .btn-Elim,
-.btn-group > .btn-check:focus + .btn-5,
-.btn-group > .btn-check:focus + .btn-6,
-.btn-group > .btn-check:focus + .btn-Modi,
-.btn-group > .btn-check:focus + .btn-Alta,
-.btn-group > .btn-check:focus + .btn-9,
+.btn-group > .btn-check:focus + .btn-01,
+.btn-group > .btn-check:focus + .btn-02,
+.btn-group > .btn-check:focus + .btn-03,
+.btn-group > .btn-check:focus + .btn-04,
+.btn-group > .btn-check:focus + .btn-05,
+.btn-group > .btn-check:focus + .btn-06,
+.btn-group > .btn-check:focus + .btn-07,
+.btn-group > .btn-check:focus + .btn-08,
+.btn-group > .btn-check:focus + .btn-09,
 .btn-group > .btn-check:focus + .btn-10,
+.btn-group > .btn-check:focus + .btn-11,
+.btn-group > .btn-check:focus + .btn-12,
+.btn-group > .btn-check:focus + .btn-13,
+.btn-group > .btn-check:focus + .btn-14,
+.btn-group > .btn-check:focus + .btn-15,
+.btn-group > .btn-check:focus + .btn-16,
+.btn-group > .btn-check:focus + .btn-17,
+.btn-group > .btn-check:focus + .btn-18,
+.btn-group > .btn-check:focus + .btn-19,
+.btn-group > .btn-check:focus + .btn-20,
+.btn-group > .btn-check:focus + .btn-Alta,
+.btn-group > .btn-check:focus + .btn-Modi,
+.btn-group > .btn-check:focus + .btn-Elim,
+.btn-group > .btn-check:focus + .btn-Regr,
 .btn-group > .btn:hover,
 .btn-group > .btn-Eliminar:hover,
 .btn-group > .btn-Modificar:hover,
@@ -3717,16 +3773,30 @@ textarea.form-control-lg {
 .btn-group > .btn-Submit:hover,
 .btn-group > .btn-Subir:hover,
 .btn-group > .btn-Visualizar:hover,
-.btn-group > .btn-1:hover,
-.btn-group > .btn-2:hover,
-.btn-group > .btn-3:hover,
-.btn-group > .btn-Elim:hover,
-.btn-group > .btn-5:hover,
-.btn-group > .btn-6:hover,
-.btn-group > .btn-Modi:hover,
-.btn-group > .btn-Alta:hover,
-.btn-group > .btn-9:hover,
+.btn-group > .btn-01:hover,
+.btn-group > .btn-02:hover,
+.btn-group > .btn-03:hover,
+.btn-group > .btn-04:hover,
+.btn-group > .btn-05:hover,
+.btn-group > .btn-06:hover,
+.btn-group > .btn-07:hover,
+.btn-group > .btn-08:hover,
+.btn-group > .btn-09:hover,
 .btn-group > .btn-10:hover,
+.btn-group > .btn-11:hover,
+.btn-group > .btn-12:hover,
+.btn-group > .btn-13:hover,
+.btn-group > .btn-14:hover,
+.btn-group > .btn-15:hover,
+.btn-group > .btn-16:hover,
+.btn-group > .btn-17:hover,
+.btn-group > .btn-18:hover,
+.btn-group > .btn-19:hover,
+.btn-group > .btn-20:hover,
+.btn-group > .btn-Alta:hover,
+.btn-group > .btn-Modi:hover,
+.btn-group > .btn-Elim:hover,
+.btn-group > .btn-Regr:hover,
 .btn-group > .btn:focus,
 .btn-group > .btn-Eliminar:focus,
 .btn-group > .btn-Modificar:focus,
@@ -3735,16 +3805,30 @@ textarea.form-control-lg {
 .btn-group > .btn-Submit:focus,
 .btn-group > .btn-Subir:focus,
 .btn-group > .btn-Visualizar:focus,
-.btn-group > .btn-1:focus,
-.btn-group > .btn-2:focus,
-.btn-group > .btn-3:focus,
-.btn-group > .btn-Elim:focus,
-.btn-group > .btn-5:focus,
-.btn-group > .btn-6:focus,
-.btn-group > .btn-Modi:focus,
-.btn-group > .btn-Alta:focus,
-.btn-group > .btn-9:focus,
+.btn-group > .btn-01:focus,
+.btn-group > .btn-02:focus,
+.btn-group > .btn-03:focus,
+.btn-group > .btn-04:focus,
+.btn-group > .btn-05:focus,
+.btn-group > .btn-06:focus,
+.btn-group > .btn-07:focus,
+.btn-group > .btn-08:focus,
+.btn-group > .btn-09:focus,
 .btn-group > .btn-10:focus,
+.btn-group > .btn-11:focus,
+.btn-group > .btn-12:focus,
+.btn-group > .btn-13:focus,
+.btn-group > .btn-14:focus,
+.btn-group > .btn-15:focus,
+.btn-group > .btn-16:focus,
+.btn-group > .btn-17:focus,
+.btn-group > .btn-18:focus,
+.btn-group > .btn-19:focus,
+.btn-group > .btn-20:focus,
+.btn-group > .btn-Alta:focus,
+.btn-group > .btn-Modi:focus,
+.btn-group > .btn-Elim:focus,
+.btn-group > .btn-Regr:focus,
 .btn-group > .btn:active,
 .btn-group > .btn-Eliminar:active,
 .btn-group > .btn-Modificar:active,
@@ -3753,16 +3837,30 @@ textarea.form-control-lg {
 .btn-group > .btn-Submit:active,
 .btn-group > .btn-Subir:active,
 .btn-group > .btn-Visualizar:active,
-.btn-group > .btn-1:active,
-.btn-group > .btn-2:active,
-.btn-group > .btn-3:active,
-.btn-group > .btn-Elim:active,
-.btn-group > .btn-5:active,
-.btn-group > .btn-6:active,
-.btn-group > .btn-Modi:active,
-.btn-group > .btn-Alta:active,
-.btn-group > .btn-9:active,
+.btn-group > .btn-01:active,
+.btn-group > .btn-02:active,
+.btn-group > .btn-03:active,
+.btn-group > .btn-04:active,
+.btn-group > .btn-05:active,
+.btn-group > .btn-06:active,
+.btn-group > .btn-07:active,
+.btn-group > .btn-08:active,
+.btn-group > .btn-09:active,
 .btn-group > .btn-10:active,
+.btn-group > .btn-11:active,
+.btn-group > .btn-12:active,
+.btn-group > .btn-13:active,
+.btn-group > .btn-14:active,
+.btn-group > .btn-15:active,
+.btn-group > .btn-16:active,
+.btn-group > .btn-17:active,
+.btn-group > .btn-18:active,
+.btn-group > .btn-19:active,
+.btn-group > .btn-20:active,
+.btn-group > .btn-Alta:active,
+.btn-group > .btn-Modi:active,
+.btn-group > .btn-Elim:active,
+.btn-group > .btn-Regr:active,
 .btn-group > .btn.active,
 .btn-group > .active.btn-Eliminar,
 .btn-group > .active.btn-Modificar,
@@ -3771,16 +3869,30 @@ textarea.form-control-lg {
 .btn-group > .active.btn-Submit,
 .btn-group > .active.btn-Subir,
 .btn-group > .active.btn-Visualizar,
-.btn-group > .active.btn-1,
-.btn-group > .active.btn-2,
-.btn-group > .active.btn-3,
-.btn-group > .active.btn-Elim,
-.btn-group > .active.btn-5,
-.btn-group > .active.btn-6,
-.btn-group > .active.btn-Modi,
-.btn-group > .active.btn-Alta,
-.btn-group > .active.btn-9,
+.btn-group > .active.btn-01,
+.btn-group > .active.btn-02,
+.btn-group > .active.btn-03,
+.btn-group > .active.btn-04,
+.btn-group > .active.btn-05,
+.btn-group > .active.btn-06,
+.btn-group > .active.btn-07,
+.btn-group > .active.btn-08,
+.btn-group > .active.btn-09,
 .btn-group > .active.btn-10,
+.btn-group > .active.btn-11,
+.btn-group > .active.btn-12,
+.btn-group > .active.btn-13,
+.btn-group > .active.btn-14,
+.btn-group > .active.btn-15,
+.btn-group > .active.btn-16,
+.btn-group > .active.btn-17,
+.btn-group > .active.btn-18,
+.btn-group > .active.btn-19,
+.btn-group > .active.btn-20,
+.btn-group > .active.btn-Alta,
+.btn-group > .active.btn-Modi,
+.btn-group > .active.btn-Elim,
+.btn-group > .active.btn-Regr,
 .btn-group-vertical > .btn-check:checked + .btn,
 .btn-group-vertical > .btn-check:checked + .btn-Eliminar,
 .btn-group-vertical > .btn-check:checked + .btn-Modificar,
@@ -3789,16 +3901,30 @@ textarea.form-control-lg {
 .btn-group-vertical > .btn-check:checked + .btn-Submit,
 .btn-group-vertical > .btn-check:checked + .btn-Subir,
 .btn-group-vertical > .btn-check:checked + .btn-Visualizar,
-.btn-group-vertical > .btn-check:checked + .btn-1,
-.btn-group-vertical > .btn-check:checked + .btn-2,
-.btn-group-vertical > .btn-check:checked + .btn-3,
-.btn-group-vertical > .btn-check:checked + .btn-Elim,
-.btn-group-vertical > .btn-check:checked + .btn-5,
-.btn-group-vertical > .btn-check:checked + .btn-6,
-.btn-group-vertical > .btn-check:checked + .btn-Modi,
-.btn-group-vertical > .btn-check:checked + .btn-Alta,
-.btn-group-vertical > .btn-check:checked + .btn-9,
+.btn-group-vertical > .btn-check:checked + .btn-01,
+.btn-group-vertical > .btn-check:checked + .btn-02,
+.btn-group-vertical > .btn-check:checked + .btn-03,
+.btn-group-vertical > .btn-check:checked + .btn-04,
+.btn-group-vertical > .btn-check:checked + .btn-05,
+.btn-group-vertical > .btn-check:checked + .btn-06,
+.btn-group-vertical > .btn-check:checked + .btn-07,
+.btn-group-vertical > .btn-check:checked + .btn-08,
+.btn-group-vertical > .btn-check:checked + .btn-09,
 .btn-group-vertical > .btn-check:checked + .btn-10,
+.btn-group-vertical > .btn-check:checked + .btn-11,
+.btn-group-vertical > .btn-check:checked + .btn-12,
+.btn-group-vertical > .btn-check:checked + .btn-13,
+.btn-group-vertical > .btn-check:checked + .btn-14,
+.btn-group-vertical > .btn-check:checked + .btn-15,
+.btn-group-vertical > .btn-check:checked + .btn-16,
+.btn-group-vertical > .btn-check:checked + .btn-17,
+.btn-group-vertical > .btn-check:checked + .btn-18,
+.btn-group-vertical > .btn-check:checked + .btn-19,
+.btn-group-vertical > .btn-check:checked + .btn-20,
+.btn-group-vertical > .btn-check:checked + .btn-Alta,
+.btn-group-vertical > .btn-check:checked + .btn-Modi,
+.btn-group-vertical > .btn-check:checked + .btn-Elim,
+.btn-group-vertical > .btn-check:checked + .btn-Regr,
 .btn-group-vertical > .btn-check:focus + .btn,
 .btn-group-vertical > .btn-check:focus + .btn-Eliminar,
 .btn-group-vertical > .btn-check:focus + .btn-Modificar,
@@ -3807,16 +3933,30 @@ textarea.form-control-lg {
 .btn-group-vertical > .btn-check:focus + .btn-Submit,
 .btn-group-vertical > .btn-check:focus + .btn-Subir,
 .btn-group-vertical > .btn-check:focus + .btn-Visualizar,
-.btn-group-vertical > .btn-check:focus + .btn-1,
-.btn-group-vertical > .btn-check:focus + .btn-2,
-.btn-group-vertical > .btn-check:focus + .btn-3,
-.btn-group-vertical > .btn-check:focus + .btn-Elim,
-.btn-group-vertical > .btn-check:focus + .btn-5,
-.btn-group-vertical > .btn-check:focus + .btn-6,
-.btn-group-vertical > .btn-check:focus + .btn-Modi,
-.btn-group-vertical > .btn-check:focus + .btn-Alta,
-.btn-group-vertical > .btn-check:focus + .btn-9,
+.btn-group-vertical > .btn-check:focus + .btn-01,
+.btn-group-vertical > .btn-check:focus + .btn-02,
+.btn-group-vertical > .btn-check:focus + .btn-03,
+.btn-group-vertical > .btn-check:focus + .btn-04,
+.btn-group-vertical > .btn-check:focus + .btn-05,
+.btn-group-vertical > .btn-check:focus + .btn-06,
+.btn-group-vertical > .btn-check:focus + .btn-07,
+.btn-group-vertical > .btn-check:focus + .btn-08,
+.btn-group-vertical > .btn-check:focus + .btn-09,
 .btn-group-vertical > .btn-check:focus + .btn-10,
+.btn-group-vertical > .btn-check:focus + .btn-11,
+.btn-group-vertical > .btn-check:focus + .btn-12,
+.btn-group-vertical > .btn-check:focus + .btn-13,
+.btn-group-vertical > .btn-check:focus + .btn-14,
+.btn-group-vertical > .btn-check:focus + .btn-15,
+.btn-group-vertical > .btn-check:focus + .btn-16,
+.btn-group-vertical > .btn-check:focus + .btn-17,
+.btn-group-vertical > .btn-check:focus + .btn-18,
+.btn-group-vertical > .btn-check:focus + .btn-19,
+.btn-group-vertical > .btn-check:focus + .btn-20,
+.btn-group-vertical > .btn-check:focus + .btn-Alta,
+.btn-group-vertical > .btn-check:focus + .btn-Modi,
+.btn-group-vertical > .btn-check:focus + .btn-Elim,
+.btn-group-vertical > .btn-check:focus + .btn-Regr,
 .btn-group-vertical > .btn:hover,
 .btn-group-vertical > .btn-Eliminar:hover,
 .btn-group-vertical > .btn-Modificar:hover,
@@ -3825,16 +3965,30 @@ textarea.form-control-lg {
 .btn-group-vertical > .btn-Submit:hover,
 .btn-group-vertical > .btn-Subir:hover,
 .btn-group-vertical > .btn-Visualizar:hover,
-.btn-group-vertical > .btn-1:hover,
-.btn-group-vertical > .btn-2:hover,
-.btn-group-vertical > .btn-3:hover,
-.btn-group-vertical > .btn-Elim:hover,
-.btn-group-vertical > .btn-5:hover,
-.btn-group-vertical > .btn-6:hover,
-.btn-group-vertical > .btn-Modi:hover,
-.btn-group-vertical > .btn-Alta:hover,
-.btn-group-vertical > .btn-9:hover,
+.btn-group-vertical > .btn-01:hover,
+.btn-group-vertical > .btn-02:hover,
+.btn-group-vertical > .btn-03:hover,
+.btn-group-vertical > .btn-04:hover,
+.btn-group-vertical > .btn-05:hover,
+.btn-group-vertical > .btn-06:hover,
+.btn-group-vertical > .btn-07:hover,
+.btn-group-vertical > .btn-08:hover,
+.btn-group-vertical > .btn-09:hover,
 .btn-group-vertical > .btn-10:hover,
+.btn-group-vertical > .btn-11:hover,
+.btn-group-vertical > .btn-12:hover,
+.btn-group-vertical > .btn-13:hover,
+.btn-group-vertical > .btn-14:hover,
+.btn-group-vertical > .btn-15:hover,
+.btn-group-vertical > .btn-16:hover,
+.btn-group-vertical > .btn-17:hover,
+.btn-group-vertical > .btn-18:hover,
+.btn-group-vertical > .btn-19:hover,
+.btn-group-vertical > .btn-20:hover,
+.btn-group-vertical > .btn-Alta:hover,
+.btn-group-vertical > .btn-Modi:hover,
+.btn-group-vertical > .btn-Elim:hover,
+.btn-group-vertical > .btn-Regr:hover,
 .btn-group-vertical > .btn:focus,
 .btn-group-vertical > .btn-Eliminar:focus,
 .btn-group-vertical > .btn-Modificar:focus,
@@ -3843,16 +3997,30 @@ textarea.form-control-lg {
 .btn-group-vertical > .btn-Submit:focus,
 .btn-group-vertical > .btn-Subir:focus,
 .btn-group-vertical > .btn-Visualizar:focus,
-.btn-group-vertical > .btn-1:focus,
-.btn-group-vertical > .btn-2:focus,
-.btn-group-vertical > .btn-3:focus,
-.btn-group-vertical > .btn-Elim:focus,
-.btn-group-vertical > .btn-5:focus,
-.btn-group-vertical > .btn-6:focus,
-.btn-group-vertical > .btn-Modi:focus,
-.btn-group-vertical > .btn-Alta:focus,
-.btn-group-vertical > .btn-9:focus,
+.btn-group-vertical > .btn-01:focus,
+.btn-group-vertical > .btn-02:focus,
+.btn-group-vertical > .btn-03:focus,
+.btn-group-vertical > .btn-04:focus,
+.btn-group-vertical > .btn-05:focus,
+.btn-group-vertical > .btn-06:focus,
+.btn-group-vertical > .btn-07:focus,
+.btn-group-vertical > .btn-08:focus,
+.btn-group-vertical > .btn-09:focus,
 .btn-group-vertical > .btn-10:focus,
+.btn-group-vertical > .btn-11:focus,
+.btn-group-vertical > .btn-12:focus,
+.btn-group-vertical > .btn-13:focus,
+.btn-group-vertical > .btn-14:focus,
+.btn-group-vertical > .btn-15:focus,
+.btn-group-vertical > .btn-16:focus,
+.btn-group-vertical > .btn-17:focus,
+.btn-group-vertical > .btn-18:focus,
+.btn-group-vertical > .btn-19:focus,
+.btn-group-vertical > .btn-20:focus,
+.btn-group-vertical > .btn-Alta:focus,
+.btn-group-vertical > .btn-Modi:focus,
+.btn-group-vertical > .btn-Elim:focus,
+.btn-group-vertical > .btn-Regr:focus,
 .btn-group-vertical > .btn:active,
 .btn-group-vertical > .btn-Eliminar:active,
 .btn-group-vertical > .btn-Modificar:active,
@@ -3861,16 +4029,30 @@ textarea.form-control-lg {
 .btn-group-vertical > .btn-Submit:active,
 .btn-group-vertical > .btn-Subir:active,
 .btn-group-vertical > .btn-Visualizar:active,
-.btn-group-vertical > .btn-1:active,
-.btn-group-vertical > .btn-2:active,
-.btn-group-vertical > .btn-3:active,
-.btn-group-vertical > .btn-Elim:active,
-.btn-group-vertical > .btn-5:active,
-.btn-group-vertical > .btn-6:active,
-.btn-group-vertical > .btn-Modi:active,
-.btn-group-vertical > .btn-Alta:active,
-.btn-group-vertical > .btn-9:active,
+.btn-group-vertical > .btn-01:active,
+.btn-group-vertical > .btn-02:active,
+.btn-group-vertical > .btn-03:active,
+.btn-group-vertical > .btn-04:active,
+.btn-group-vertical > .btn-05:active,
+.btn-group-vertical > .btn-06:active,
+.btn-group-vertical > .btn-07:active,
+.btn-group-vertical > .btn-08:active,
+.btn-group-vertical > .btn-09:active,
 .btn-group-vertical > .btn-10:active,
+.btn-group-vertical > .btn-11:active,
+.btn-group-vertical > .btn-12:active,
+.btn-group-vertical > .btn-13:active,
+.btn-group-vertical > .btn-14:active,
+.btn-group-vertical > .btn-15:active,
+.btn-group-vertical > .btn-16:active,
+.btn-group-vertical > .btn-17:active,
+.btn-group-vertical > .btn-18:active,
+.btn-group-vertical > .btn-19:active,
+.btn-group-vertical > .btn-20:active,
+.btn-group-vertical > .btn-Alta:active,
+.btn-group-vertical > .btn-Modi:active,
+.btn-group-vertical > .btn-Elim:active,
+.btn-group-vertical > .btn-Regr:active,
 .btn-group-vertical > .btn.active,
 .btn-group-vertical > .active.btn-Eliminar,
 .btn-group-vertical > .active.btn-Modificar,
@@ -3879,16 +4061,30 @@ textarea.form-control-lg {
 .btn-group-vertical > .active.btn-Submit,
 .btn-group-vertical > .active.btn-Subir,
 .btn-group-vertical > .active.btn-Visualizar,
-.btn-group-vertical > .active.btn-1,
-.btn-group-vertical > .active.btn-2,
-.btn-group-vertical > .active.btn-3,
-.btn-group-vertical > .active.btn-Elim,
-.btn-group-vertical > .active.btn-5,
-.btn-group-vertical > .active.btn-6,
-.btn-group-vertical > .active.btn-Modi,
+.btn-group-vertical > .active.btn-01,
+.btn-group-vertical > .active.btn-02,
+.btn-group-vertical > .active.btn-03,
+.btn-group-vertical > .active.btn-04,
+.btn-group-vertical > .active.btn-05,
+.btn-group-vertical > .active.btn-06,
+.btn-group-vertical > .active.btn-07,
+.btn-group-vertical > .active.btn-08,
+.btn-group-vertical > .active.btn-09,
+.btn-group-vertical > .active.btn-10,
+.btn-group-vertical > .active.btn-11,
+.btn-group-vertical > .active.btn-12,
+.btn-group-vertical > .active.btn-13,
+.btn-group-vertical > .active.btn-14,
+.btn-group-vertical > .active.btn-15,
+.btn-group-vertical > .active.btn-16,
+.btn-group-vertical > .active.btn-17,
+.btn-group-vertical > .active.btn-18,
+.btn-group-vertical > .active.btn-19,
+.btn-group-vertical > .active.btn-20,
 .btn-group-vertical > .active.btn-Alta,
-.btn-group-vertical > .active.btn-9,
-.btn-group-vertical > .active.btn-10 {
+.btn-group-vertical > .active.btn-Modi,
+.btn-group-vertical > .active.btn-Elim,
+.btn-group-vertical > .active.btn-Regr {
   z-index: 1;
 }
 
@@ -3904,11 +4100,11 @@ textarea.form-control-lg {
 .btn-group {
   border-radius: var(--bs-border-radius);
 }
-.btn-group > :not(.btn-check:first-child) + .btn, .btn-group > :not(.btn-check:first-child) + .btn-Eliminar, .btn-group > :not(.btn-check:first-child) + .btn-Modificar, .btn-group > :not(.btn-check:first-child) + .btn-Nuevo, .btn-group > :not(.btn-check:first-child) + .btn-Regresar, .btn-group > :not(.btn-check:first-child) + .btn-Submit, .btn-group > :not(.btn-check:first-child) + .btn-Subir, .btn-group > :not(.btn-check:first-child) + .btn-Visualizar, .btn-group > :not(.btn-check:first-child) + .btn-1, .btn-group > :not(.btn-check:first-child) + .btn-2, .btn-group > :not(.btn-check:first-child) + .btn-3, .btn-group > :not(.btn-check:first-child) + .btn-Elim, .btn-group > :not(.btn-check:first-child) + .btn-5, .btn-group > :not(.btn-check:first-child) + .btn-6, .btn-group > :not(.btn-check:first-child) + .btn-Modi, .btn-group > :not(.btn-check:first-child) + .btn-Alta, .btn-group > :not(.btn-check:first-child) + .btn-9, .btn-group > :not(.btn-check:first-child) + .btn-10,
+.btn-group > :not(.btn-check:first-child) + .btn, .btn-group > :not(.btn-check:first-child) + .btn-Eliminar, .btn-group > :not(.btn-check:first-child) + .btn-Modificar, .btn-group > :not(.btn-check:first-child) + .btn-Nuevo, .btn-group > :not(.btn-check:first-child) + .btn-Regresar, .btn-group > :not(.btn-check:first-child) + .btn-Submit, .btn-group > :not(.btn-check:first-child) + .btn-Subir, .btn-group > :not(.btn-check:first-child) + .btn-Visualizar, .btn-group > :not(.btn-check:first-child) + .btn-01, .btn-group > :not(.btn-check:first-child) + .btn-02, .btn-group > :not(.btn-check:first-child) + .btn-03, .btn-group > :not(.btn-check:first-child) + .btn-04, .btn-group > :not(.btn-check:first-child) + .btn-05, .btn-group > :not(.btn-check:first-child) + .btn-06, .btn-group > :not(.btn-check:first-child) + .btn-07, .btn-group > :not(.btn-check:first-child) + .btn-08, .btn-group > :not(.btn-check:first-child) + .btn-09, .btn-group > :not(.btn-check:first-child) + .btn-10, .btn-group > :not(.btn-check:first-child) + .btn-11, .btn-group > :not(.btn-check:first-child) + .btn-12, .btn-group > :not(.btn-check:first-child) + .btn-13, .btn-group > :not(.btn-check:first-child) + .btn-14, .btn-group > :not(.btn-check:first-child) + .btn-15, .btn-group > :not(.btn-check:first-child) + .btn-16, .btn-group > :not(.btn-check:first-child) + .btn-17, .btn-group > :not(.btn-check:first-child) + .btn-18, .btn-group > :not(.btn-check:first-child) + .btn-19, .btn-group > :not(.btn-check:first-child) + .btn-20, .btn-group > :not(.btn-check:first-child) + .btn-Alta, .btn-group > :not(.btn-check:first-child) + .btn-Modi, .btn-group > :not(.btn-check:first-child) + .btn-Elim, .btn-group > :not(.btn-check:first-child) + .btn-Regr,
 .btn-group > .btn-group:not(:first-child) {
   margin-left: calc(var(--bs-border-width) * -1);
 }
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Eliminar:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Modificar:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Nuevo:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Regresar:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Submit:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Subir:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Visualizar:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-1:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-2:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-3:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Elim:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-5:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-6:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Modi:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Alta:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-9:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-10:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Eliminar:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Modificar:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Nuevo:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Regresar:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Submit:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Subir:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Visualizar:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-01:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-02:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-03:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-04:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-05:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-06:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-07:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-08:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-09:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-10:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-11:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-12:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-13:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-14:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-15:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-16:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-17:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-18:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-19:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-20:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Alta:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Modi:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Elim:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-Regr:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn.dropdown-toggle-split:first-child,
 .btn-group > .dropdown-toggle-split.btn-Eliminar:first-child,
 .btn-group > .dropdown-toggle-split.btn-Modificar:first-child,
@@ -3917,16 +4113,30 @@ textarea.form-control-lg {
 .btn-group > .dropdown-toggle-split.btn-Submit:first-child,
 .btn-group > .dropdown-toggle-split.btn-Subir:first-child,
 .btn-group > .dropdown-toggle-split.btn-Visualizar:first-child,
-.btn-group > .dropdown-toggle-split.btn-1:first-child,
-.btn-group > .dropdown-toggle-split.btn-2:first-child,
-.btn-group > .dropdown-toggle-split.btn-3:first-child,
-.btn-group > .dropdown-toggle-split.btn-Elim:first-child,
-.btn-group > .dropdown-toggle-split.btn-5:first-child,
-.btn-group > .dropdown-toggle-split.btn-6:first-child,
-.btn-group > .dropdown-toggle-split.btn-Modi:first-child,
-.btn-group > .dropdown-toggle-split.btn-Alta:first-child,
-.btn-group > .dropdown-toggle-split.btn-9:first-child,
+.btn-group > .dropdown-toggle-split.btn-01:first-child,
+.btn-group > .dropdown-toggle-split.btn-02:first-child,
+.btn-group > .dropdown-toggle-split.btn-03:first-child,
+.btn-group > .dropdown-toggle-split.btn-04:first-child,
+.btn-group > .dropdown-toggle-split.btn-05:first-child,
+.btn-group > .dropdown-toggle-split.btn-06:first-child,
+.btn-group > .dropdown-toggle-split.btn-07:first-child,
+.btn-group > .dropdown-toggle-split.btn-08:first-child,
+.btn-group > .dropdown-toggle-split.btn-09:first-child,
 .btn-group > .dropdown-toggle-split.btn-10:first-child,
+.btn-group > .dropdown-toggle-split.btn-11:first-child,
+.btn-group > .dropdown-toggle-split.btn-12:first-child,
+.btn-group > .dropdown-toggle-split.btn-13:first-child,
+.btn-group > .dropdown-toggle-split.btn-14:first-child,
+.btn-group > .dropdown-toggle-split.btn-15:first-child,
+.btn-group > .dropdown-toggle-split.btn-16:first-child,
+.btn-group > .dropdown-toggle-split.btn-17:first-child,
+.btn-group > .dropdown-toggle-split.btn-18:first-child,
+.btn-group > .dropdown-toggle-split.btn-19:first-child,
+.btn-group > .dropdown-toggle-split.btn-20:first-child,
+.btn-group > .dropdown-toggle-split.btn-Alta:first-child,
+.btn-group > .dropdown-toggle-split.btn-Modi:first-child,
+.btn-group > .dropdown-toggle-split.btn-Elim:first-child,
+.btn-group > .dropdown-toggle-split.btn-Regr:first-child,
 .btn-group > .btn-group:not(:last-child) > .btn,
 .btn-group > .btn-group:not(:last-child) > .btn-Eliminar,
 .btn-group > .btn-group:not(:last-child) > .btn-Modificar,
@@ -3935,20 +4145,34 @@ textarea.form-control-lg {
 .btn-group > .btn-group:not(:last-child) > .btn-Submit,
 .btn-group > .btn-group:not(:last-child) > .btn-Subir,
 .btn-group > .btn-group:not(:last-child) > .btn-Visualizar,
-.btn-group > .btn-group:not(:last-child) > .btn-1,
-.btn-group > .btn-group:not(:last-child) > .btn-2,
-.btn-group > .btn-group:not(:last-child) > .btn-3,
-.btn-group > .btn-group:not(:last-child) > .btn-Elim,
-.btn-group > .btn-group:not(:last-child) > .btn-5,
-.btn-group > .btn-group:not(:last-child) > .btn-6,
-.btn-group > .btn-group:not(:last-child) > .btn-Modi,
+.btn-group > .btn-group:not(:last-child) > .btn-01,
+.btn-group > .btn-group:not(:last-child) > .btn-02,
+.btn-group > .btn-group:not(:last-child) > .btn-03,
+.btn-group > .btn-group:not(:last-child) > .btn-04,
+.btn-group > .btn-group:not(:last-child) > .btn-05,
+.btn-group > .btn-group:not(:last-child) > .btn-06,
+.btn-group > .btn-group:not(:last-child) > .btn-07,
+.btn-group > .btn-group:not(:last-child) > .btn-08,
+.btn-group > .btn-group:not(:last-child) > .btn-09,
+.btn-group > .btn-group:not(:last-child) > .btn-10,
+.btn-group > .btn-group:not(:last-child) > .btn-11,
+.btn-group > .btn-group:not(:last-child) > .btn-12,
+.btn-group > .btn-group:not(:last-child) > .btn-13,
+.btn-group > .btn-group:not(:last-child) > .btn-14,
+.btn-group > .btn-group:not(:last-child) > .btn-15,
+.btn-group > .btn-group:not(:last-child) > .btn-16,
+.btn-group > .btn-group:not(:last-child) > .btn-17,
+.btn-group > .btn-group:not(:last-child) > .btn-18,
+.btn-group > .btn-group:not(:last-child) > .btn-19,
+.btn-group > .btn-group:not(:last-child) > .btn-20,
 .btn-group > .btn-group:not(:last-child) > .btn-Alta,
-.btn-group > .btn-group:not(:last-child) > .btn-9,
-.btn-group > .btn-group:not(:last-child) > .btn-10 {
+.btn-group > .btn-group:not(:last-child) > .btn-Modi,
+.btn-group > .btn-group:not(:last-child) > .btn-Elim,
+.btn-group > .btn-group:not(:last-child) > .btn-Regr {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.btn-group > .btn:nth-child(n+3), .btn-group > .btn-Eliminar:nth-child(n+3), .btn-group > .btn-Modificar:nth-child(n+3), .btn-group > .btn-Nuevo:nth-child(n+3), .btn-group > .btn-Regresar:nth-child(n+3), .btn-group > .btn-Submit:nth-child(n+3), .btn-group > .btn-Subir:nth-child(n+3), .btn-group > .btn-Visualizar:nth-child(n+3), .btn-group > .btn-1:nth-child(n+3), .btn-group > .btn-2:nth-child(n+3), .btn-group > .btn-3:nth-child(n+3), .btn-group > .btn-Elim:nth-child(n+3), .btn-group > .btn-5:nth-child(n+3), .btn-group > .btn-6:nth-child(n+3), .btn-group > .btn-Modi:nth-child(n+3), .btn-group > .btn-Alta:nth-child(n+3), .btn-group > .btn-9:nth-child(n+3), .btn-group > .btn-10:nth-child(n+3),
+.btn-group > .btn:nth-child(n+3), .btn-group > .btn-Eliminar:nth-child(n+3), .btn-group > .btn-Modificar:nth-child(n+3), .btn-group > .btn-Nuevo:nth-child(n+3), .btn-group > .btn-Regresar:nth-child(n+3), .btn-group > .btn-Submit:nth-child(n+3), .btn-group > .btn-Subir:nth-child(n+3), .btn-group > .btn-Visualizar:nth-child(n+3), .btn-group > .btn-01:nth-child(n+3), .btn-group > .btn-02:nth-child(n+3), .btn-group > .btn-03:nth-child(n+3), .btn-group > .btn-04:nth-child(n+3), .btn-group > .btn-05:nth-child(n+3), .btn-group > .btn-06:nth-child(n+3), .btn-group > .btn-07:nth-child(n+3), .btn-group > .btn-08:nth-child(n+3), .btn-group > .btn-09:nth-child(n+3), .btn-group > .btn-10:nth-child(n+3), .btn-group > .btn-11:nth-child(n+3), .btn-group > .btn-12:nth-child(n+3), .btn-group > .btn-13:nth-child(n+3), .btn-group > .btn-14:nth-child(n+3), .btn-group > .btn-15:nth-child(n+3), .btn-group > .btn-16:nth-child(n+3), .btn-group > .btn-17:nth-child(n+3), .btn-group > .btn-18:nth-child(n+3), .btn-group > .btn-19:nth-child(n+3), .btn-group > .btn-20:nth-child(n+3), .btn-group > .btn-Alta:nth-child(n+3), .btn-group > .btn-Modi:nth-child(n+3), .btn-group > .btn-Elim:nth-child(n+3), .btn-group > .btn-Regr:nth-child(n+3),
 .btn-group > :not(.btn-check) + .btn,
 .btn-group > :not(.btn-check) + .btn-Eliminar,
 .btn-group > :not(.btn-check) + .btn-Modificar,
@@ -3957,16 +4181,30 @@ textarea.form-control-lg {
 .btn-group > :not(.btn-check) + .btn-Submit,
 .btn-group > :not(.btn-check) + .btn-Subir,
 .btn-group > :not(.btn-check) + .btn-Visualizar,
-.btn-group > :not(.btn-check) + .btn-1,
-.btn-group > :not(.btn-check) + .btn-2,
-.btn-group > :not(.btn-check) + .btn-3,
-.btn-group > :not(.btn-check) + .btn-Elim,
-.btn-group > :not(.btn-check) + .btn-5,
-.btn-group > :not(.btn-check) + .btn-6,
-.btn-group > :not(.btn-check) + .btn-Modi,
-.btn-group > :not(.btn-check) + .btn-Alta,
-.btn-group > :not(.btn-check) + .btn-9,
+.btn-group > :not(.btn-check) + .btn-01,
+.btn-group > :not(.btn-check) + .btn-02,
+.btn-group > :not(.btn-check) + .btn-03,
+.btn-group > :not(.btn-check) + .btn-04,
+.btn-group > :not(.btn-check) + .btn-05,
+.btn-group > :not(.btn-check) + .btn-06,
+.btn-group > :not(.btn-check) + .btn-07,
+.btn-group > :not(.btn-check) + .btn-08,
+.btn-group > :not(.btn-check) + .btn-09,
 .btn-group > :not(.btn-check) + .btn-10,
+.btn-group > :not(.btn-check) + .btn-11,
+.btn-group > :not(.btn-check) + .btn-12,
+.btn-group > :not(.btn-check) + .btn-13,
+.btn-group > :not(.btn-check) + .btn-14,
+.btn-group > :not(.btn-check) + .btn-15,
+.btn-group > :not(.btn-check) + .btn-16,
+.btn-group > :not(.btn-check) + .btn-17,
+.btn-group > :not(.btn-check) + .btn-18,
+.btn-group > :not(.btn-check) + .btn-19,
+.btn-group > :not(.btn-check) + .btn-20,
+.btn-group > :not(.btn-check) + .btn-Alta,
+.btn-group > :not(.btn-check) + .btn-Modi,
+.btn-group > :not(.btn-check) + .btn-Elim,
+.btn-group > :not(.btn-check) + .btn-Regr,
 .btn-group > .btn-group:not(:first-child) > .btn,
 .btn-group > .btn-group:not(:first-child) > .btn-Eliminar,
 .btn-group > .btn-group:not(:first-child) > .btn-Modificar,
@@ -3975,16 +4213,30 @@ textarea.form-control-lg {
 .btn-group > .btn-group:not(:first-child) > .btn-Submit,
 .btn-group > .btn-group:not(:first-child) > .btn-Subir,
 .btn-group > .btn-group:not(:first-child) > .btn-Visualizar,
-.btn-group > .btn-group:not(:first-child) > .btn-1,
-.btn-group > .btn-group:not(:first-child) > .btn-2,
-.btn-group > .btn-group:not(:first-child) > .btn-3,
-.btn-group > .btn-group:not(:first-child) > .btn-Elim,
-.btn-group > .btn-group:not(:first-child) > .btn-5,
-.btn-group > .btn-group:not(:first-child) > .btn-6,
-.btn-group > .btn-group:not(:first-child) > .btn-Modi,
+.btn-group > .btn-group:not(:first-child) > .btn-01,
+.btn-group > .btn-group:not(:first-child) > .btn-02,
+.btn-group > .btn-group:not(:first-child) > .btn-03,
+.btn-group > .btn-group:not(:first-child) > .btn-04,
+.btn-group > .btn-group:not(:first-child) > .btn-05,
+.btn-group > .btn-group:not(:first-child) > .btn-06,
+.btn-group > .btn-group:not(:first-child) > .btn-07,
+.btn-group > .btn-group:not(:first-child) > .btn-08,
+.btn-group > .btn-group:not(:first-child) > .btn-09,
+.btn-group > .btn-group:not(:first-child) > .btn-10,
+.btn-group > .btn-group:not(:first-child) > .btn-11,
+.btn-group > .btn-group:not(:first-child) > .btn-12,
+.btn-group > .btn-group:not(:first-child) > .btn-13,
+.btn-group > .btn-group:not(:first-child) > .btn-14,
+.btn-group > .btn-group:not(:first-child) > .btn-15,
+.btn-group > .btn-group:not(:first-child) > .btn-16,
+.btn-group > .btn-group:not(:first-child) > .btn-17,
+.btn-group > .btn-group:not(:first-child) > .btn-18,
+.btn-group > .btn-group:not(:first-child) > .btn-19,
+.btn-group > .btn-group:not(:first-child) > .btn-20,
 .btn-group > .btn-group:not(:first-child) > .btn-Alta,
-.btn-group > .btn-group:not(:first-child) > .btn-9,
-.btn-group > .btn-group:not(:first-child) > .btn-10 {
+.btn-group > .btn-group:not(:first-child) > .btn-Modi,
+.btn-group > .btn-group:not(:first-child) > .btn-Elim,
+.btn-group > .btn-group:not(:first-child) > .btn-Regr {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -4000,12 +4252,12 @@ textarea.form-control-lg {
   margin-right: 0;
 }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .btn-group-sm > .btn-Eliminar + .dropdown-toggle-split, .btn-group-sm > .btn-Modificar + .dropdown-toggle-split, .btn-group-sm > .btn-Nuevo + .dropdown-toggle-split, .btn-group-sm > .btn-Regresar + .dropdown-toggle-split, .btn-group-sm > .btn-Submit + .dropdown-toggle-split, .btn-group-sm > .btn-Subir + .dropdown-toggle-split, .btn-group-sm > .btn-Visualizar + .dropdown-toggle-split, .btn-group-sm > .btn-1 + .dropdown-toggle-split, .btn-group-sm > .btn-2 + .dropdown-toggle-split, .btn-group-sm > .btn-3 + .dropdown-toggle-split, .btn-group-sm > .btn-Elim + .dropdown-toggle-split, .btn-group-sm > .btn-5 + .dropdown-toggle-split, .btn-group-sm > .btn-6 + .dropdown-toggle-split, .btn-group-sm > .btn-Modi + .dropdown-toggle-split, .btn-group-sm > .btn-Alta + .dropdown-toggle-split, .btn-group-sm > .btn-9 + .dropdown-toggle-split, .btn-group-sm > .btn-10 + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .btn-group-sm > .btn-Eliminar + .dropdown-toggle-split, .btn-group-sm > .btn-Modificar + .dropdown-toggle-split, .btn-group-sm > .btn-Nuevo + .dropdown-toggle-split, .btn-group-sm > .btn-Regresar + .dropdown-toggle-split, .btn-group-sm > .btn-Submit + .dropdown-toggle-split, .btn-group-sm > .btn-Subir + .dropdown-toggle-split, .btn-group-sm > .btn-Visualizar + .dropdown-toggle-split, .btn-group-sm > .btn-01 + .dropdown-toggle-split, .btn-group-sm > .btn-02 + .dropdown-toggle-split, .btn-group-sm > .btn-03 + .dropdown-toggle-split, .btn-group-sm > .btn-04 + .dropdown-toggle-split, .btn-group-sm > .btn-05 + .dropdown-toggle-split, .btn-group-sm > .btn-06 + .dropdown-toggle-split, .btn-group-sm > .btn-07 + .dropdown-toggle-split, .btn-group-sm > .btn-08 + .dropdown-toggle-split, .btn-group-sm > .btn-09 + .dropdown-toggle-split, .btn-group-sm > .btn-10 + .dropdown-toggle-split, .btn-group-sm > .btn-11 + .dropdown-toggle-split, .btn-group-sm > .btn-12 + .dropdown-toggle-split, .btn-group-sm > .btn-13 + .dropdown-toggle-split, .btn-group-sm > .btn-14 + .dropdown-toggle-split, .btn-group-sm > .btn-15 + .dropdown-toggle-split, .btn-group-sm > .btn-16 + .dropdown-toggle-split, .btn-group-sm > .btn-17 + .dropdown-toggle-split, .btn-group-sm > .btn-18 + .dropdown-toggle-split, .btn-group-sm > .btn-19 + .dropdown-toggle-split, .btn-group-sm > .btn-20 + .dropdown-toggle-split, .btn-group-sm > .btn-Alta + .dropdown-toggle-split, .btn-group-sm > .btn-Modi + .dropdown-toggle-split, .btn-group-sm > .btn-Elim + .dropdown-toggle-split, .btn-group-sm > .btn-Regr + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem;
 }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .btn-group-lg > .btn-Eliminar + .dropdown-toggle-split, .btn-group-lg > .btn-Modificar + .dropdown-toggle-split, .btn-group-lg > .btn-Nuevo + .dropdown-toggle-split, .btn-group-lg > .btn-Regresar + .dropdown-toggle-split, .btn-group-lg > .btn-Submit + .dropdown-toggle-split, .btn-group-lg > .btn-Subir + .dropdown-toggle-split, .btn-group-lg > .btn-Visualizar + .dropdown-toggle-split, .btn-group-lg > .btn-1 + .dropdown-toggle-split, .btn-group-lg > .btn-2 + .dropdown-toggle-split, .btn-group-lg > .btn-3 + .dropdown-toggle-split, .btn-group-lg > .btn-Elim + .dropdown-toggle-split, .btn-group-lg > .btn-5 + .dropdown-toggle-split, .btn-group-lg > .btn-6 + .dropdown-toggle-split, .btn-group-lg > .btn-Modi + .dropdown-toggle-split, .btn-group-lg > .btn-Alta + .dropdown-toggle-split, .btn-group-lg > .btn-9 + .dropdown-toggle-split, .btn-group-lg > .btn-10 + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .btn-group-lg > .btn-Eliminar + .dropdown-toggle-split, .btn-group-lg > .btn-Modificar + .dropdown-toggle-split, .btn-group-lg > .btn-Nuevo + .dropdown-toggle-split, .btn-group-lg > .btn-Regresar + .dropdown-toggle-split, .btn-group-lg > .btn-Submit + .dropdown-toggle-split, .btn-group-lg > .btn-Subir + .dropdown-toggle-split, .btn-group-lg > .btn-Visualizar + .dropdown-toggle-split, .btn-group-lg > .btn-01 + .dropdown-toggle-split, .btn-group-lg > .btn-02 + .dropdown-toggle-split, .btn-group-lg > .btn-03 + .dropdown-toggle-split, .btn-group-lg > .btn-04 + .dropdown-toggle-split, .btn-group-lg > .btn-05 + .dropdown-toggle-split, .btn-group-lg > .btn-06 + .dropdown-toggle-split, .btn-group-lg > .btn-07 + .dropdown-toggle-split, .btn-group-lg > .btn-08 + .dropdown-toggle-split, .btn-group-lg > .btn-09 + .dropdown-toggle-split, .btn-group-lg > .btn-10 + .dropdown-toggle-split, .btn-group-lg > .btn-11 + .dropdown-toggle-split, .btn-group-lg > .btn-12 + .dropdown-toggle-split, .btn-group-lg > .btn-13 + .dropdown-toggle-split, .btn-group-lg > .btn-14 + .dropdown-toggle-split, .btn-group-lg > .btn-15 + .dropdown-toggle-split, .btn-group-lg > .btn-16 + .dropdown-toggle-split, .btn-group-lg > .btn-17 + .dropdown-toggle-split, .btn-group-lg > .btn-18 + .dropdown-toggle-split, .btn-group-lg > .btn-19 + .dropdown-toggle-split, .btn-group-lg > .btn-20 + .dropdown-toggle-split, .btn-group-lg > .btn-Alta + .dropdown-toggle-split, .btn-group-lg > .btn-Modi + .dropdown-toggle-split, .btn-group-lg > .btn-Elim + .dropdown-toggle-split, .btn-group-lg > .btn-Regr + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }
@@ -4015,15 +4267,15 @@ textarea.form-control-lg {
   align-items: flex-start;
   justify-content: center;
 }
-.btn-group-vertical > .btn, .btn-group-vertical > .btn-Eliminar, .btn-group-vertical > .btn-Modificar, .btn-group-vertical > .btn-Nuevo, .btn-group-vertical > .btn-Regresar, .btn-group-vertical > .btn-Submit, .btn-group-vertical > .btn-Subir, .btn-group-vertical > .btn-Visualizar, .btn-group-vertical > .btn-1, .btn-group-vertical > .btn-2, .btn-group-vertical > .btn-3, .btn-group-vertical > .btn-Elim, .btn-group-vertical > .btn-5, .btn-group-vertical > .btn-6, .btn-group-vertical > .btn-Modi, .btn-group-vertical > .btn-Alta, .btn-group-vertical > .btn-9, .btn-group-vertical > .btn-10,
+.btn-group-vertical > .btn, .btn-group-vertical > .btn-Eliminar, .btn-group-vertical > .btn-Modificar, .btn-group-vertical > .btn-Nuevo, .btn-group-vertical > .btn-Regresar, .btn-group-vertical > .btn-Submit, .btn-group-vertical > .btn-Subir, .btn-group-vertical > .btn-Visualizar, .btn-group-vertical > .btn-01, .btn-group-vertical > .btn-02, .btn-group-vertical > .btn-03, .btn-group-vertical > .btn-04, .btn-group-vertical > .btn-05, .btn-group-vertical > .btn-06, .btn-group-vertical > .btn-07, .btn-group-vertical > .btn-08, .btn-group-vertical > .btn-09, .btn-group-vertical > .btn-10, .btn-group-vertical > .btn-11, .btn-group-vertical > .btn-12, .btn-group-vertical > .btn-13, .btn-group-vertical > .btn-14, .btn-group-vertical > .btn-15, .btn-group-vertical > .btn-16, .btn-group-vertical > .btn-17, .btn-group-vertical > .btn-18, .btn-group-vertical > .btn-19, .btn-group-vertical > .btn-20, .btn-group-vertical > .btn-Alta, .btn-group-vertical > .btn-Modi, .btn-group-vertical > .btn-Elim, .btn-group-vertical > .btn-Regr,
 .btn-group-vertical > .btn-group {
   width: 100%;
 }
-.btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .btn-Eliminar:not(:first-child), .btn-group-vertical > .btn-Modificar:not(:first-child), .btn-group-vertical > .btn-Nuevo:not(:first-child), .btn-group-vertical > .btn-Regresar:not(:first-child), .btn-group-vertical > .btn-Submit:not(:first-child), .btn-group-vertical > .btn-Subir:not(:first-child), .btn-group-vertical > .btn-Visualizar:not(:first-child), .btn-group-vertical > .btn-1:not(:first-child), .btn-group-vertical > .btn-2:not(:first-child), .btn-group-vertical > .btn-3:not(:first-child), .btn-group-vertical > .btn-Elim:not(:first-child), .btn-group-vertical > .btn-5:not(:first-child), .btn-group-vertical > .btn-6:not(:first-child), .btn-group-vertical > .btn-Modi:not(:first-child), .btn-group-vertical > .btn-Alta:not(:first-child), .btn-group-vertical > .btn-9:not(:first-child), .btn-group-vertical > .btn-10:not(:first-child),
+.btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .btn-Eliminar:not(:first-child), .btn-group-vertical > .btn-Modificar:not(:first-child), .btn-group-vertical > .btn-Nuevo:not(:first-child), .btn-group-vertical > .btn-Regresar:not(:first-child), .btn-group-vertical > .btn-Submit:not(:first-child), .btn-group-vertical > .btn-Subir:not(:first-child), .btn-group-vertical > .btn-Visualizar:not(:first-child), .btn-group-vertical > .btn-01:not(:first-child), .btn-group-vertical > .btn-02:not(:first-child), .btn-group-vertical > .btn-03:not(:first-child), .btn-group-vertical > .btn-04:not(:first-child), .btn-group-vertical > .btn-05:not(:first-child), .btn-group-vertical > .btn-06:not(:first-child), .btn-group-vertical > .btn-07:not(:first-child), .btn-group-vertical > .btn-08:not(:first-child), .btn-group-vertical > .btn-09:not(:first-child), .btn-group-vertical > .btn-10:not(:first-child), .btn-group-vertical > .btn-11:not(:first-child), .btn-group-vertical > .btn-12:not(:first-child), .btn-group-vertical > .btn-13:not(:first-child), .btn-group-vertical > .btn-14:not(:first-child), .btn-group-vertical > .btn-15:not(:first-child), .btn-group-vertical > .btn-16:not(:first-child), .btn-group-vertical > .btn-17:not(:first-child), .btn-group-vertical > .btn-18:not(:first-child), .btn-group-vertical > .btn-19:not(:first-child), .btn-group-vertical > .btn-20:not(:first-child), .btn-group-vertical > .btn-Alta:not(:first-child), .btn-group-vertical > .btn-Modi:not(:first-child), .btn-group-vertical > .btn-Elim:not(:first-child), .btn-group-vertical > .btn-Regr:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) {
   margin-top: calc(var(--bs-border-width) * -1);
 }
-.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Eliminar:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Modificar:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Nuevo:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Regresar:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Submit:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Subir:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Visualizar:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-1:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-2:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-3:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Elim:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-5:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-6:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Modi:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Alta:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-9:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-10:not(:last-child):not(.dropdown-toggle),
+.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Eliminar:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Modificar:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Nuevo:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Regresar:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Submit:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Subir:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Visualizar:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-01:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-02:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-03:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-04:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-05:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-06:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-07:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-08:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-09:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-10:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-11:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-12:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-13:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-14:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-15:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-16:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-17:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-18:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-19:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-20:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Alta:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Modi:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Elim:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-Regr:not(:last-child):not(.dropdown-toggle),
 .btn-group-vertical > .btn-group:not(:last-child) > .btn,
 .btn-group-vertical > .btn-group:not(:last-child) > .btn-Eliminar,
 .btn-group-vertical > .btn-group:not(:last-child) > .btn-Modificar,
@@ -4032,20 +4284,34 @@ textarea.form-control-lg {
 .btn-group-vertical > .btn-group:not(:last-child) > .btn-Submit,
 .btn-group-vertical > .btn-group:not(:last-child) > .btn-Subir,
 .btn-group-vertical > .btn-group:not(:last-child) > .btn-Visualizar,
-.btn-group-vertical > .btn-group:not(:last-child) > .btn-1,
-.btn-group-vertical > .btn-group:not(:last-child) > .btn-2,
-.btn-group-vertical > .btn-group:not(:last-child) > .btn-3,
-.btn-group-vertical > .btn-group:not(:last-child) > .btn-Elim,
-.btn-group-vertical > .btn-group:not(:last-child) > .btn-5,
-.btn-group-vertical > .btn-group:not(:last-child) > .btn-6,
-.btn-group-vertical > .btn-group:not(:last-child) > .btn-Modi,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-01,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-02,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-03,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-04,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-05,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-06,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-07,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-08,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-09,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-10,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-11,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-12,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-13,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-14,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-15,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-16,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-17,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-18,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-19,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-20,
 .btn-group-vertical > .btn-group:not(:last-child) > .btn-Alta,
-.btn-group-vertical > .btn-group:not(:last-child) > .btn-9,
-.btn-group-vertical > .btn-group:not(:last-child) > .btn-10 {
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-Modi,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-Elim,
+.btn-group-vertical > .btn-group:not(:last-child) > .btn-Regr {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.btn-group-vertical > .btn ~ .btn, .btn-group-vertical > .btn-Eliminar ~ .btn, .btn-group-vertical > .btn-Modificar ~ .btn, .btn-group-vertical > .btn-Nuevo ~ .btn, .btn-group-vertical > .btn-Regresar ~ .btn, .btn-group-vertical > .btn-Submit ~ .btn, .btn-group-vertical > .btn-Subir ~ .btn, .btn-group-vertical > .btn-Visualizar ~ .btn, .btn-group-vertical > .btn-1 ~ .btn, .btn-group-vertical > .btn-2 ~ .btn, .btn-group-vertical > .btn-3 ~ .btn, .btn-group-vertical > .btn-Elim ~ .btn, .btn-group-vertical > .btn-5 ~ .btn, .btn-group-vertical > .btn-6 ~ .btn, .btn-group-vertical > .btn-Modi ~ .btn, .btn-group-vertical > .btn-Alta ~ .btn, .btn-group-vertical > .btn-9 ~ .btn, .btn-group-vertical > .btn-10 ~ .btn, .btn-group-vertical > .btn ~ .btn-Eliminar, .btn-group-vertical > .btn-Eliminar ~ .btn-Eliminar, .btn-group-vertical > .btn-Modificar ~ .btn-Eliminar, .btn-group-vertical > .btn-Nuevo ~ .btn-Eliminar, .btn-group-vertical > .btn-Regresar ~ .btn-Eliminar, .btn-group-vertical > .btn-Submit ~ .btn-Eliminar, .btn-group-vertical > .btn-Subir ~ .btn-Eliminar, .btn-group-vertical > .btn-Visualizar ~ .btn-Eliminar, .btn-group-vertical > .btn-1 ~ .btn-Eliminar, .btn-group-vertical > .btn-2 ~ .btn-Eliminar, .btn-group-vertical > .btn-3 ~ .btn-Eliminar, .btn-group-vertical > .btn-Elim ~ .btn-Eliminar, .btn-group-vertical > .btn-5 ~ .btn-Eliminar, .btn-group-vertical > .btn-6 ~ .btn-Eliminar, .btn-group-vertical > .btn-Modi ~ .btn-Eliminar, .btn-group-vertical > .btn-Alta ~ .btn-Eliminar, .btn-group-vertical > .btn-9 ~ .btn-Eliminar, .btn-group-vertical > .btn-10 ~ .btn-Eliminar, .btn-group-vertical > .btn ~ .btn-Modificar, .btn-group-vertical > .btn-Eliminar ~ .btn-Modificar, .btn-group-vertical > .btn-Modificar ~ .btn-Modificar, .btn-group-vertical > .btn-Nuevo ~ .btn-Modificar, .btn-group-vertical > .btn-Regresar ~ .btn-Modificar, .btn-group-vertical > .btn-Submit ~ .btn-Modificar, .btn-group-vertical > .btn-Subir ~ .btn-Modificar, .btn-group-vertical > .btn-Visualizar ~ .btn-Modificar, .btn-group-vertical > .btn-1 ~ .btn-Modificar, .btn-group-vertical > .btn-2 ~ .btn-Modificar, .btn-group-vertical > .btn-3 ~ .btn-Modificar, .btn-group-vertical > .btn-Elim ~ .btn-Modificar, .btn-group-vertical > .btn-5 ~ .btn-Modificar, .btn-group-vertical > .btn-6 ~ .btn-Modificar, .btn-group-vertical > .btn-Modi ~ .btn-Modificar, .btn-group-vertical > .btn-Alta ~ .btn-Modificar, .btn-group-vertical > .btn-9 ~ .btn-Modificar, .btn-group-vertical > .btn-10 ~ .btn-Modificar, .btn-group-vertical > .btn ~ .btn-Nuevo, .btn-group-vertical > .btn-Eliminar ~ .btn-Nuevo, .btn-group-vertical > .btn-Modificar ~ .btn-Nuevo, .btn-group-vertical > .btn-Nuevo ~ .btn-Nuevo, .btn-group-vertical > .btn-Regresar ~ .btn-Nuevo, .btn-group-vertical > .btn-Submit ~ .btn-Nuevo, .btn-group-vertical > .btn-Subir ~ .btn-Nuevo, .btn-group-vertical > .btn-Visualizar ~ .btn-Nuevo, .btn-group-vertical > .btn-1 ~ .btn-Nuevo, .btn-group-vertical > .btn-2 ~ .btn-Nuevo, .btn-group-vertical > .btn-3 ~ .btn-Nuevo, .btn-group-vertical > .btn-Elim ~ .btn-Nuevo, .btn-group-vertical > .btn-5 ~ .btn-Nuevo, .btn-group-vertical > .btn-6 ~ .btn-Nuevo, .btn-group-vertical > .btn-Modi ~ .btn-Nuevo, .btn-group-vertical > .btn-Alta ~ .btn-Nuevo, .btn-group-vertical > .btn-9 ~ .btn-Nuevo, .btn-group-vertical > .btn-10 ~ .btn-Nuevo, .btn-group-vertical > .btn ~ .btn-Regresar, .btn-group-vertical > .btn-Eliminar ~ .btn-Regresar, .btn-group-vertical > .btn-Modificar ~ .btn-Regresar, .btn-group-vertical > .btn-Nuevo ~ .btn-Regresar, .btn-group-vertical > .btn-Regresar ~ .btn-Regresar, .btn-group-vertical > .btn-Submit ~ .btn-Regresar, .btn-group-vertical > .btn-Subir ~ .btn-Regresar, .btn-group-vertical > .btn-Visualizar ~ .btn-Regresar, .btn-group-vertical > .btn-1 ~ .btn-Regresar, .btn-group-vertical > .btn-2 ~ .btn-Regresar, .btn-group-vertical > .btn-3 ~ .btn-Regresar, .btn-group-vertical > .btn-Elim ~ .btn-Regresar, .btn-group-vertical > .btn-5 ~ .btn-Regresar, .btn-group-vertical > .btn-6 ~ .btn-Regresar, .btn-group-vertical > .btn-Modi ~ .btn-Regresar, .btn-group-vertical > .btn-Alta ~ .btn-Regresar, .btn-group-vertical > .btn-9 ~ .btn-Regresar, .btn-group-vertical > .btn-10 ~ .btn-Regresar, .btn-group-vertical > .btn ~ .btn-Submit, .btn-group-vertical > .btn-Eliminar ~ .btn-Submit, .btn-group-vertical > .btn-Modificar ~ .btn-Submit, .btn-group-vertical > .btn-Nuevo ~ .btn-Submit, .btn-group-vertical > .btn-Regresar ~ .btn-Submit, .btn-group-vertical > .btn-Submit ~ .btn-Submit, .btn-group-vertical > .btn-Subir ~ .btn-Submit, .btn-group-vertical > .btn-Visualizar ~ .btn-Submit, .btn-group-vertical > .btn-1 ~ .btn-Submit, .btn-group-vertical > .btn-2 ~ .btn-Submit, .btn-group-vertical > .btn-3 ~ .btn-Submit, .btn-group-vertical > .btn-Elim ~ .btn-Submit, .btn-group-vertical > .btn-5 ~ .btn-Submit, .btn-group-vertical > .btn-6 ~ .btn-Submit, .btn-group-vertical > .btn-Modi ~ .btn-Submit, .btn-group-vertical > .btn-Alta ~ .btn-Submit, .btn-group-vertical > .btn-9 ~ .btn-Submit, .btn-group-vertical > .btn-10 ~ .btn-Submit, .btn-group-vertical > .btn ~ .btn-Subir, .btn-group-vertical > .btn-Eliminar ~ .btn-Subir, .btn-group-vertical > .btn-Modificar ~ .btn-Subir, .btn-group-vertical > .btn-Nuevo ~ .btn-Subir, .btn-group-vertical > .btn-Regresar ~ .btn-Subir, .btn-group-vertical > .btn-Submit ~ .btn-Subir, .btn-group-vertical > .btn-Subir ~ .btn-Subir, .btn-group-vertical > .btn-Visualizar ~ .btn-Subir, .btn-group-vertical > .btn-1 ~ .btn-Subir, .btn-group-vertical > .btn-2 ~ .btn-Subir, .btn-group-vertical > .btn-3 ~ .btn-Subir, .btn-group-vertical > .btn-Elim ~ .btn-Subir, .btn-group-vertical > .btn-5 ~ .btn-Subir, .btn-group-vertical > .btn-6 ~ .btn-Subir, .btn-group-vertical > .btn-Modi ~ .btn-Subir, .btn-group-vertical > .btn-Alta ~ .btn-Subir, .btn-group-vertical > .btn-9 ~ .btn-Subir, .btn-group-vertical > .btn-10 ~ .btn-Subir, .btn-group-vertical > .btn ~ .btn-Visualizar, .btn-group-vertical > .btn-Eliminar ~ .btn-Visualizar, .btn-group-vertical > .btn-Modificar ~ .btn-Visualizar, .btn-group-vertical > .btn-Nuevo ~ .btn-Visualizar, .btn-group-vertical > .btn-Regresar ~ .btn-Visualizar, .btn-group-vertical > .btn-Submit ~ .btn-Visualizar, .btn-group-vertical > .btn-Subir ~ .btn-Visualizar, .btn-group-vertical > .btn-Visualizar ~ .btn-Visualizar, .btn-group-vertical > .btn-1 ~ .btn-Visualizar, .btn-group-vertical > .btn-2 ~ .btn-Visualizar, .btn-group-vertical > .btn-3 ~ .btn-Visualizar, .btn-group-vertical > .btn-Elim ~ .btn-Visualizar, .btn-group-vertical > .btn-5 ~ .btn-Visualizar, .btn-group-vertical > .btn-6 ~ .btn-Visualizar, .btn-group-vertical > .btn-Modi ~ .btn-Visualizar, .btn-group-vertical > .btn-Alta ~ .btn-Visualizar, .btn-group-vertical > .btn-9 ~ .btn-Visualizar, .btn-group-vertical > .btn-10 ~ .btn-Visualizar, .btn-group-vertical > .btn ~ .btn-1, .btn-group-vertical > .btn-Eliminar ~ .btn-1, .btn-group-vertical > .btn-Modificar ~ .btn-1, .btn-group-vertical > .btn-Nuevo ~ .btn-1, .btn-group-vertical > .btn-Regresar ~ .btn-1, .btn-group-vertical > .btn-Submit ~ .btn-1, .btn-group-vertical > .btn-Subir ~ .btn-1, .btn-group-vertical > .btn-Visualizar ~ .btn-1, .btn-group-vertical > .btn-1 ~ .btn-1, .btn-group-vertical > .btn-2 ~ .btn-1, .btn-group-vertical > .btn-3 ~ .btn-1, .btn-group-vertical > .btn-Elim ~ .btn-1, .btn-group-vertical > .btn-5 ~ .btn-1, .btn-group-vertical > .btn-6 ~ .btn-1, .btn-group-vertical > .btn-Modi ~ .btn-1, .btn-group-vertical > .btn-Alta ~ .btn-1, .btn-group-vertical > .btn-9 ~ .btn-1, .btn-group-vertical > .btn-10 ~ .btn-1, .btn-group-vertical > .btn ~ .btn-2, .btn-group-vertical > .btn-Eliminar ~ .btn-2, .btn-group-vertical > .btn-Modificar ~ .btn-2, .btn-group-vertical > .btn-Nuevo ~ .btn-2, .btn-group-vertical > .btn-Regresar ~ .btn-2, .btn-group-vertical > .btn-Submit ~ .btn-2, .btn-group-vertical > .btn-Subir ~ .btn-2, .btn-group-vertical > .btn-Visualizar ~ .btn-2, .btn-group-vertical > .btn-1 ~ .btn-2, .btn-group-vertical > .btn-2 ~ .btn-2, .btn-group-vertical > .btn-3 ~ .btn-2, .btn-group-vertical > .btn-Elim ~ .btn-2, .btn-group-vertical > .btn-5 ~ .btn-2, .btn-group-vertical > .btn-6 ~ .btn-2, .btn-group-vertical > .btn-Modi ~ .btn-2, .btn-group-vertical > .btn-Alta ~ .btn-2, .btn-group-vertical > .btn-9 ~ .btn-2, .btn-group-vertical > .btn-10 ~ .btn-2, .btn-group-vertical > .btn ~ .btn-3, .btn-group-vertical > .btn-Eliminar ~ .btn-3, .btn-group-vertical > .btn-Modificar ~ .btn-3, .btn-group-vertical > .btn-Nuevo ~ .btn-3, .btn-group-vertical > .btn-Regresar ~ .btn-3, .btn-group-vertical > .btn-Submit ~ .btn-3, .btn-group-vertical > .btn-Subir ~ .btn-3, .btn-group-vertical > .btn-Visualizar ~ .btn-3, .btn-group-vertical > .btn-1 ~ .btn-3, .btn-group-vertical > .btn-2 ~ .btn-3, .btn-group-vertical > .btn-3 ~ .btn-3, .btn-group-vertical > .btn-Elim ~ .btn-3, .btn-group-vertical > .btn-5 ~ .btn-3, .btn-group-vertical > .btn-6 ~ .btn-3, .btn-group-vertical > .btn-Modi ~ .btn-3, .btn-group-vertical > .btn-Alta ~ .btn-3, .btn-group-vertical > .btn-9 ~ .btn-3, .btn-group-vertical > .btn-10 ~ .btn-3, .btn-group-vertical > .btn ~ .btn-Elim, .btn-group-vertical > .btn-Eliminar ~ .btn-Elim, .btn-group-vertical > .btn-Modificar ~ .btn-Elim, .btn-group-vertical > .btn-Nuevo ~ .btn-Elim, .btn-group-vertical > .btn-Regresar ~ .btn-Elim, .btn-group-vertical > .btn-Submit ~ .btn-Elim, .btn-group-vertical > .btn-Subir ~ .btn-Elim, .btn-group-vertical > .btn-Visualizar ~ .btn-Elim, .btn-group-vertical > .btn-1 ~ .btn-Elim, .btn-group-vertical > .btn-2 ~ .btn-Elim, .btn-group-vertical > .btn-3 ~ .btn-Elim, .btn-group-vertical > .btn-Elim ~ .btn-Elim, .btn-group-vertical > .btn-5 ~ .btn-Elim, .btn-group-vertical > .btn-6 ~ .btn-Elim, .btn-group-vertical > .btn-Modi ~ .btn-Elim, .btn-group-vertical > .btn-Alta ~ .btn-Elim, .btn-group-vertical > .btn-9 ~ .btn-Elim, .btn-group-vertical > .btn-10 ~ .btn-Elim, .btn-group-vertical > .btn ~ .btn-5, .btn-group-vertical > .btn-Eliminar ~ .btn-5, .btn-group-vertical > .btn-Modificar ~ .btn-5, .btn-group-vertical > .btn-Nuevo ~ .btn-5, .btn-group-vertical > .btn-Regresar ~ .btn-5, .btn-group-vertical > .btn-Submit ~ .btn-5, .btn-group-vertical > .btn-Subir ~ .btn-5, .btn-group-vertical > .btn-Visualizar ~ .btn-5, .btn-group-vertical > .btn-1 ~ .btn-5, .btn-group-vertical > .btn-2 ~ .btn-5, .btn-group-vertical > .btn-3 ~ .btn-5, .btn-group-vertical > .btn-Elim ~ .btn-5, .btn-group-vertical > .btn-5 ~ .btn-5, .btn-group-vertical > .btn-6 ~ .btn-5, .btn-group-vertical > .btn-Modi ~ .btn-5, .btn-group-vertical > .btn-Alta ~ .btn-5, .btn-group-vertical > .btn-9 ~ .btn-5, .btn-group-vertical > .btn-10 ~ .btn-5, .btn-group-vertical > .btn ~ .btn-6, .btn-group-vertical > .btn-Eliminar ~ .btn-6, .btn-group-vertical > .btn-Modificar ~ .btn-6, .btn-group-vertical > .btn-Nuevo ~ .btn-6, .btn-group-vertical > .btn-Regresar ~ .btn-6, .btn-group-vertical > .btn-Submit ~ .btn-6, .btn-group-vertical > .btn-Subir ~ .btn-6, .btn-group-vertical > .btn-Visualizar ~ .btn-6, .btn-group-vertical > .btn-1 ~ .btn-6, .btn-group-vertical > .btn-2 ~ .btn-6, .btn-group-vertical > .btn-3 ~ .btn-6, .btn-group-vertical > .btn-Elim ~ .btn-6, .btn-group-vertical > .btn-5 ~ .btn-6, .btn-group-vertical > .btn-6 ~ .btn-6, .btn-group-vertical > .btn-Modi ~ .btn-6, .btn-group-vertical > .btn-Alta ~ .btn-6, .btn-group-vertical > .btn-9 ~ .btn-6, .btn-group-vertical > .btn-10 ~ .btn-6, .btn-group-vertical > .btn ~ .btn-Modi, .btn-group-vertical > .btn-Eliminar ~ .btn-Modi, .btn-group-vertical > .btn-Modificar ~ .btn-Modi, .btn-group-vertical > .btn-Nuevo ~ .btn-Modi, .btn-group-vertical > .btn-Regresar ~ .btn-Modi, .btn-group-vertical > .btn-Submit ~ .btn-Modi, .btn-group-vertical > .btn-Subir ~ .btn-Modi, .btn-group-vertical > .btn-Visualizar ~ .btn-Modi, .btn-group-vertical > .btn-1 ~ .btn-Modi, .btn-group-vertical > .btn-2 ~ .btn-Modi, .btn-group-vertical > .btn-3 ~ .btn-Modi, .btn-group-vertical > .btn-Elim ~ .btn-Modi, .btn-group-vertical > .btn-5 ~ .btn-Modi, .btn-group-vertical > .btn-6 ~ .btn-Modi, .btn-group-vertical > .btn-Modi ~ .btn-Modi, .btn-group-vertical > .btn-Alta ~ .btn-Modi, .btn-group-vertical > .btn-9 ~ .btn-Modi, .btn-group-vertical > .btn-10 ~ .btn-Modi, .btn-group-vertical > .btn ~ .btn-Alta, .btn-group-vertical > .btn-Eliminar ~ .btn-Alta, .btn-group-vertical > .btn-Modificar ~ .btn-Alta, .btn-group-vertical > .btn-Nuevo ~ .btn-Alta, .btn-group-vertical > .btn-Regresar ~ .btn-Alta, .btn-group-vertical > .btn-Submit ~ .btn-Alta, .btn-group-vertical > .btn-Subir ~ .btn-Alta, .btn-group-vertical > .btn-Visualizar ~ .btn-Alta, .btn-group-vertical > .btn-1 ~ .btn-Alta, .btn-group-vertical > .btn-2 ~ .btn-Alta, .btn-group-vertical > .btn-3 ~ .btn-Alta, .btn-group-vertical > .btn-Elim ~ .btn-Alta, .btn-group-vertical > .btn-5 ~ .btn-Alta, .btn-group-vertical > .btn-6 ~ .btn-Alta, .btn-group-vertical > .btn-Modi ~ .btn-Alta, .btn-group-vertical > .btn-Alta ~ .btn-Alta, .btn-group-vertical > .btn-9 ~ .btn-Alta, .btn-group-vertical > .btn-10 ~ .btn-Alta, .btn-group-vertical > .btn ~ .btn-9, .btn-group-vertical > .btn-Eliminar ~ .btn-9, .btn-group-vertical > .btn-Modificar ~ .btn-9, .btn-group-vertical > .btn-Nuevo ~ .btn-9, .btn-group-vertical > .btn-Regresar ~ .btn-9, .btn-group-vertical > .btn-Submit ~ .btn-9, .btn-group-vertical > .btn-Subir ~ .btn-9, .btn-group-vertical > .btn-Visualizar ~ .btn-9, .btn-group-vertical > .btn-1 ~ .btn-9, .btn-group-vertical > .btn-2 ~ .btn-9, .btn-group-vertical > .btn-3 ~ .btn-9, .btn-group-vertical > .btn-Elim ~ .btn-9, .btn-group-vertical > .btn-5 ~ .btn-9, .btn-group-vertical > .btn-6 ~ .btn-9, .btn-group-vertical > .btn-Modi ~ .btn-9, .btn-group-vertical > .btn-Alta ~ .btn-9, .btn-group-vertical > .btn-9 ~ .btn-9, .btn-group-vertical > .btn-10 ~ .btn-9, .btn-group-vertical > .btn ~ .btn-10, .btn-group-vertical > .btn-Eliminar ~ .btn-10, .btn-group-vertical > .btn-Modificar ~ .btn-10, .btn-group-vertical > .btn-Nuevo ~ .btn-10, .btn-group-vertical > .btn-Regresar ~ .btn-10, .btn-group-vertical > .btn-Submit ~ .btn-10, .btn-group-vertical > .btn-Subir ~ .btn-10, .btn-group-vertical > .btn-Visualizar ~ .btn-10, .btn-group-vertical > .btn-1 ~ .btn-10, .btn-group-vertical > .btn-2 ~ .btn-10, .btn-group-vertical > .btn-3 ~ .btn-10, .btn-group-vertical > .btn-Elim ~ .btn-10, .btn-group-vertical > .btn-5 ~ .btn-10, .btn-group-vertical > .btn-6 ~ .btn-10, .btn-group-vertical > .btn-Modi ~ .btn-10, .btn-group-vertical > .btn-Alta ~ .btn-10, .btn-group-vertical > .btn-9 ~ .btn-10, .btn-group-vertical > .btn-10 ~ .btn-10,
+.btn-group-vertical > .btn ~ .btn, .btn-group-vertical > .btn-Eliminar ~ .btn, .btn-group-vertical > .btn-Modificar ~ .btn, .btn-group-vertical > .btn-Nuevo ~ .btn, .btn-group-vertical > .btn-Regresar ~ .btn, .btn-group-vertical > .btn-Submit ~ .btn, .btn-group-vertical > .btn-Subir ~ .btn, .btn-group-vertical > .btn-Visualizar ~ .btn, .btn-group-vertical > .btn-01 ~ .btn, .btn-group-vertical > .btn-02 ~ .btn, .btn-group-vertical > .btn-03 ~ .btn, .btn-group-vertical > .btn-04 ~ .btn, .btn-group-vertical > .btn-05 ~ .btn, .btn-group-vertical > .btn-06 ~ .btn, .btn-group-vertical > .btn-07 ~ .btn, .btn-group-vertical > .btn-08 ~ .btn, .btn-group-vertical > .btn-09 ~ .btn, .btn-group-vertical > .btn-10 ~ .btn, .btn-group-vertical > .btn-11 ~ .btn, .btn-group-vertical > .btn-12 ~ .btn, .btn-group-vertical > .btn-13 ~ .btn, .btn-group-vertical > .btn-14 ~ .btn, .btn-group-vertical > .btn-15 ~ .btn, .btn-group-vertical > .btn-16 ~ .btn, .btn-group-vertical > .btn-17 ~ .btn, .btn-group-vertical > .btn-18 ~ .btn, .btn-group-vertical > .btn-19 ~ .btn, .btn-group-vertical > .btn-20 ~ .btn, .btn-group-vertical > .btn-Alta ~ .btn, .btn-group-vertical > .btn-Modi ~ .btn, .btn-group-vertical > .btn-Elim ~ .btn, .btn-group-vertical > .btn-Regr ~ .btn, .btn-group-vertical > .btn ~ .btn-Eliminar, .btn-group-vertical > .btn-Eliminar ~ .btn-Eliminar, .btn-group-vertical > .btn-Modificar ~ .btn-Eliminar, .btn-group-vertical > .btn-Nuevo ~ .btn-Eliminar, .btn-group-vertical > .btn-Regresar ~ .btn-Eliminar, .btn-group-vertical > .btn-Submit ~ .btn-Eliminar, .btn-group-vertical > .btn-Subir ~ .btn-Eliminar, .btn-group-vertical > .btn-Visualizar ~ .btn-Eliminar, .btn-group-vertical > .btn-01 ~ .btn-Eliminar, .btn-group-vertical > .btn-02 ~ .btn-Eliminar, .btn-group-vertical > .btn-03 ~ .btn-Eliminar, .btn-group-vertical > .btn-04 ~ .btn-Eliminar, .btn-group-vertical > .btn-05 ~ .btn-Eliminar, .btn-group-vertical > .btn-06 ~ .btn-Eliminar, .btn-group-vertical > .btn-07 ~ .btn-Eliminar, .btn-group-vertical > .btn-08 ~ .btn-Eliminar, .btn-group-vertical > .btn-09 ~ .btn-Eliminar, .btn-group-vertical > .btn-10 ~ .btn-Eliminar, .btn-group-vertical > .btn-11 ~ .btn-Eliminar, .btn-group-vertical > .btn-12 ~ .btn-Eliminar, .btn-group-vertical > .btn-13 ~ .btn-Eliminar, .btn-group-vertical > .btn-14 ~ .btn-Eliminar, .btn-group-vertical > .btn-15 ~ .btn-Eliminar, .btn-group-vertical > .btn-16 ~ .btn-Eliminar, .btn-group-vertical > .btn-17 ~ .btn-Eliminar, .btn-group-vertical > .btn-18 ~ .btn-Eliminar, .btn-group-vertical > .btn-19 ~ .btn-Eliminar, .btn-group-vertical > .btn-20 ~ .btn-Eliminar, .btn-group-vertical > .btn-Alta ~ .btn-Eliminar, .btn-group-vertical > .btn-Modi ~ .btn-Eliminar, .btn-group-vertical > .btn-Elim ~ .btn-Eliminar, .btn-group-vertical > .btn-Regr ~ .btn-Eliminar, .btn-group-vertical > .btn ~ .btn-Modificar, .btn-group-vertical > .btn-Eliminar ~ .btn-Modificar, .btn-group-vertical > .btn-Modificar ~ .btn-Modificar, .btn-group-vertical > .btn-Nuevo ~ .btn-Modificar, .btn-group-vertical > .btn-Regresar ~ .btn-Modificar, .btn-group-vertical > .btn-Submit ~ .btn-Modificar, .btn-group-vertical > .btn-Subir ~ .btn-Modificar, .btn-group-vertical > .btn-Visualizar ~ .btn-Modificar, .btn-group-vertical > .btn-01 ~ .btn-Modificar, .btn-group-vertical > .btn-02 ~ .btn-Modificar, .btn-group-vertical > .btn-03 ~ .btn-Modificar, .btn-group-vertical > .btn-04 ~ .btn-Modificar, .btn-group-vertical > .btn-05 ~ .btn-Modificar, .btn-group-vertical > .btn-06 ~ .btn-Modificar, .btn-group-vertical > .btn-07 ~ .btn-Modificar, .btn-group-vertical > .btn-08 ~ .btn-Modificar, .btn-group-vertical > .btn-09 ~ .btn-Modificar, .btn-group-vertical > .btn-10 ~ .btn-Modificar, .btn-group-vertical > .btn-11 ~ .btn-Modificar, .btn-group-vertical > .btn-12 ~ .btn-Modificar, .btn-group-vertical > .btn-13 ~ .btn-Modificar, .btn-group-vertical > .btn-14 ~ .btn-Modificar, .btn-group-vertical > .btn-15 ~ .btn-Modificar, .btn-group-vertical > .btn-16 ~ .btn-Modificar, .btn-group-vertical > .btn-17 ~ .btn-Modificar, .btn-group-vertical > .btn-18 ~ .btn-Modificar, .btn-group-vertical > .btn-19 ~ .btn-Modificar, .btn-group-vertical > .btn-20 ~ .btn-Modificar, .btn-group-vertical > .btn-Alta ~ .btn-Modificar, .btn-group-vertical > .btn-Modi ~ .btn-Modificar, .btn-group-vertical > .btn-Elim ~ .btn-Modificar, .btn-group-vertical > .btn-Regr ~ .btn-Modificar, .btn-group-vertical > .btn ~ .btn-Nuevo, .btn-group-vertical > .btn-Eliminar ~ .btn-Nuevo, .btn-group-vertical > .btn-Modificar ~ .btn-Nuevo, .btn-group-vertical > .btn-Nuevo ~ .btn-Nuevo, .btn-group-vertical > .btn-Regresar ~ .btn-Nuevo, .btn-group-vertical > .btn-Submit ~ .btn-Nuevo, .btn-group-vertical > .btn-Subir ~ .btn-Nuevo, .btn-group-vertical > .btn-Visualizar ~ .btn-Nuevo, .btn-group-vertical > .btn-01 ~ .btn-Nuevo, .btn-group-vertical > .btn-02 ~ .btn-Nuevo, .btn-group-vertical > .btn-03 ~ .btn-Nuevo, .btn-group-vertical > .btn-04 ~ .btn-Nuevo, .btn-group-vertical > .btn-05 ~ .btn-Nuevo, .btn-group-vertical > .btn-06 ~ .btn-Nuevo, .btn-group-vertical > .btn-07 ~ .btn-Nuevo, .btn-group-vertical > .btn-08 ~ .btn-Nuevo, .btn-group-vertical > .btn-09 ~ .btn-Nuevo, .btn-group-vertical > .btn-10 ~ .btn-Nuevo, .btn-group-vertical > .btn-11 ~ .btn-Nuevo, .btn-group-vertical > .btn-12 ~ .btn-Nuevo, .btn-group-vertical > .btn-13 ~ .btn-Nuevo, .btn-group-vertical > .btn-14 ~ .btn-Nuevo, .btn-group-vertical > .btn-15 ~ .btn-Nuevo, .btn-group-vertical > .btn-16 ~ .btn-Nuevo, .btn-group-vertical > .btn-17 ~ .btn-Nuevo, .btn-group-vertical > .btn-18 ~ .btn-Nuevo, .btn-group-vertical > .btn-19 ~ .btn-Nuevo, .btn-group-vertical > .btn-20 ~ .btn-Nuevo, .btn-group-vertical > .btn-Alta ~ .btn-Nuevo, .btn-group-vertical > .btn-Modi ~ .btn-Nuevo, .btn-group-vertical > .btn-Elim ~ .btn-Nuevo, .btn-group-vertical > .btn-Regr ~ .btn-Nuevo, .btn-group-vertical > .btn ~ .btn-Regresar, .btn-group-vertical > .btn-Eliminar ~ .btn-Regresar, .btn-group-vertical > .btn-Modificar ~ .btn-Regresar, .btn-group-vertical > .btn-Nuevo ~ .btn-Regresar, .btn-group-vertical > .btn-Regresar ~ .btn-Regresar, .btn-group-vertical > .btn-Submit ~ .btn-Regresar, .btn-group-vertical > .btn-Subir ~ .btn-Regresar, .btn-group-vertical > .btn-Visualizar ~ .btn-Regresar, .btn-group-vertical > .btn-01 ~ .btn-Regresar, .btn-group-vertical > .btn-02 ~ .btn-Regresar, .btn-group-vertical > .btn-03 ~ .btn-Regresar, .btn-group-vertical > .btn-04 ~ .btn-Regresar, .btn-group-vertical > .btn-05 ~ .btn-Regresar, .btn-group-vertical > .btn-06 ~ .btn-Regresar, .btn-group-vertical > .btn-07 ~ .btn-Regresar, .btn-group-vertical > .btn-08 ~ .btn-Regresar, .btn-group-vertical > .btn-09 ~ .btn-Regresar, .btn-group-vertical > .btn-10 ~ .btn-Regresar, .btn-group-vertical > .btn-11 ~ .btn-Regresar, .btn-group-vertical > .btn-12 ~ .btn-Regresar, .btn-group-vertical > .btn-13 ~ .btn-Regresar, .btn-group-vertical > .btn-14 ~ .btn-Regresar, .btn-group-vertical > .btn-15 ~ .btn-Regresar, .btn-group-vertical > .btn-16 ~ .btn-Regresar, .btn-group-vertical > .btn-17 ~ .btn-Regresar, .btn-group-vertical > .btn-18 ~ .btn-Regresar, .btn-group-vertical > .btn-19 ~ .btn-Regresar, .btn-group-vertical > .btn-20 ~ .btn-Regresar, .btn-group-vertical > .btn-Alta ~ .btn-Regresar, .btn-group-vertical > .btn-Modi ~ .btn-Regresar, .btn-group-vertical > .btn-Elim ~ .btn-Regresar, .btn-group-vertical > .btn-Regr ~ .btn-Regresar, .btn-group-vertical > .btn ~ .btn-Submit, .btn-group-vertical > .btn-Eliminar ~ .btn-Submit, .btn-group-vertical > .btn-Modificar ~ .btn-Submit, .btn-group-vertical > .btn-Nuevo ~ .btn-Submit, .btn-group-vertical > .btn-Regresar ~ .btn-Submit, .btn-group-vertical > .btn-Submit ~ .btn-Submit, .btn-group-vertical > .btn-Subir ~ .btn-Submit, .btn-group-vertical > .btn-Visualizar ~ .btn-Submit, .btn-group-vertical > .btn-01 ~ .btn-Submit, .btn-group-vertical > .btn-02 ~ .btn-Submit, .btn-group-vertical > .btn-03 ~ .btn-Submit, .btn-group-vertical > .btn-04 ~ .btn-Submit, .btn-group-vertical > .btn-05 ~ .btn-Submit, .btn-group-vertical > .btn-06 ~ .btn-Submit, .btn-group-vertical > .btn-07 ~ .btn-Submit, .btn-group-vertical > .btn-08 ~ .btn-Submit, .btn-group-vertical > .btn-09 ~ .btn-Submit, .btn-group-vertical > .btn-10 ~ .btn-Submit, .btn-group-vertical > .btn-11 ~ .btn-Submit, .btn-group-vertical > .btn-12 ~ .btn-Submit, .btn-group-vertical > .btn-13 ~ .btn-Submit, .btn-group-vertical > .btn-14 ~ .btn-Submit, .btn-group-vertical > .btn-15 ~ .btn-Submit, .btn-group-vertical > .btn-16 ~ .btn-Submit, .btn-group-vertical > .btn-17 ~ .btn-Submit, .btn-group-vertical > .btn-18 ~ .btn-Submit, .btn-group-vertical > .btn-19 ~ .btn-Submit, .btn-group-vertical > .btn-20 ~ .btn-Submit, .btn-group-vertical > .btn-Alta ~ .btn-Submit, .btn-group-vertical > .btn-Modi ~ .btn-Submit, .btn-group-vertical > .btn-Elim ~ .btn-Submit, .btn-group-vertical > .btn-Regr ~ .btn-Submit, .btn-group-vertical > .btn ~ .btn-Subir, .btn-group-vertical > .btn-Eliminar ~ .btn-Subir, .btn-group-vertical > .btn-Modificar ~ .btn-Subir, .btn-group-vertical > .btn-Nuevo ~ .btn-Subir, .btn-group-vertical > .btn-Regresar ~ .btn-Subir, .btn-group-vertical > .btn-Submit ~ .btn-Subir, .btn-group-vertical > .btn-Subir ~ .btn-Subir, .btn-group-vertical > .btn-Visualizar ~ .btn-Subir, .btn-group-vertical > .btn-01 ~ .btn-Subir, .btn-group-vertical > .btn-02 ~ .btn-Subir, .btn-group-vertical > .btn-03 ~ .btn-Subir, .btn-group-vertical > .btn-04 ~ .btn-Subir, .btn-group-vertical > .btn-05 ~ .btn-Subir, .btn-group-vertical > .btn-06 ~ .btn-Subir, .btn-group-vertical > .btn-07 ~ .btn-Subir, .btn-group-vertical > .btn-08 ~ .btn-Subir, .btn-group-vertical > .btn-09 ~ .btn-Subir, .btn-group-vertical > .btn-10 ~ .btn-Subir, .btn-group-vertical > .btn-11 ~ .btn-Subir, .btn-group-vertical > .btn-12 ~ .btn-Subir, .btn-group-vertical > .btn-13 ~ .btn-Subir, .btn-group-vertical > .btn-14 ~ .btn-Subir, .btn-group-vertical > .btn-15 ~ .btn-Subir, .btn-group-vertical > .btn-16 ~ .btn-Subir, .btn-group-vertical > .btn-17 ~ .btn-Subir, .btn-group-vertical > .btn-18 ~ .btn-Subir, .btn-group-vertical > .btn-19 ~ .btn-Subir, .btn-group-vertical > .btn-20 ~ .btn-Subir, .btn-group-vertical > .btn-Alta ~ .btn-Subir, .btn-group-vertical > .btn-Modi ~ .btn-Subir, .btn-group-vertical > .btn-Elim ~ .btn-Subir, .btn-group-vertical > .btn-Regr ~ .btn-Subir, .btn-group-vertical > .btn ~ .btn-Visualizar, .btn-group-vertical > .btn-Eliminar ~ .btn-Visualizar, .btn-group-vertical > .btn-Modificar ~ .btn-Visualizar, .btn-group-vertical > .btn-Nuevo ~ .btn-Visualizar, .btn-group-vertical > .btn-Regresar ~ .btn-Visualizar, .btn-group-vertical > .btn-Submit ~ .btn-Visualizar, .btn-group-vertical > .btn-Subir ~ .btn-Visualizar, .btn-group-vertical > .btn-Visualizar ~ .btn-Visualizar, .btn-group-vertical > .btn-01 ~ .btn-Visualizar, .btn-group-vertical > .btn-02 ~ .btn-Visualizar, .btn-group-vertical > .btn-03 ~ .btn-Visualizar, .btn-group-vertical > .btn-04 ~ .btn-Visualizar, .btn-group-vertical > .btn-05 ~ .btn-Visualizar, .btn-group-vertical > .btn-06 ~ .btn-Visualizar, .btn-group-vertical > .btn-07 ~ .btn-Visualizar, .btn-group-vertical > .btn-08 ~ .btn-Visualizar, .btn-group-vertical > .btn-09 ~ .btn-Visualizar, .btn-group-vertical > .btn-10 ~ .btn-Visualizar, .btn-group-vertical > .btn-11 ~ .btn-Visualizar, .btn-group-vertical > .btn-12 ~ .btn-Visualizar, .btn-group-vertical > .btn-13 ~ .btn-Visualizar, .btn-group-vertical > .btn-14 ~ .btn-Visualizar, .btn-group-vertical > .btn-15 ~ .btn-Visualizar, .btn-group-vertical > .btn-16 ~ .btn-Visualizar, .btn-group-vertical > .btn-17 ~ .btn-Visualizar, .btn-group-vertical > .btn-18 ~ .btn-Visualizar, .btn-group-vertical > .btn-19 ~ .btn-Visualizar, .btn-group-vertical > .btn-20 ~ .btn-Visualizar, .btn-group-vertical > .btn-Alta ~ .btn-Visualizar, .btn-group-vertical > .btn-Modi ~ .btn-Visualizar, .btn-group-vertical > .btn-Elim ~ .btn-Visualizar, .btn-group-vertical > .btn-Regr ~ .btn-Visualizar, .btn-group-vertical > .btn ~ .btn-01, .btn-group-vertical > .btn-Eliminar ~ .btn-01, .btn-group-vertical > .btn-Modificar ~ .btn-01, .btn-group-vertical > .btn-Nuevo ~ .btn-01, .btn-group-vertical > .btn-Regresar ~ .btn-01, .btn-group-vertical > .btn-Submit ~ .btn-01, .btn-group-vertical > .btn-Subir ~ .btn-01, .btn-group-vertical > .btn-Visualizar ~ .btn-01, .btn-group-vertical > .btn-01 ~ .btn-01, .btn-group-vertical > .btn-02 ~ .btn-01, .btn-group-vertical > .btn-03 ~ .btn-01, .btn-group-vertical > .btn-04 ~ .btn-01, .btn-group-vertical > .btn-05 ~ .btn-01, .btn-group-vertical > .btn-06 ~ .btn-01, .btn-group-vertical > .btn-07 ~ .btn-01, .btn-group-vertical > .btn-08 ~ .btn-01, .btn-group-vertical > .btn-09 ~ .btn-01, .btn-group-vertical > .btn-10 ~ .btn-01, .btn-group-vertical > .btn-11 ~ .btn-01, .btn-group-vertical > .btn-12 ~ .btn-01, .btn-group-vertical > .btn-13 ~ .btn-01, .btn-group-vertical > .btn-14 ~ .btn-01, .btn-group-vertical > .btn-15 ~ .btn-01, .btn-group-vertical > .btn-16 ~ .btn-01, .btn-group-vertical > .btn-17 ~ .btn-01, .btn-group-vertical > .btn-18 ~ .btn-01, .btn-group-vertical > .btn-19 ~ .btn-01, .btn-group-vertical > .btn-20 ~ .btn-01, .btn-group-vertical > .btn-Alta ~ .btn-01, .btn-group-vertical > .btn-Modi ~ .btn-01, .btn-group-vertical > .btn-Elim ~ .btn-01, .btn-group-vertical > .btn-Regr ~ .btn-01, .btn-group-vertical > .btn ~ .btn-02, .btn-group-vertical > .btn-Eliminar ~ .btn-02, .btn-group-vertical > .btn-Modificar ~ .btn-02, .btn-group-vertical > .btn-Nuevo ~ .btn-02, .btn-group-vertical > .btn-Regresar ~ .btn-02, .btn-group-vertical > .btn-Submit ~ .btn-02, .btn-group-vertical > .btn-Subir ~ .btn-02, .btn-group-vertical > .btn-Visualizar ~ .btn-02, .btn-group-vertical > .btn-01 ~ .btn-02, .btn-group-vertical > .btn-02 ~ .btn-02, .btn-group-vertical > .btn-03 ~ .btn-02, .btn-group-vertical > .btn-04 ~ .btn-02, .btn-group-vertical > .btn-05 ~ .btn-02, .btn-group-vertical > .btn-06 ~ .btn-02, .btn-group-vertical > .btn-07 ~ .btn-02, .btn-group-vertical > .btn-08 ~ .btn-02, .btn-group-vertical > .btn-09 ~ .btn-02, .btn-group-vertical > .btn-10 ~ .btn-02, .btn-group-vertical > .btn-11 ~ .btn-02, .btn-group-vertical > .btn-12 ~ .btn-02, .btn-group-vertical > .btn-13 ~ .btn-02, .btn-group-vertical > .btn-14 ~ .btn-02, .btn-group-vertical > .btn-15 ~ .btn-02, .btn-group-vertical > .btn-16 ~ .btn-02, .btn-group-vertical > .btn-17 ~ .btn-02, .btn-group-vertical > .btn-18 ~ .btn-02, .btn-group-vertical > .btn-19 ~ .btn-02, .btn-group-vertical > .btn-20 ~ .btn-02, .btn-group-vertical > .btn-Alta ~ .btn-02, .btn-group-vertical > .btn-Modi ~ .btn-02, .btn-group-vertical > .btn-Elim ~ .btn-02, .btn-group-vertical > .btn-Regr ~ .btn-02, .btn-group-vertical > .btn ~ .btn-03, .btn-group-vertical > .btn-Eliminar ~ .btn-03, .btn-group-vertical > .btn-Modificar ~ .btn-03, .btn-group-vertical > .btn-Nuevo ~ .btn-03, .btn-group-vertical > .btn-Regresar ~ .btn-03, .btn-group-vertical > .btn-Submit ~ .btn-03, .btn-group-vertical > .btn-Subir ~ .btn-03, .btn-group-vertical > .btn-Visualizar ~ .btn-03, .btn-group-vertical > .btn-01 ~ .btn-03, .btn-group-vertical > .btn-02 ~ .btn-03, .btn-group-vertical > .btn-03 ~ .btn-03, .btn-group-vertical > .btn-04 ~ .btn-03, .btn-group-vertical > .btn-05 ~ .btn-03, .btn-group-vertical > .btn-06 ~ .btn-03, .btn-group-vertical > .btn-07 ~ .btn-03, .btn-group-vertical > .btn-08 ~ .btn-03, .btn-group-vertical > .btn-09 ~ .btn-03, .btn-group-vertical > .btn-10 ~ .btn-03, .btn-group-vertical > .btn-11 ~ .btn-03, .btn-group-vertical > .btn-12 ~ .btn-03, .btn-group-vertical > .btn-13 ~ .btn-03, .btn-group-vertical > .btn-14 ~ .btn-03, .btn-group-vertical > .btn-15 ~ .btn-03, .btn-group-vertical > .btn-16 ~ .btn-03, .btn-group-vertical > .btn-17 ~ .btn-03, .btn-group-vertical > .btn-18 ~ .btn-03, .btn-group-vertical > .btn-19 ~ .btn-03, .btn-group-vertical > .btn-20 ~ .btn-03, .btn-group-vertical > .btn-Alta ~ .btn-03, .btn-group-vertical > .btn-Modi ~ .btn-03, .btn-group-vertical > .btn-Elim ~ .btn-03, .btn-group-vertical > .btn-Regr ~ .btn-03, .btn-group-vertical > .btn ~ .btn-04, .btn-group-vertical > .btn-Eliminar ~ .btn-04, .btn-group-vertical > .btn-Modificar ~ .btn-04, .btn-group-vertical > .btn-Nuevo ~ .btn-04, .btn-group-vertical > .btn-Regresar ~ .btn-04, .btn-group-vertical > .btn-Submit ~ .btn-04, .btn-group-vertical > .btn-Subir ~ .btn-04, .btn-group-vertical > .btn-Visualizar ~ .btn-04, .btn-group-vertical > .btn-01 ~ .btn-04, .btn-group-vertical > .btn-02 ~ .btn-04, .btn-group-vertical > .btn-03 ~ .btn-04, .btn-group-vertical > .btn-04 ~ .btn-04, .btn-group-vertical > .btn-05 ~ .btn-04, .btn-group-vertical > .btn-06 ~ .btn-04, .btn-group-vertical > .btn-07 ~ .btn-04, .btn-group-vertical > .btn-08 ~ .btn-04, .btn-group-vertical > .btn-09 ~ .btn-04, .btn-group-vertical > .btn-10 ~ .btn-04, .btn-group-vertical > .btn-11 ~ .btn-04, .btn-group-vertical > .btn-12 ~ .btn-04, .btn-group-vertical > .btn-13 ~ .btn-04, .btn-group-vertical > .btn-14 ~ .btn-04, .btn-group-vertical > .btn-15 ~ .btn-04, .btn-group-vertical > .btn-16 ~ .btn-04, .btn-group-vertical > .btn-17 ~ .btn-04, .btn-group-vertical > .btn-18 ~ .btn-04, .btn-group-vertical > .btn-19 ~ .btn-04, .btn-group-vertical > .btn-20 ~ .btn-04, .btn-group-vertical > .btn-Alta ~ .btn-04, .btn-group-vertical > .btn-Modi ~ .btn-04, .btn-group-vertical > .btn-Elim ~ .btn-04, .btn-group-vertical > .btn-Regr ~ .btn-04, .btn-group-vertical > .btn ~ .btn-05, .btn-group-vertical > .btn-Eliminar ~ .btn-05, .btn-group-vertical > .btn-Modificar ~ .btn-05, .btn-group-vertical > .btn-Nuevo ~ .btn-05, .btn-group-vertical > .btn-Regresar ~ .btn-05, .btn-group-vertical > .btn-Submit ~ .btn-05, .btn-group-vertical > .btn-Subir ~ .btn-05, .btn-group-vertical > .btn-Visualizar ~ .btn-05, .btn-group-vertical > .btn-01 ~ .btn-05, .btn-group-vertical > .btn-02 ~ .btn-05, .btn-group-vertical > .btn-03 ~ .btn-05, .btn-group-vertical > .btn-04 ~ .btn-05, .btn-group-vertical > .btn-05 ~ .btn-05, .btn-group-vertical > .btn-06 ~ .btn-05, .btn-group-vertical > .btn-07 ~ .btn-05, .btn-group-vertical > .btn-08 ~ .btn-05, .btn-group-vertical > .btn-09 ~ .btn-05, .btn-group-vertical > .btn-10 ~ .btn-05, .btn-group-vertical > .btn-11 ~ .btn-05, .btn-group-vertical > .btn-12 ~ .btn-05, .btn-group-vertical > .btn-13 ~ .btn-05, .btn-group-vertical > .btn-14 ~ .btn-05, .btn-group-vertical > .btn-15 ~ .btn-05, .btn-group-vertical > .btn-16 ~ .btn-05, .btn-group-vertical > .btn-17 ~ .btn-05, .btn-group-vertical > .btn-18 ~ .btn-05, .btn-group-vertical > .btn-19 ~ .btn-05, .btn-group-vertical > .btn-20 ~ .btn-05, .btn-group-vertical > .btn-Alta ~ .btn-05, .btn-group-vertical > .btn-Modi ~ .btn-05, .btn-group-vertical > .btn-Elim ~ .btn-05, .btn-group-vertical > .btn-Regr ~ .btn-05, .btn-group-vertical > .btn ~ .btn-06, .btn-group-vertical > .btn-Eliminar ~ .btn-06, .btn-group-vertical > .btn-Modificar ~ .btn-06, .btn-group-vertical > .btn-Nuevo ~ .btn-06, .btn-group-vertical > .btn-Regresar ~ .btn-06, .btn-group-vertical > .btn-Submit ~ .btn-06, .btn-group-vertical > .btn-Subir ~ .btn-06, .btn-group-vertical > .btn-Visualizar ~ .btn-06, .btn-group-vertical > .btn-01 ~ .btn-06, .btn-group-vertical > .btn-02 ~ .btn-06, .btn-group-vertical > .btn-03 ~ .btn-06, .btn-group-vertical > .btn-04 ~ .btn-06, .btn-group-vertical > .btn-05 ~ .btn-06, .btn-group-vertical > .btn-06 ~ .btn-06, .btn-group-vertical > .btn-07 ~ .btn-06, .btn-group-vertical > .btn-08 ~ .btn-06, .btn-group-vertical > .btn-09 ~ .btn-06, .btn-group-vertical > .btn-10 ~ .btn-06, .btn-group-vertical > .btn-11 ~ .btn-06, .btn-group-vertical > .btn-12 ~ .btn-06, .btn-group-vertical > .btn-13 ~ .btn-06, .btn-group-vertical > .btn-14 ~ .btn-06, .btn-group-vertical > .btn-15 ~ .btn-06, .btn-group-vertical > .btn-16 ~ .btn-06, .btn-group-vertical > .btn-17 ~ .btn-06, .btn-group-vertical > .btn-18 ~ .btn-06, .btn-group-vertical > .btn-19 ~ .btn-06, .btn-group-vertical > .btn-20 ~ .btn-06, .btn-group-vertical > .btn-Alta ~ .btn-06, .btn-group-vertical > .btn-Modi ~ .btn-06, .btn-group-vertical > .btn-Elim ~ .btn-06, .btn-group-vertical > .btn-Regr ~ .btn-06, .btn-group-vertical > .btn ~ .btn-07, .btn-group-vertical > .btn-Eliminar ~ .btn-07, .btn-group-vertical > .btn-Modificar ~ .btn-07, .btn-group-vertical > .btn-Nuevo ~ .btn-07, .btn-group-vertical > .btn-Regresar ~ .btn-07, .btn-group-vertical > .btn-Submit ~ .btn-07, .btn-group-vertical > .btn-Subir ~ .btn-07, .btn-group-vertical > .btn-Visualizar ~ .btn-07, .btn-group-vertical > .btn-01 ~ .btn-07, .btn-group-vertical > .btn-02 ~ .btn-07, .btn-group-vertical > .btn-03 ~ .btn-07, .btn-group-vertical > .btn-04 ~ .btn-07, .btn-group-vertical > .btn-05 ~ .btn-07, .btn-group-vertical > .btn-06 ~ .btn-07, .btn-group-vertical > .btn-07 ~ .btn-07, .btn-group-vertical > .btn-08 ~ .btn-07, .btn-group-vertical > .btn-09 ~ .btn-07, .btn-group-vertical > .btn-10 ~ .btn-07, .btn-group-vertical > .btn-11 ~ .btn-07, .btn-group-vertical > .btn-12 ~ .btn-07, .btn-group-vertical > .btn-13 ~ .btn-07, .btn-group-vertical > .btn-14 ~ .btn-07, .btn-group-vertical > .btn-15 ~ .btn-07, .btn-group-vertical > .btn-16 ~ .btn-07, .btn-group-vertical > .btn-17 ~ .btn-07, .btn-group-vertical > .btn-18 ~ .btn-07, .btn-group-vertical > .btn-19 ~ .btn-07, .btn-group-vertical > .btn-20 ~ .btn-07, .btn-group-vertical > .btn-Alta ~ .btn-07, .btn-group-vertical > .btn-Modi ~ .btn-07, .btn-group-vertical > .btn-Elim ~ .btn-07, .btn-group-vertical > .btn-Regr ~ .btn-07, .btn-group-vertical > .btn ~ .btn-08, .btn-group-vertical > .btn-Eliminar ~ .btn-08, .btn-group-vertical > .btn-Modificar ~ .btn-08, .btn-group-vertical > .btn-Nuevo ~ .btn-08, .btn-group-vertical > .btn-Regresar ~ .btn-08, .btn-group-vertical > .btn-Submit ~ .btn-08, .btn-group-vertical > .btn-Subir ~ .btn-08, .btn-group-vertical > .btn-Visualizar ~ .btn-08, .btn-group-vertical > .btn-01 ~ .btn-08, .btn-group-vertical > .btn-02 ~ .btn-08, .btn-group-vertical > .btn-03 ~ .btn-08, .btn-group-vertical > .btn-04 ~ .btn-08, .btn-group-vertical > .btn-05 ~ .btn-08, .btn-group-vertical > .btn-06 ~ .btn-08, .btn-group-vertical > .btn-07 ~ .btn-08, .btn-group-vertical > .btn-08 ~ .btn-08, .btn-group-vertical > .btn-09 ~ .btn-08, .btn-group-vertical > .btn-10 ~ .btn-08, .btn-group-vertical > .btn-11 ~ .btn-08, .btn-group-vertical > .btn-12 ~ .btn-08, .btn-group-vertical > .btn-13 ~ .btn-08, .btn-group-vertical > .btn-14 ~ .btn-08, .btn-group-vertical > .btn-15 ~ .btn-08, .btn-group-vertical > .btn-16 ~ .btn-08, .btn-group-vertical > .btn-17 ~ .btn-08, .btn-group-vertical > .btn-18 ~ .btn-08, .btn-group-vertical > .btn-19 ~ .btn-08, .btn-group-vertical > .btn-20 ~ .btn-08, .btn-group-vertical > .btn-Alta ~ .btn-08, .btn-group-vertical > .btn-Modi ~ .btn-08, .btn-group-vertical > .btn-Elim ~ .btn-08, .btn-group-vertical > .btn-Regr ~ .btn-08, .btn-group-vertical > .btn ~ .btn-09, .btn-group-vertical > .btn-Eliminar ~ .btn-09, .btn-group-vertical > .btn-Modificar ~ .btn-09, .btn-group-vertical > .btn-Nuevo ~ .btn-09, .btn-group-vertical > .btn-Regresar ~ .btn-09, .btn-group-vertical > .btn-Submit ~ .btn-09, .btn-group-vertical > .btn-Subir ~ .btn-09, .btn-group-vertical > .btn-Visualizar ~ .btn-09, .btn-group-vertical > .btn-01 ~ .btn-09, .btn-group-vertical > .btn-02 ~ .btn-09, .btn-group-vertical > .btn-03 ~ .btn-09, .btn-group-vertical > .btn-04 ~ .btn-09, .btn-group-vertical > .btn-05 ~ .btn-09, .btn-group-vertical > .btn-06 ~ .btn-09, .btn-group-vertical > .btn-07 ~ .btn-09, .btn-group-vertical > .btn-08 ~ .btn-09, .btn-group-vertical > .btn-09 ~ .btn-09, .btn-group-vertical > .btn-10 ~ .btn-09, .btn-group-vertical > .btn-11 ~ .btn-09, .btn-group-vertical > .btn-12 ~ .btn-09, .btn-group-vertical > .btn-13 ~ .btn-09, .btn-group-vertical > .btn-14 ~ .btn-09, .btn-group-vertical > .btn-15 ~ .btn-09, .btn-group-vertical > .btn-16 ~ .btn-09, .btn-group-vertical > .btn-17 ~ .btn-09, .btn-group-vertical > .btn-18 ~ .btn-09, .btn-group-vertical > .btn-19 ~ .btn-09, .btn-group-vertical > .btn-20 ~ .btn-09, .btn-group-vertical > .btn-Alta ~ .btn-09, .btn-group-vertical > .btn-Modi ~ .btn-09, .btn-group-vertical > .btn-Elim ~ .btn-09, .btn-group-vertical > .btn-Regr ~ .btn-09, .btn-group-vertical > .btn ~ .btn-10, .btn-group-vertical > .btn-Eliminar ~ .btn-10, .btn-group-vertical > .btn-Modificar ~ .btn-10, .btn-group-vertical > .btn-Nuevo ~ .btn-10, .btn-group-vertical > .btn-Regresar ~ .btn-10, .btn-group-vertical > .btn-Submit ~ .btn-10, .btn-group-vertical > .btn-Subir ~ .btn-10, .btn-group-vertical > .btn-Visualizar ~ .btn-10, .btn-group-vertical > .btn-01 ~ .btn-10, .btn-group-vertical > .btn-02 ~ .btn-10, .btn-group-vertical > .btn-03 ~ .btn-10, .btn-group-vertical > .btn-04 ~ .btn-10, .btn-group-vertical > .btn-05 ~ .btn-10, .btn-group-vertical > .btn-06 ~ .btn-10, .btn-group-vertical > .btn-07 ~ .btn-10, .btn-group-vertical > .btn-08 ~ .btn-10, .btn-group-vertical > .btn-09 ~ .btn-10, .btn-group-vertical > .btn-10 ~ .btn-10, .btn-group-vertical > .btn-11 ~ .btn-10, .btn-group-vertical > .btn-12 ~ .btn-10, .btn-group-vertical > .btn-13 ~ .btn-10, .btn-group-vertical > .btn-14 ~ .btn-10, .btn-group-vertical > .btn-15 ~ .btn-10, .btn-group-vertical > .btn-16 ~ .btn-10, .btn-group-vertical > .btn-17 ~ .btn-10, .btn-group-vertical > .btn-18 ~ .btn-10, .btn-group-vertical > .btn-19 ~ .btn-10, .btn-group-vertical > .btn-20 ~ .btn-10, .btn-group-vertical > .btn-Alta ~ .btn-10, .btn-group-vertical > .btn-Modi ~ .btn-10, .btn-group-vertical > .btn-Elim ~ .btn-10, .btn-group-vertical > .btn-Regr ~ .btn-10, .btn-group-vertical > .btn ~ .btn-11, .btn-group-vertical > .btn-Eliminar ~ .btn-11, .btn-group-vertical > .btn-Modificar ~ .btn-11, .btn-group-vertical > .btn-Nuevo ~ .btn-11, .btn-group-vertical > .btn-Regresar ~ .btn-11, .btn-group-vertical > .btn-Submit ~ .btn-11, .btn-group-vertical > .btn-Subir ~ .btn-11, .btn-group-vertical > .btn-Visualizar ~ .btn-11, .btn-group-vertical > .btn-01 ~ .btn-11, .btn-group-vertical > .btn-02 ~ .btn-11, .btn-group-vertical > .btn-03 ~ .btn-11, .btn-group-vertical > .btn-04 ~ .btn-11, .btn-group-vertical > .btn-05 ~ .btn-11, .btn-group-vertical > .btn-06 ~ .btn-11, .btn-group-vertical > .btn-07 ~ .btn-11, .btn-group-vertical > .btn-08 ~ .btn-11, .btn-group-vertical > .btn-09 ~ .btn-11, .btn-group-vertical > .btn-10 ~ .btn-11, .btn-group-vertical > .btn-11 ~ .btn-11, .btn-group-vertical > .btn-12 ~ .btn-11, .btn-group-vertical > .btn-13 ~ .btn-11, .btn-group-vertical > .btn-14 ~ .btn-11, .btn-group-vertical > .btn-15 ~ .btn-11, .btn-group-vertical > .btn-16 ~ .btn-11, .btn-group-vertical > .btn-17 ~ .btn-11, .btn-group-vertical > .btn-18 ~ .btn-11, .btn-group-vertical > .btn-19 ~ .btn-11, .btn-group-vertical > .btn-20 ~ .btn-11, .btn-group-vertical > .btn-Alta ~ .btn-11, .btn-group-vertical > .btn-Modi ~ .btn-11, .btn-group-vertical > .btn-Elim ~ .btn-11, .btn-group-vertical > .btn-Regr ~ .btn-11, .btn-group-vertical > .btn ~ .btn-12, .btn-group-vertical > .btn-Eliminar ~ .btn-12, .btn-group-vertical > .btn-Modificar ~ .btn-12, .btn-group-vertical > .btn-Nuevo ~ .btn-12, .btn-group-vertical > .btn-Regresar ~ .btn-12, .btn-group-vertical > .btn-Submit ~ .btn-12, .btn-group-vertical > .btn-Subir ~ .btn-12, .btn-group-vertical > .btn-Visualizar ~ .btn-12, .btn-group-vertical > .btn-01 ~ .btn-12, .btn-group-vertical > .btn-02 ~ .btn-12, .btn-group-vertical > .btn-03 ~ .btn-12, .btn-group-vertical > .btn-04 ~ .btn-12, .btn-group-vertical > .btn-05 ~ .btn-12, .btn-group-vertical > .btn-06 ~ .btn-12, .btn-group-vertical > .btn-07 ~ .btn-12, .btn-group-vertical > .btn-08 ~ .btn-12, .btn-group-vertical > .btn-09 ~ .btn-12, .btn-group-vertical > .btn-10 ~ .btn-12, .btn-group-vertical > .btn-11 ~ .btn-12, .btn-group-vertical > .btn-12 ~ .btn-12, .btn-group-vertical > .btn-13 ~ .btn-12, .btn-group-vertical > .btn-14 ~ .btn-12, .btn-group-vertical > .btn-15 ~ .btn-12, .btn-group-vertical > .btn-16 ~ .btn-12, .btn-group-vertical > .btn-17 ~ .btn-12, .btn-group-vertical > .btn-18 ~ .btn-12, .btn-group-vertical > .btn-19 ~ .btn-12, .btn-group-vertical > .btn-20 ~ .btn-12, .btn-group-vertical > .btn-Alta ~ .btn-12, .btn-group-vertical > .btn-Modi ~ .btn-12, .btn-group-vertical > .btn-Elim ~ .btn-12, .btn-group-vertical > .btn-Regr ~ .btn-12, .btn-group-vertical > .btn ~ .btn-13, .btn-group-vertical > .btn-Eliminar ~ .btn-13, .btn-group-vertical > .btn-Modificar ~ .btn-13, .btn-group-vertical > .btn-Nuevo ~ .btn-13, .btn-group-vertical > .btn-Regresar ~ .btn-13, .btn-group-vertical > .btn-Submit ~ .btn-13, .btn-group-vertical > .btn-Subir ~ .btn-13, .btn-group-vertical > .btn-Visualizar ~ .btn-13, .btn-group-vertical > .btn-01 ~ .btn-13, .btn-group-vertical > .btn-02 ~ .btn-13, .btn-group-vertical > .btn-03 ~ .btn-13, .btn-group-vertical > .btn-04 ~ .btn-13, .btn-group-vertical > .btn-05 ~ .btn-13, .btn-group-vertical > .btn-06 ~ .btn-13, .btn-group-vertical > .btn-07 ~ .btn-13, .btn-group-vertical > .btn-08 ~ .btn-13, .btn-group-vertical > .btn-09 ~ .btn-13, .btn-group-vertical > .btn-10 ~ .btn-13, .btn-group-vertical > .btn-11 ~ .btn-13, .btn-group-vertical > .btn-12 ~ .btn-13, .btn-group-vertical > .btn-13 ~ .btn-13, .btn-group-vertical > .btn-14 ~ .btn-13, .btn-group-vertical > .btn-15 ~ .btn-13, .btn-group-vertical > .btn-16 ~ .btn-13, .btn-group-vertical > .btn-17 ~ .btn-13, .btn-group-vertical > .btn-18 ~ .btn-13, .btn-group-vertical > .btn-19 ~ .btn-13, .btn-group-vertical > .btn-20 ~ .btn-13, .btn-group-vertical > .btn-Alta ~ .btn-13, .btn-group-vertical > .btn-Modi ~ .btn-13, .btn-group-vertical > .btn-Elim ~ .btn-13, .btn-group-vertical > .btn-Regr ~ .btn-13, .btn-group-vertical > .btn ~ .btn-14, .btn-group-vertical > .btn-Eliminar ~ .btn-14, .btn-group-vertical > .btn-Modificar ~ .btn-14, .btn-group-vertical > .btn-Nuevo ~ .btn-14, .btn-group-vertical > .btn-Regresar ~ .btn-14, .btn-group-vertical > .btn-Submit ~ .btn-14, .btn-group-vertical > .btn-Subir ~ .btn-14, .btn-group-vertical > .btn-Visualizar ~ .btn-14, .btn-group-vertical > .btn-01 ~ .btn-14, .btn-group-vertical > .btn-02 ~ .btn-14, .btn-group-vertical > .btn-03 ~ .btn-14, .btn-group-vertical > .btn-04 ~ .btn-14, .btn-group-vertical > .btn-05 ~ .btn-14, .btn-group-vertical > .btn-06 ~ .btn-14, .btn-group-vertical > .btn-07 ~ .btn-14, .btn-group-vertical > .btn-08 ~ .btn-14, .btn-group-vertical > .btn-09 ~ .btn-14, .btn-group-vertical > .btn-10 ~ .btn-14, .btn-group-vertical > .btn-11 ~ .btn-14, .btn-group-vertical > .btn-12 ~ .btn-14, .btn-group-vertical > .btn-13 ~ .btn-14, .btn-group-vertical > .btn-14 ~ .btn-14, .btn-group-vertical > .btn-15 ~ .btn-14, .btn-group-vertical > .btn-16 ~ .btn-14, .btn-group-vertical > .btn-17 ~ .btn-14, .btn-group-vertical > .btn-18 ~ .btn-14, .btn-group-vertical > .btn-19 ~ .btn-14, .btn-group-vertical > .btn-20 ~ .btn-14, .btn-group-vertical > .btn-Alta ~ .btn-14, .btn-group-vertical > .btn-Modi ~ .btn-14, .btn-group-vertical > .btn-Elim ~ .btn-14, .btn-group-vertical > .btn-Regr ~ .btn-14, .btn-group-vertical > .btn ~ .btn-15, .btn-group-vertical > .btn-Eliminar ~ .btn-15, .btn-group-vertical > .btn-Modificar ~ .btn-15, .btn-group-vertical > .btn-Nuevo ~ .btn-15, .btn-group-vertical > .btn-Regresar ~ .btn-15, .btn-group-vertical > .btn-Submit ~ .btn-15, .btn-group-vertical > .btn-Subir ~ .btn-15, .btn-group-vertical > .btn-Visualizar ~ .btn-15, .btn-group-vertical > .btn-01 ~ .btn-15, .btn-group-vertical > .btn-02 ~ .btn-15, .btn-group-vertical > .btn-03 ~ .btn-15, .btn-group-vertical > .btn-04 ~ .btn-15, .btn-group-vertical > .btn-05 ~ .btn-15, .btn-group-vertical > .btn-06 ~ .btn-15, .btn-group-vertical > .btn-07 ~ .btn-15, .btn-group-vertical > .btn-08 ~ .btn-15, .btn-group-vertical > .btn-09 ~ .btn-15, .btn-group-vertical > .btn-10 ~ .btn-15, .btn-group-vertical > .btn-11 ~ .btn-15, .btn-group-vertical > .btn-12 ~ .btn-15, .btn-group-vertical > .btn-13 ~ .btn-15, .btn-group-vertical > .btn-14 ~ .btn-15, .btn-group-vertical > .btn-15 ~ .btn-15, .btn-group-vertical > .btn-16 ~ .btn-15, .btn-group-vertical > .btn-17 ~ .btn-15, .btn-group-vertical > .btn-18 ~ .btn-15, .btn-group-vertical > .btn-19 ~ .btn-15, .btn-group-vertical > .btn-20 ~ .btn-15, .btn-group-vertical > .btn-Alta ~ .btn-15, .btn-group-vertical > .btn-Modi ~ .btn-15, .btn-group-vertical > .btn-Elim ~ .btn-15, .btn-group-vertical > .btn-Regr ~ .btn-15, .btn-group-vertical > .btn ~ .btn-16, .btn-group-vertical > .btn-Eliminar ~ .btn-16, .btn-group-vertical > .btn-Modificar ~ .btn-16, .btn-group-vertical > .btn-Nuevo ~ .btn-16, .btn-group-vertical > .btn-Regresar ~ .btn-16, .btn-group-vertical > .btn-Submit ~ .btn-16, .btn-group-vertical > .btn-Subir ~ .btn-16, .btn-group-vertical > .btn-Visualizar ~ .btn-16, .btn-group-vertical > .btn-01 ~ .btn-16, .btn-group-vertical > .btn-02 ~ .btn-16, .btn-group-vertical > .btn-03 ~ .btn-16, .btn-group-vertical > .btn-04 ~ .btn-16, .btn-group-vertical > .btn-05 ~ .btn-16, .btn-group-vertical > .btn-06 ~ .btn-16, .btn-group-vertical > .btn-07 ~ .btn-16, .btn-group-vertical > .btn-08 ~ .btn-16, .btn-group-vertical > .btn-09 ~ .btn-16, .btn-group-vertical > .btn-10 ~ .btn-16, .btn-group-vertical > .btn-11 ~ .btn-16, .btn-group-vertical > .btn-12 ~ .btn-16, .btn-group-vertical > .btn-13 ~ .btn-16, .btn-group-vertical > .btn-14 ~ .btn-16, .btn-group-vertical > .btn-15 ~ .btn-16, .btn-group-vertical > .btn-16 ~ .btn-16, .btn-group-vertical > .btn-17 ~ .btn-16, .btn-group-vertical > .btn-18 ~ .btn-16, .btn-group-vertical > .btn-19 ~ .btn-16, .btn-group-vertical > .btn-20 ~ .btn-16, .btn-group-vertical > .btn-Alta ~ .btn-16, .btn-group-vertical > .btn-Modi ~ .btn-16, .btn-group-vertical > .btn-Elim ~ .btn-16, .btn-group-vertical > .btn-Regr ~ .btn-16, .btn-group-vertical > .btn ~ .btn-17, .btn-group-vertical > .btn-Eliminar ~ .btn-17, .btn-group-vertical > .btn-Modificar ~ .btn-17, .btn-group-vertical > .btn-Nuevo ~ .btn-17, .btn-group-vertical > .btn-Regresar ~ .btn-17, .btn-group-vertical > .btn-Submit ~ .btn-17, .btn-group-vertical > .btn-Subir ~ .btn-17, .btn-group-vertical > .btn-Visualizar ~ .btn-17, .btn-group-vertical > .btn-01 ~ .btn-17, .btn-group-vertical > .btn-02 ~ .btn-17, .btn-group-vertical > .btn-03 ~ .btn-17, .btn-group-vertical > .btn-04 ~ .btn-17, .btn-group-vertical > .btn-05 ~ .btn-17, .btn-group-vertical > .btn-06 ~ .btn-17, .btn-group-vertical > .btn-07 ~ .btn-17, .btn-group-vertical > .btn-08 ~ .btn-17, .btn-group-vertical > .btn-09 ~ .btn-17, .btn-group-vertical > .btn-10 ~ .btn-17, .btn-group-vertical > .btn-11 ~ .btn-17, .btn-group-vertical > .btn-12 ~ .btn-17, .btn-group-vertical > .btn-13 ~ .btn-17, .btn-group-vertical > .btn-14 ~ .btn-17, .btn-group-vertical > .btn-15 ~ .btn-17, .btn-group-vertical > .btn-16 ~ .btn-17, .btn-group-vertical > .btn-17 ~ .btn-17, .btn-group-vertical > .btn-18 ~ .btn-17, .btn-group-vertical > .btn-19 ~ .btn-17, .btn-group-vertical > .btn-20 ~ .btn-17, .btn-group-vertical > .btn-Alta ~ .btn-17, .btn-group-vertical > .btn-Modi ~ .btn-17, .btn-group-vertical > .btn-Elim ~ .btn-17, .btn-group-vertical > .btn-Regr ~ .btn-17, .btn-group-vertical > .btn ~ .btn-18, .btn-group-vertical > .btn-Eliminar ~ .btn-18, .btn-group-vertical > .btn-Modificar ~ .btn-18, .btn-group-vertical > .btn-Nuevo ~ .btn-18, .btn-group-vertical > .btn-Regresar ~ .btn-18, .btn-group-vertical > .btn-Submit ~ .btn-18, .btn-group-vertical > .btn-Subir ~ .btn-18, .btn-group-vertical > .btn-Visualizar ~ .btn-18, .btn-group-vertical > .btn-01 ~ .btn-18, .btn-group-vertical > .btn-02 ~ .btn-18, .btn-group-vertical > .btn-03 ~ .btn-18, .btn-group-vertical > .btn-04 ~ .btn-18, .btn-group-vertical > .btn-05 ~ .btn-18, .btn-group-vertical > .btn-06 ~ .btn-18, .btn-group-vertical > .btn-07 ~ .btn-18, .btn-group-vertical > .btn-08 ~ .btn-18, .btn-group-vertical > .btn-09 ~ .btn-18, .btn-group-vertical > .btn-10 ~ .btn-18, .btn-group-vertical > .btn-11 ~ .btn-18, .btn-group-vertical > .btn-12 ~ .btn-18, .btn-group-vertical > .btn-13 ~ .btn-18, .btn-group-vertical > .btn-14 ~ .btn-18, .btn-group-vertical > .btn-15 ~ .btn-18, .btn-group-vertical > .btn-16 ~ .btn-18, .btn-group-vertical > .btn-17 ~ .btn-18, .btn-group-vertical > .btn-18 ~ .btn-18, .btn-group-vertical > .btn-19 ~ .btn-18, .btn-group-vertical > .btn-20 ~ .btn-18, .btn-group-vertical > .btn-Alta ~ .btn-18, .btn-group-vertical > .btn-Modi ~ .btn-18, .btn-group-vertical > .btn-Elim ~ .btn-18, .btn-group-vertical > .btn-Regr ~ .btn-18, .btn-group-vertical > .btn ~ .btn-19, .btn-group-vertical > .btn-Eliminar ~ .btn-19, .btn-group-vertical > .btn-Modificar ~ .btn-19, .btn-group-vertical > .btn-Nuevo ~ .btn-19, .btn-group-vertical > .btn-Regresar ~ .btn-19, .btn-group-vertical > .btn-Submit ~ .btn-19, .btn-group-vertical > .btn-Subir ~ .btn-19, .btn-group-vertical > .btn-Visualizar ~ .btn-19, .btn-group-vertical > .btn-01 ~ .btn-19, .btn-group-vertical > .btn-02 ~ .btn-19, .btn-group-vertical > .btn-03 ~ .btn-19, .btn-group-vertical > .btn-04 ~ .btn-19, .btn-group-vertical > .btn-05 ~ .btn-19, .btn-group-vertical > .btn-06 ~ .btn-19, .btn-group-vertical > .btn-07 ~ .btn-19, .btn-group-vertical > .btn-08 ~ .btn-19, .btn-group-vertical > .btn-09 ~ .btn-19, .btn-group-vertical > .btn-10 ~ .btn-19, .btn-group-vertical > .btn-11 ~ .btn-19, .btn-group-vertical > .btn-12 ~ .btn-19, .btn-group-vertical > .btn-13 ~ .btn-19, .btn-group-vertical > .btn-14 ~ .btn-19, .btn-group-vertical > .btn-15 ~ .btn-19, .btn-group-vertical > .btn-16 ~ .btn-19, .btn-group-vertical > .btn-17 ~ .btn-19, .btn-group-vertical > .btn-18 ~ .btn-19, .btn-group-vertical > .btn-19 ~ .btn-19, .btn-group-vertical > .btn-20 ~ .btn-19, .btn-group-vertical > .btn-Alta ~ .btn-19, .btn-group-vertical > .btn-Modi ~ .btn-19, .btn-group-vertical > .btn-Elim ~ .btn-19, .btn-group-vertical > .btn-Regr ~ .btn-19, .btn-group-vertical > .btn ~ .btn-20, .btn-group-vertical > .btn-Eliminar ~ .btn-20, .btn-group-vertical > .btn-Modificar ~ .btn-20, .btn-group-vertical > .btn-Nuevo ~ .btn-20, .btn-group-vertical > .btn-Regresar ~ .btn-20, .btn-group-vertical > .btn-Submit ~ .btn-20, .btn-group-vertical > .btn-Subir ~ .btn-20, .btn-group-vertical > .btn-Visualizar ~ .btn-20, .btn-group-vertical > .btn-01 ~ .btn-20, .btn-group-vertical > .btn-02 ~ .btn-20, .btn-group-vertical > .btn-03 ~ .btn-20, .btn-group-vertical > .btn-04 ~ .btn-20, .btn-group-vertical > .btn-05 ~ .btn-20, .btn-group-vertical > .btn-06 ~ .btn-20, .btn-group-vertical > .btn-07 ~ .btn-20, .btn-group-vertical > .btn-08 ~ .btn-20, .btn-group-vertical > .btn-09 ~ .btn-20, .btn-group-vertical > .btn-10 ~ .btn-20, .btn-group-vertical > .btn-11 ~ .btn-20, .btn-group-vertical > .btn-12 ~ .btn-20, .btn-group-vertical > .btn-13 ~ .btn-20, .btn-group-vertical > .btn-14 ~ .btn-20, .btn-group-vertical > .btn-15 ~ .btn-20, .btn-group-vertical > .btn-16 ~ .btn-20, .btn-group-vertical > .btn-17 ~ .btn-20, .btn-group-vertical > .btn-18 ~ .btn-20, .btn-group-vertical > .btn-19 ~ .btn-20, .btn-group-vertical > .btn-20 ~ .btn-20, .btn-group-vertical > .btn-Alta ~ .btn-20, .btn-group-vertical > .btn-Modi ~ .btn-20, .btn-group-vertical > .btn-Elim ~ .btn-20, .btn-group-vertical > .btn-Regr ~ .btn-20, .btn-group-vertical > .btn ~ .btn-Alta, .btn-group-vertical > .btn-Eliminar ~ .btn-Alta, .btn-group-vertical > .btn-Modificar ~ .btn-Alta, .btn-group-vertical > .btn-Nuevo ~ .btn-Alta, .btn-group-vertical > .btn-Regresar ~ .btn-Alta, .btn-group-vertical > .btn-Submit ~ .btn-Alta, .btn-group-vertical > .btn-Subir ~ .btn-Alta, .btn-group-vertical > .btn-Visualizar ~ .btn-Alta, .btn-group-vertical > .btn-01 ~ .btn-Alta, .btn-group-vertical > .btn-02 ~ .btn-Alta, .btn-group-vertical > .btn-03 ~ .btn-Alta, .btn-group-vertical > .btn-04 ~ .btn-Alta, .btn-group-vertical > .btn-05 ~ .btn-Alta, .btn-group-vertical > .btn-06 ~ .btn-Alta, .btn-group-vertical > .btn-07 ~ .btn-Alta, .btn-group-vertical > .btn-08 ~ .btn-Alta, .btn-group-vertical > .btn-09 ~ .btn-Alta, .btn-group-vertical > .btn-10 ~ .btn-Alta, .btn-group-vertical > .btn-11 ~ .btn-Alta, .btn-group-vertical > .btn-12 ~ .btn-Alta, .btn-group-vertical > .btn-13 ~ .btn-Alta, .btn-group-vertical > .btn-14 ~ .btn-Alta, .btn-group-vertical > .btn-15 ~ .btn-Alta, .btn-group-vertical > .btn-16 ~ .btn-Alta, .btn-group-vertical > .btn-17 ~ .btn-Alta, .btn-group-vertical > .btn-18 ~ .btn-Alta, .btn-group-vertical > .btn-19 ~ .btn-Alta, .btn-group-vertical > .btn-20 ~ .btn-Alta, .btn-group-vertical > .btn-Alta ~ .btn-Alta, .btn-group-vertical > .btn-Modi ~ .btn-Alta, .btn-group-vertical > .btn-Elim ~ .btn-Alta, .btn-group-vertical > .btn-Regr ~ .btn-Alta, .btn-group-vertical > .btn ~ .btn-Modi, .btn-group-vertical > .btn-Eliminar ~ .btn-Modi, .btn-group-vertical > .btn-Modificar ~ .btn-Modi, .btn-group-vertical > .btn-Nuevo ~ .btn-Modi, .btn-group-vertical > .btn-Regresar ~ .btn-Modi, .btn-group-vertical > .btn-Submit ~ .btn-Modi, .btn-group-vertical > .btn-Subir ~ .btn-Modi, .btn-group-vertical > .btn-Visualizar ~ .btn-Modi, .btn-group-vertical > .btn-01 ~ .btn-Modi, .btn-group-vertical > .btn-02 ~ .btn-Modi, .btn-group-vertical > .btn-03 ~ .btn-Modi, .btn-group-vertical > .btn-04 ~ .btn-Modi, .btn-group-vertical > .btn-05 ~ .btn-Modi, .btn-group-vertical > .btn-06 ~ .btn-Modi, .btn-group-vertical > .btn-07 ~ .btn-Modi, .btn-group-vertical > .btn-08 ~ .btn-Modi, .btn-group-vertical > .btn-09 ~ .btn-Modi, .btn-group-vertical > .btn-10 ~ .btn-Modi, .btn-group-vertical > .btn-11 ~ .btn-Modi, .btn-group-vertical > .btn-12 ~ .btn-Modi, .btn-group-vertical > .btn-13 ~ .btn-Modi, .btn-group-vertical > .btn-14 ~ .btn-Modi, .btn-group-vertical > .btn-15 ~ .btn-Modi, .btn-group-vertical > .btn-16 ~ .btn-Modi, .btn-group-vertical > .btn-17 ~ .btn-Modi, .btn-group-vertical > .btn-18 ~ .btn-Modi, .btn-group-vertical > .btn-19 ~ .btn-Modi, .btn-group-vertical > .btn-20 ~ .btn-Modi, .btn-group-vertical > .btn-Alta ~ .btn-Modi, .btn-group-vertical > .btn-Modi ~ .btn-Modi, .btn-group-vertical > .btn-Elim ~ .btn-Modi, .btn-group-vertical > .btn-Regr ~ .btn-Modi, .btn-group-vertical > .btn ~ .btn-Elim, .btn-group-vertical > .btn-Eliminar ~ .btn-Elim, .btn-group-vertical > .btn-Modificar ~ .btn-Elim, .btn-group-vertical > .btn-Nuevo ~ .btn-Elim, .btn-group-vertical > .btn-Regresar ~ .btn-Elim, .btn-group-vertical > .btn-Submit ~ .btn-Elim, .btn-group-vertical > .btn-Subir ~ .btn-Elim, .btn-group-vertical > .btn-Visualizar ~ .btn-Elim, .btn-group-vertical > .btn-01 ~ .btn-Elim, .btn-group-vertical > .btn-02 ~ .btn-Elim, .btn-group-vertical > .btn-03 ~ .btn-Elim, .btn-group-vertical > .btn-04 ~ .btn-Elim, .btn-group-vertical > .btn-05 ~ .btn-Elim, .btn-group-vertical > .btn-06 ~ .btn-Elim, .btn-group-vertical > .btn-07 ~ .btn-Elim, .btn-group-vertical > .btn-08 ~ .btn-Elim, .btn-group-vertical > .btn-09 ~ .btn-Elim, .btn-group-vertical > .btn-10 ~ .btn-Elim, .btn-group-vertical > .btn-11 ~ .btn-Elim, .btn-group-vertical > .btn-12 ~ .btn-Elim, .btn-group-vertical > .btn-13 ~ .btn-Elim, .btn-group-vertical > .btn-14 ~ .btn-Elim, .btn-group-vertical > .btn-15 ~ .btn-Elim, .btn-group-vertical > .btn-16 ~ .btn-Elim, .btn-group-vertical > .btn-17 ~ .btn-Elim, .btn-group-vertical > .btn-18 ~ .btn-Elim, .btn-group-vertical > .btn-19 ~ .btn-Elim, .btn-group-vertical > .btn-20 ~ .btn-Elim, .btn-group-vertical > .btn-Alta ~ .btn-Elim, .btn-group-vertical > .btn-Modi ~ .btn-Elim, .btn-group-vertical > .btn-Elim ~ .btn-Elim, .btn-group-vertical > .btn-Regr ~ .btn-Elim, .btn-group-vertical > .btn ~ .btn-Regr, .btn-group-vertical > .btn-Eliminar ~ .btn-Regr, .btn-group-vertical > .btn-Modificar ~ .btn-Regr, .btn-group-vertical > .btn-Nuevo ~ .btn-Regr, .btn-group-vertical > .btn-Regresar ~ .btn-Regr, .btn-group-vertical > .btn-Submit ~ .btn-Regr, .btn-group-vertical > .btn-Subir ~ .btn-Regr, .btn-group-vertical > .btn-Visualizar ~ .btn-Regr, .btn-group-vertical > .btn-01 ~ .btn-Regr, .btn-group-vertical > .btn-02 ~ .btn-Regr, .btn-group-vertical > .btn-03 ~ .btn-Regr, .btn-group-vertical > .btn-04 ~ .btn-Regr, .btn-group-vertical > .btn-05 ~ .btn-Regr, .btn-group-vertical > .btn-06 ~ .btn-Regr, .btn-group-vertical > .btn-07 ~ .btn-Regr, .btn-group-vertical > .btn-08 ~ .btn-Regr, .btn-group-vertical > .btn-09 ~ .btn-Regr, .btn-group-vertical > .btn-10 ~ .btn-Regr, .btn-group-vertical > .btn-11 ~ .btn-Regr, .btn-group-vertical > .btn-12 ~ .btn-Regr, .btn-group-vertical > .btn-13 ~ .btn-Regr, .btn-group-vertical > .btn-14 ~ .btn-Regr, .btn-group-vertical > .btn-15 ~ .btn-Regr, .btn-group-vertical > .btn-16 ~ .btn-Regr, .btn-group-vertical > .btn-17 ~ .btn-Regr, .btn-group-vertical > .btn-18 ~ .btn-Regr, .btn-group-vertical > .btn-19 ~ .btn-Regr, .btn-group-vertical > .btn-20 ~ .btn-Regr, .btn-group-vertical > .btn-Alta ~ .btn-Regr, .btn-group-vertical > .btn-Modi ~ .btn-Regr, .btn-group-vertical > .btn-Elim ~ .btn-Regr, .btn-group-vertical > .btn-Regr ~ .btn-Regr,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn-Eliminar,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn-Modificar,
@@ -4054,16 +4320,30 @@ textarea.form-control-lg {
 .btn-group-vertical > .btn-group:not(:first-child) > .btn-Submit,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn-Subir,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn-Visualizar,
-.btn-group-vertical > .btn-group:not(:first-child) > .btn-1,
-.btn-group-vertical > .btn-group:not(:first-child) > .btn-2,
-.btn-group-vertical > .btn-group:not(:first-child) > .btn-3,
-.btn-group-vertical > .btn-group:not(:first-child) > .btn-Elim,
-.btn-group-vertical > .btn-group:not(:first-child) > .btn-5,
-.btn-group-vertical > .btn-group:not(:first-child) > .btn-6,
-.btn-group-vertical > .btn-group:not(:first-child) > .btn-Modi,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-01,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-02,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-03,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-04,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-05,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-06,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-07,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-08,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-09,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-10,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-11,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-12,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-13,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-14,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-15,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-16,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-17,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-18,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-19,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-20,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn-Alta,
-.btn-group-vertical > .btn-group:not(:first-child) > .btn-9,
-.btn-group-vertical > .btn-group:not(:first-child) > .btn-10 {
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-Modi,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-Elim,
+.btn-group-vertical > .btn-group:not(:first-child) > .btn-Regr {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -5103,7 +5383,7 @@ textarea.form-control-lg {
   display: none;
 }
 
-.btn .badge, .btn-Eliminar .badge, .btn-Modificar .badge, .btn-Nuevo .badge, .btn-Regresar .badge, .btn-Submit .badge, .btn-Subir .badge, .btn-Visualizar .badge, .btn-1 .badge, .btn-2 .badge, .btn-3 .badge, .btn-Elim .badge, .btn-5 .badge, .btn-6 .badge, .btn-Modi .badge, .btn-Alta .badge, .btn-9 .badge, .btn-10 .badge {
+.btn .badge, .btn-Eliminar .badge, .btn-Modificar .badge, .btn-Nuevo .badge, .btn-Regresar .badge, .btn-Submit .badge, .btn-Subir .badge, .btn-Visualizar .badge, .btn-01 .badge, .btn-02 .badge, .btn-03 .badge, .btn-04 .badge, .btn-05 .badge, .btn-06 .badge, .btn-07 .badge, .btn-08 .badge, .btn-09 .badge, .btn-10 .badge, .btn-11 .badge, .btn-12 .badge, .btn-13 .badge, .btn-14 .badge, .btn-15 .badge, .btn-16 .badge, .btn-17 .badge, .btn-18 .badge, .btn-19 .badge, .btn-20 .badge, .btn-Alta .badge, .btn-Modi .badge, .btn-Elim .badge, .btn-Regr .badge {
   position: relative;
   top: -1px;
 }
@@ -7043,7 +7323,7 @@ textarea.form-control-lg {
   background-color: currentcolor;
   opacity: 0.5;
 }
-.placeholder.btn::before, .placeholder.btn-Eliminar::before, .placeholder.btn-Modificar::before, .placeholder.btn-Nuevo::before, .placeholder.btn-Regresar::before, .placeholder.btn-Submit::before, .placeholder.btn-Subir::before, .placeholder.btn-Visualizar::before, .placeholder.btn-1::before, .placeholder.btn-2::before, .placeholder.btn-3::before, .placeholder.btn-Elim::before, .placeholder.btn-5::before, .placeholder.btn-6::before, .placeholder.btn-Modi::before, .placeholder.btn-Alta::before, .placeholder.btn-9::before, .placeholder.btn-10::before {
+.placeholder.btn::before, .placeholder.btn-Eliminar::before, .placeholder.btn-Modificar::before, .placeholder.btn-Nuevo::before, .placeholder.btn-Regresar::before, .placeholder.btn-Submit::before, .placeholder.btn-Subir::before, .placeholder.btn-Visualizar::before, .placeholder.btn-01::before, .placeholder.btn-02::before, .placeholder.btn-03::before, .placeholder.btn-04::before, .placeholder.btn-05::before, .placeholder.btn-06::before, .placeholder.btn-07::before, .placeholder.btn-08::before, .placeholder.btn-09::before, .placeholder.btn-10::before, .placeholder.btn-11::before, .placeholder.btn-12::before, .placeholder.btn-13::before, .placeholder.btn-14::before, .placeholder.btn-15::before, .placeholder.btn-16::before, .placeholder.btn-17::before, .placeholder.btn-18::before, .placeholder.btn-19::before, .placeholder.btn-20::before, .placeholder.btn-Alta::before, .placeholder.btn-Modi::before, .placeholder.btn-Elim::before, .placeholder.btn-Regr::before {
   display: inline-block;
   content: "";
 }
@@ -7589,7 +7869,7 @@ textarea.form-control-lg {
   box-shadow: var(--bs-box-shadow-sm) !important;
 }
 
-.shadow-lg, .btn-Eliminar, .btn-Modificar, .btn-Nuevo, .btn-1, .btn-2, .btn-3, .btn-Elim, .btn-5, .btn-6, .btn-Modi, .btn-Alta, .btn-9, .btn-10 {
+.shadow-lg, .btn-Eliminar, .btn-Modificar, .btn-Nuevo, .btn-01, .btn-02, .btn-03, .btn-04, .btn-05, .btn-06, .btn-07, .btn-08, .btn-09, .btn-10, .btn-11, .btn-12, .btn-13, .btn-14, .btn-15, .btn-16, .btn-17, .btn-18, .btn-19, .btn-20, .btn-Alta, .btn-Modi, .btn-Elim, .btn-Regr {
   box-shadow: var(--bs-box-shadow-lg) !important;
 }
 
@@ -8321,7 +8601,7 @@ textarea.form-control-lg {
   padding: 0 !important;
 }
 
-.p-1, .btn-Eliminar, .btn-Modificar, .btn-Nuevo, .btn-Subir, .btn-Visualizar, .btn-NoMostrar, .btn-1, .btn-2, .btn-3, .btn-Elim, .btn-5, .btn-6, .btn-Modi, .btn-Alta, .btn-9, .btn-10 {
+.p-1, .btn-Eliminar, .btn-Modificar, .btn-Nuevo, .btn-Subir, .btn-Visualizar, .btn-NoMostrar, .btn-01, .btn-02, .btn-03, .btn-04, .btn-05, .btn-06, .btn-07, .btn-08, .btn-09, .btn-10, .btn-11, .btn-12, .btn-13, .btn-14, .btn-15, .btn-16, .btn-17, .btn-18, .btn-19, .btn-20, .btn-Alta, .btn-Modi, .btn-Elim, .btn-Regr {
   padding: 0.25rem !important;
 }
 
@@ -8621,7 +8901,7 @@ textarea.form-control-lg {
   font-weight: 500 !important;
 }
 
-.fw-semibold, .btn-Nuevo, .btn-Regresar, .btn-Submit, .Alerta, .btn-1, .btn-2, .btn-3, .btn-Elim, .btn-5, .btn-6, .btn-Modi, .btn-Alta, .btn-9, .btn-10 {
+.fw-semibold, .btn-Nuevo, .btn-Regresar, .btn-Submit, .Alerta, .btn-01, .btn-02, .btn-03, .btn-04, .btn-05, .btn-06, .btn-07, .btn-08, .btn-09, .btn-10, .btn-11, .btn-12, .btn-13, .btn-14, .btn-15, .btn-16, .btn-17, .btn-18, .btn-19, .btn-20, .btn-Alta, .btn-Modi, .btn-Elim, .btn-Regr {
   font-weight: 600 !important;
 }
 
@@ -8745,7 +9025,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-white, .btn-Nuevo, .Alerta, .btn-Subir, .btn-Visualizar, .btn-NoMostrar, .btn-1, .btn-3, .btn-Elim, .btn-5, .btn-6, .btn-Modi, .btn-Alta, .btn-9, .btn-10 {
+.text-white, .btn-Nuevo, .Alerta, .btn-Subir, .btn-Visualizar, .btn-NoMostrar, .btn-01, .btn-03, .btn-04, .btn-05, .btn-06, .btn-07, .btn-08, .btn-09, .btn-10, .btn-11, .btn-13, .btn-14, .btn-15, .btn-16, .btn-17, .btn-18, .btn-19, .btn-20, .btn-Alta, .btn-Modi, .btn-Elim, .btn-Regr {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
@@ -12184,60 +12464,164 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.btn-1 {
+.btn-01 {
   background-color: #3498db;
 }
 
-.btn-1:hover {
+.btn-01:hover {
   background-color: #2874a6;
 }
 
-.btn-2 {
+.btn-02 {
   background-color: #f1c40f;
 }
 
-.btn-2:hover {
+.btn-02:hover {
   background-color: #b7950b;
 }
 
-.btn-3 {
+.btn-03 {
   background-color: #2ecc71;
 }
 
-.btn-3:hover {
+.btn-03:hover {
   background-color: #239b56;
 }
 
-.btn-Elim {
+.btn-04 {
   background-color: #e74c3c;
 }
 
-.btn-Elim:hover {
+.btn-04:hover {
   background-color: #b03a2e;
 }
 
-.btn-5 {
+.btn-05 {
   background-color: #9b59b6;
 }
 
-.btn-5:hover {
+.btn-05:hover {
   background-color: #76448a;
 }
 
-.btn-6 {
+.btn-06 {
   background-color: #95a5a6;
 }
 
-.btn-6:hover {
+.btn-06:hover {
   background-color: #717d7e;
 }
 
-.btn-Modi {
+.btn-07 {
   background-color: #f39c12;
 }
 
-.btn-Modi:hover {
+.btn-07:hover {
   background-color: #b9770e;
+}
+
+.btn-08 {
+  background-color: #65a30d;
+}
+
+.btn-08:hover {
+  background-color: #3f6212;
+}
+
+.btn-09 {
+  background-color: #475569;
+}
+
+.btn-09:hover {
+  background-color: #1e293b;
+}
+
+.btn-10 {
+  background-color: #4f46e5;
+}
+
+.btn-10:hover {
+  background-color: #3730a3;
+}
+
+.btn-11 {
+  background-color: #3498db;
+}
+
+.btn-11:hover {
+  background-color: #2874a6;
+}
+
+.btn-12 {
+  background-color: #f1c40f;
+}
+
+.btn-12:hover {
+  background-color: #b7950b;
+}
+
+.btn-13 {
+  background-color: #2ecc71;
+}
+
+.btn-13:hover {
+  background-color: #239b56;
+}
+
+.btn-14 {
+  background-color: #e74c3c;
+}
+
+.btn-14:hover {
+  background-color: #b03a2e;
+}
+
+.btn-15 {
+  background-color: #9b59b6;
+}
+
+.btn-15:hover {
+  background-color: #76448a;
+}
+
+.btn-16 {
+  background-color: #95a5a6;
+}
+
+.btn-16:hover {
+  background-color: #717d7e;
+}
+
+.btn-17 {
+  background-color: #f39c12;
+}
+
+.btn-17:hover {
+  background-color: #b9770e;
+}
+
+.btn-18 {
+  background-color: #65a30d;
+}
+
+.btn-18:hover {
+  background-color: #3f6212;
+}
+
+.btn-19 {
+  background-color: #475569;
+}
+
+.btn-19:hover {
+  background-color: #1e293b;
+}
+
+.btn-20 {
+  background-color: #4f46e5;
+}
+
+.btn-20:hover {
+  background-color: #3730a3;
 }
 
 .btn-Alta {
@@ -12248,20 +12632,28 @@ textarea.form-control-lg {
   background-color: #3f6212;
 }
 
-.btn-9 {
-  background-color: #475569;
+.btn-Modi {
+  background-color: #f39c12;
 }
 
-.btn-9:hover {
-  background-color: #1e293b;
+.btn-Modi:hover {
+  background-color: #b9770e;
 }
 
-.btn-10 {
-  background-color: #4f46e5;
+.btn-Elim {
+  background-color: #e74c3c;
 }
 
-.btn-10:hover {
-  background-color: #3730a3;
+.btn-Elim:hover {
+  background-color: #b03a2e;
+}
+
+.btn-Regr {
+  background-color: #95a5a6;
+}
+
+.btn-Regr:hover {
+  background-color: #717d7e;
 }
 
 .encabezado-prin .logo {

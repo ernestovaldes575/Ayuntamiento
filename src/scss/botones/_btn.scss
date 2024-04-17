@@ -30,67 +30,67 @@
     @extend .bg-danger, .p-1, .fs-5, .rounded, .text-white, .shadow;
 }
 
-.btn-1{
+.btn-01{
     background-color: $Azul-Profundo;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
 }
-.btn-1:hover{
+.btn-01:hover{
     background-color: $Azul-Profundo-hover;
 }
-.btn-2{
+.btn-02{
     background-color: $Ambar-hover;
     @extend .btn, .p-1, .fw-semibold, .shadow-lg;
 }
-.btn-2:hover{
+.btn-02:hover{
     background-color: $Ambar;
 }
-.btn-3{
+.btn-03{
     background-color: $Verde;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
 }
-.btn-3:hover{
+.btn-03:hover{
     background-color: $Verde-hover;
 }
-.btn-Elim{
+.btn-04{
     background-color: $Rojo;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
 }
-.btn-Elim:hover{
+.btn-04:hover{
     background-color: $Rojo-hover;
 }
-.btn-5{
+.btn-05{
     background-color: $Morado;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
 }
-.btn-5:hover{
+.btn-05:hover{
     background-color: $Morado-hover;
 }
-.btn-6{
+.btn-06{
     background-color: $Gris;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
 }
-.btn-6:hover{
+.btn-06:hover{
     background-color: $Gris-hover;
 }
-.btn-Modi{
+.btn-07{
     background-color: $Naranja;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
 }
-.btn-Modi:hover{
+.btn-07:hover{
     background-color: $Naranja-hover;
 }
-.btn-Alta{
+.btn-08{
     background-color: $Lima;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
 }
-.btn-Alta:hover{
+.btn-08:hover{
     background-color: $Lima-hover;
 }
-.btn-9{
+.btn-09{
     background-color: $Oscuro;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
 }
-.btn-9:hover{
+.btn-09:hover{
     background-color: $Oscuro-hover;
 }
 .btn-10{
@@ -99,4 +99,105 @@
 }
 .btn-10:hover{
     background-color: $Azul-hover;
+}
+
+.btn-11{
+    background-color: $Azul-Profundo;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-11:hover{
+    background-color: $Azul-Profundo-hover;
+}
+.btn-12{
+    background-color: $Ambar-hover;
+    @extend .btn, .p-1, .fw-semibold, .shadow-lg;
+}
+.btn-12:hover{
+    background-color: $Ambar;
+}
+.btn-13{
+    background-color: $Verde;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-13:hover{
+    background-color: $Verde-hover;
+}
+.btn-14{
+    background-color: $Rojo;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-14:hover{
+    background-color: $Rojo-hover;
+}
+.btn-15{
+    background-color: $Morado;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-15:hover{
+    background-color: $Morado-hover;
+}
+.btn-16{
+    background-color: $Gris;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-16:hover{
+    background-color: $Gris-hover;
+}
+.btn-17{
+    background-color: $Naranja;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-17:hover{
+    background-color: $Naranja-hover;
+}
+.btn-18{
+    background-color: $Lima;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-18:hover{
+    background-color: $Lima-hover;
+}
+.btn-19{
+    background-color: $Oscuro;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-19:hover{
+    background-color: $Oscuro-hover;
+}
+.btn-20{
+    background-color: $Azul;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-20:hover{
+    background-color: $Azul-hover;
+}
+
+.btn-Alta{
+    background-color: $Lima;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-Alta:hover{
+    background-color: $Lima-hover;
+}
+.btn-Modi{
+    background-color: $Naranja;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-Modi:hover{
+    background-color: $Naranja-hover;
+}
+.btn-Elim{
+    background-color: $Rojo;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-Elim:hover{
+    background-color: $Rojo-hover;
+}
+
+.btn-Regr{
+    background-color: $Gris;
+    @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
+}
+.btn-Regr:hover{
+    background-color: $Gris-hover;
 }
