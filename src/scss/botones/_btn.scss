@@ -51,11 +51,11 @@
 .btn-3:hover{
     background-color: $Verde-hover;
 }
-.btn-4{
+.btn-Elim{
     background-color: $Rojo;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
 }
-.btn-4:hover{
+.btn-Elim:hover{
     background-color: $Rojo-hover;
 }
 .btn-5{
@@ -72,18 +72,18 @@
 .btn-6:hover{
     background-color: $Gris-hover;
 }
-.btn-7{
+.btn-Modi{
     background-color: $Naranja;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
 }
-.btn-7:hover{
+.btn-Modi:hover{
     background-color: $Naranja-hover;
 }
-.btn-8{
+.btn-Alta{
     background-color: $Lima;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
 }
-.btn-8:hover{
+.btn-Alta:hover{
     background-color: $Lima-hover;
 }
 .btn-9{
