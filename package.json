@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css/"
+  },
+  "devDependencies": {
+    "sass": "^1.71.1"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "css-minify": "^2.0.0"
+  }
+}
