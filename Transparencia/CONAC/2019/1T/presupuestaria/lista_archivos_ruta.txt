@@ -1,0 +1,8 @@
+C:\xampp\htdocs\Transparencia\CONAC\2019\1T\presupuestaria\a.- Estado Analitico de Ingresos.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2019\1T\presupuestaria\b.1.- Estado Analitico del Ejercicio por Clasificacion Administrativa.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2019\1T\presupuestaria\b.2.-Estado Analitico del Ejercicio por Clasificacion Economica.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2019\1T\presupuestaria\b.3.- Estado Analitico del Ejercicio por Objeto del Gasto.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2019\1T\presupuestaria\b.4.-Estado Analitico del Ejercicio por Clasificacion Funcional.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2019\1T\presupuestaria\C.- Endeudamiento neto.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2019\1T\presupuestaria\d.- Intereses de la deuda.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2019\1T\presupuestaria\lista_archivos_ruta.txt
