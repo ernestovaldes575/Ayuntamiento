@@ -100,7 +100,6 @@
 .btn-10:hover{
     background-color: $Azul-hover;
 }
-
 .btn-11{
     background-color: $Azul-Profundo;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
@@ -193,7 +192,6 @@
 .btn-Elim:hover{
     background-color: $Rojo-hover;
 }
-
 .btn-Regr{
     background-color: $Gris;
     @extend .btn, .p-1, .fw-semibold, .text-white, .shadow-lg;
