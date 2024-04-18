@@ -1,0 +1,10 @@
+C:\xampp\htdocs\Transparencia\CONAC\2020\2T\contable\1.- ESTADO DE ACTIVIDADES.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2020\2T\contable\2.- ESTADO DE SITUACION FINANCIERA.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2020\2T\contable\3.- ESTADO DE VARIACION EN LA HACIENDA PUBLICA.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2020\2T\contable\4.- ESTADO DE CAMBIOS EN LA SITUACION FINANCIERA.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2020\2T\contable\5.- ESTADO DE FLUJO DE EFECTIVO.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2020\2T\contable\6.- INFORME SOBRE PASIVOS CONTINGENTES.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2020\2T\contable\7.- Notas a los Estados Financieros.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2020\2T\contable\8.- ESTADO ANALITICO DEL ACTIVO.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2020\2T\contable\9.- ESTADO ANALITICO DE LA DEUDA Y OTROS PASIVOS.pdf
+C:\xampp\htdocs\Transparencia\CONAC\2020\2T\contable\lista_archivos_ruta.txt
